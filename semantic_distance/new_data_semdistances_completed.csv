@@ -1,0 +1,217 @@
+Item;Condition;Familiarity;Compositionality;Predictability;Register;Spelling;Pin_yin;Ur_Pinyin;Fig_Transl;Lit_Transl;Last_char;Strokes;StrokeDiff;semantic_distance_corr_noP
+1;corr;4711;4.646;1;0.407;一心一意;yi1 xin1 yi1 yi4;yī xīn yī yì;Wholeheartedly;one heart one mind;意;13;;
+1;diffT;4711;;1;;一心一疑;yi1 xin1 yi1 yi2;;;one heart one doubt;疑;14;-1.0;
+1;sameT;4711;;1;;一心一裔;yi1 xin1 yi1 yi4;;;one heart one posterity/descendants;裔;13;0.0;
+1;noP;4711;;1;;一心一廉;yi1 xin1 yi1 lian2;;;one heart one honest;廉;13;0.0;0.5810637176036835
+2;corr;4735;4.333;692;0.407;不知不觉;bu4 zhi1 bu4 jue2;bù zhī bù jué;Without realizing;not know not notice;觉;9;;
+2;diffT;4735;;692;;不知不绝;bu4 zhi1 bu4 jue4;;;not know not break;绝;9;0.0;
+2;sameT;4735;;692;;不知不珏;bu4 zhi1 bu4 jue2;;;not know not jade;珏;9;0.0;
+2;noP;4735;;692;;不知不药;bu4 zhi1 bu4 yao4;;;not know not medicine;药;9;0.0;0.6341704428195953
+3;corr;4574;4.373;1;0.704;全心全意;quan2 xin1 quan2 yi4;quán xīn quán yì;With great purpose;all heart all mind;意;13;;
+3;diffT;4574;;1;;全心全疑;quan2 xin1 quan2 yi2;;;all heart all doubt;疑;14;-1.0;
+3;sameT;4574;;1;;全心全裔;quan2 xin1 quan2 yi4;;;all heart all posterity/descendants;裔;13;0.0;
+3;noP;4574;;1;;全心全廉;quan2 xin1 quan2 lian2;;;all heart all honest;廉;13;0.0;0.5810637176036835
+4;corr;493;4.246;1;0.815;再接再厉;zai4 jie1 zai4 li4;zài jiē zài lì;To persevere;again continue again dedicate;厉;5;;
+4;diffT;493;;1;;再接再礼;zai4 jie1 zai4 li3;;;again continue again gift;礼;5;0.0;
+4;sameT;493;;1;;再接再立;zai4 jie1 zai4 li4;;;again continue again stand;立;5;0.0;
+4;noP;493;;1;;再接再史;zai4 jie1 zai4 shi3;;;again continue again history;史;5;0.0;0.6605317294597626
+5;corr;463;4.784;1;0.704;冰天雪地;bing1 tian1 xue3 di4;bīng tiān xuě dì;Very cold;ice sky snow earth;地;6;;
+5;diffT;463;;1;;冰天雪邸;bing1 tian1 xue3 di3;;;ice sky snow residence;邸;7;-1.0;
+5;sameT;463;;1;;冰天雪弟;bing1 tian1 xue3 di4;;;ice sky snow little brother;弟;7;-1.0;
+5;noP;463;;1;;冰天雪合;bing1 tian1 xue3 he2;;;ice sky snow together;合;6;0.0;0.6929682791233063
+6;corr;467;4.293;1;0.815;千方百计;qian1 fang1 bai3 ji4;qiān fāng bǎi jì;Try everything;thousand methods hundred plans;计;4;;
+6;diffT;467;;1;;千方百吉;qian1 fang1 bai3 ji2;;;thousand methods hundred lucky;吉;6;-2.0;
+6;sameT;467;;1;;千方百忌;qian1 fang1 bai3 ji4;;;thousand methods hundred fear;忌;7;-3.0;
+6;noP;467;;1;;千方百手;qian1 fang1 bai3 shou3;;;thousand methods hundred hands;手;4;0.0;0.6650361716747284
+7;corr;4825;4.439;1;0.593;原汁原味;yuan2 zhi1 yuan2 wei4;yuán zhī yuán wèi;Authentic;original juice original taste;味;8;;
+7;diffT;4825;;1;;原汁原违;yuan2 zhi1 yuan2 wei2;;;original juice original disobey;违;7;1.0;
+7;sameT;4825;;1;;原汁原畏;yuan2 zhi1 yuan2 wei4;;;original juice original fear;畏;9;-1.0;
+7;noP;4825;;1;;原汁原齿;yuan2 zhi1 yuan2 chi3;;;original juice original teeth;齿;8;0.0;0.6359907984733582
+8;corr;4737;4.737;867;0.63;反腐倡廉;fan3 fu3 chang4 lian2;fǎn fǔ chàng lián;Fight against corruption;contrast corruption promote honesty;廉;13;;
+8;diffT;4737;;867;;反腐倡链;fan3 fu3 chang4 lian4;;;contrast corruption promote chain;链;12;1.0;
+8;sameT;4737;;867;;反腐倡联;fan3 fu3 chang4 lian2;;;contrast corruption promote ally;联;12;1.0;
+8;noP;4737;;867;;反腐倡意;fan3 fu3 chang4 yi4;;;contrast corruption promote mind;意;13;0.0;0.5810637176036835
+9;corr;4074;3.431;923;0.815;叹为观止;tan4 wei2 guan1 zhi3;tàn wéi guān zhǐ;To admire something;sigh consider see stop;止;4;;
+9;diffT;4074;;923;;叹为观汁;tan4 wei2 guan1 zhi1;;;sigh consider see juice;汁;5;-1.0;
+9;sameT;4074;;923;;叹为观旨;tan4 wei2 guan1 zhi3;;;sigh consider see purpose;旨;6;-2.0;
+9;noP;4074;;923;;叹为观木;tan4 wei2 guan1 mu4;;;sigh consider see tree;木;4;0.0;0.7333889007568359
+10;corr;4505;3.768;1;0.704;咬牙切齿;yao3 ya2 qie4 chi3;yǎo yá qiè chǐ;To be furious;bite mouth tighten teeth;齿;8;;
+10;diffT;4505;;1;;咬牙切蚩;yao3 ya2 qie4 chi1;;;bite mouth tighten ignorant;蚩;10;-2.0;
+10;sameT;4505;;1;;咬牙切侈;yao3 ya2 qie4 chi3;;;bite mouth tighten extravagant;侈;8;0.0;
+10;noP;4505;;1;;咬牙切兔;yao3 ya2 qie4 tu4;;;bite mouth tighten rabbit;兔;8;0.0;0.6310456991195679
+11;corr;4641;3.712;1;0.667;因地制宜;yin1 di4 zhi4 yi2;yīn dì zhì yí;Best according to circumstances;depending earth establish best;宜;8;;
+11;diffT;4641;;1;;因地制易;yin1 di4 zhi4 yi4;;;depending earth establish change;易;8;0.0;
+11;sameT;4641;;1;;因地制怡;yin1 di4 zhi4 yi2;;;depending earth establish harmony;怡;8;0.0;
+11;noP;4641;;1;;因地制诃;yin1 di4 zhi4 he1;;;depending earth establish scold;诃;8;0.0;0.6942698955535889
+12;corr;485;4.257;1;0.444;大吃一惊;da4 chi1 yi1 jing1;dà chī yī jīng;To be surprised;big eat one shock;惊;11;;
+12;diffT;485;;1;;大吃一颈;da4 chi1 yi1 jing3;;;big eat one neck;颈;11;0.0;
+12;sameT;485;;1;;大吃一晶;da4 chi1 yi1 jing1;;;big eat one crystal;晶;12;-1.0;
+12;noP;485;;1;;大吃一绳;da4 chi1 yi1 shen2;;;big eat one rope;绳;11;0.0;0.745548665523529
+13;corr;4848;4.765;1;0.741;大同小异;da4 tong2 xiao3 yi4;dà tóng xiǎo yì;Similar;big equal small different;异;6;;
+13;diffT;4848;;1;;大同小仪;da4 tong2 xiao3 yi2;;;big equal small ceremony;仪;5;1.0;
+13;sameT;4848;;1;;大同小亦;da4 tong2 xiao3 yi4;;;big equal small also;亦;6;0.0;
+13;noP;4848;;1;;大同小合;da4 tong2 xiao3 he2;;;big equal small together;合;6;0.0;0.5683249533176422
+14;corr;4598;4.671;1;0.667;天涯海角;tian1 ya2 hai3 jiao3;tiān yá hǎi jiǎo;Opposites;sky edge sea corner;角;7;;
+14;diffT;4598;;1;;天涯海娇;tian1 ya2 hai3 jiao1;;;sky edge sea lovable;娇;9;-2.0;
+14;sameT;4598;;1;;天涯海狡;tian1 ya2 hai3 jiao3;;;sky edge sea crafty;狡;9;-2.0;
+14;noP;4598;;1;;天涯海弟;tian1 ya2 hai3 di4;;;sky edge sea brother;弟;7;0.0;0.7680356651544571
+15;corr;4391;3.922;1;0.852;如火如荼;ru2 huo3 ru2 tu2;rú huǒ rú tú;Full expansion;like fire like grass;荼;10;;
+15;diffT;4391;;1;;如火如兔;ru2 huo3 ru2 tu4;;;like fire like rabbit;兔;8;2.0;
+15;sameT;4391;;1;;如火如徒;ru2 huo3 ru2 tu2;;;like fire like apprentice;徒;10;0.0;
+15;noP;4391;;1;;如火如衷;ru2 huo3 ru2 zhong1;;;like fire like feelings;衷;10;0.0;0.6068208813667297
+16;corr;4706;4.412;1;0.704;安居乐业;an1 ju1 le4 ye4;ān jū lè yè;To live peacefully;peacefully live enjoy work;业;5;;
+16;diffT;4706;;1;;安居乐爷;an1 ju1 le4 ye2;;;peacefully live enjoy grandpa;爷;6;-1.0;
+16;sameT;4706;;1;;安居乐叶;an1 ju1 le4 ye4;;;peacefully live enjoy leaf;叶;5;0.0;
+16;noP;4706;;1;;安居乐矢;an1 ju1 le4 shi3;;;peacefully live enjoy arrow;矢;5;0.0;0.745972067117691
+17;corr;4662;4.294;1;0.815;对症下药;dui4 zheng4 xia4 yao4;duì zhèng xià yào;To treat something;regarding disease give medicine;药;9;;
+17;diffT;4662;;1;;对症下姚;dui4 zheng4 xia4 yao2;;;regarding disease give handsome;姚;9;0.0;
+17;sameT;4662;;1;;对症下钥;dui4 zheng4 xia4 yao4;;;regarding disease give key;钥;9;0.0;
+17;noP;4662;;1;;对症下语;dui4 zheng4 xia4 yu3;;;regarding disease give  speech;语;9;0.0;0.7188186645507812
+18;corr;4734;4.525;1;0.667;应有尽有;ying1 you3 jin4 you3;yīng yǒu jìn yǒu;Everything at its place;should exist everything exist;有;6;;
+18;diffT;4734;;1;;应有尽优;ying1 you3 jin4 you1;;;should exist everything excellent;优;6;0.0;
+18;sameT;4734;;1;;应有尽卣;ying1 you3 jin4 you3;;;should exist everything winecontainer;卣;7;-1.0;
+18;noP;4734;;1;;应有尽收;ying1 you3 jin4 shou1;;;should exist everything receive;收;6;0.0;0.6245325207710266
+19;corr;4742;4.72;1;0.741;弄虚作假;nong4 xu1 zuo4 jia3;nòng xū zuò jiǎ;Lie;do fake create mischievous;假;11;;
+19;diffT;4742;;1;;弄虚作颊;nong4 xu1 zuo4 jia2;;;do fake create cheeks;颊;12;-1.0;
+19;sameT;4742;;1;;弄虚作胛;nong4 xu1 zuo4 jia3;;;do fake create shoulder_blade;胛;9;2.0;
+19;noP;4742;;1;;弄虚作梨;nong4 xu1 zuo4 li2;;;do fake create pear;梨;11;0.0;0.7230333089828491
+20;corr;4449;3.559;1;0.889;引人入胜;yin3 ren2 ru4 sheng4;yǐn rén rù shèng;Mesmerize people with beauty;lure person enter splendor;胜;9;;
+20;diffT;4449;;1;;引人入绳;yin3 ren2 ru4 sheng2;;;lure person enter rope/string;绳;11;-2.0;
+20;sameT;4449;;1;;引人入盛;yin3 ren2 ru4 sheng4;;;lure person enter prosperous;盛;11;-2.0;
+20;noP;4449;;1;;引人入俣;yin3 ren2 ru4 yu3;;;lure person enter big;俣;9;0.0;0.7845043689012527
+21;corr;4707;3.908;1;0.778;得心应手;de2 xin1 ying4 shou3;dé xīn yìng shǒu;Do something with skills;obtain heart adapt hand;手;4;;
+21;diffT;4707;;1;;得心应收;de2 xin1 ying4 shou1;;;obtain heart adapt receive;收;6;-2.0;
+21;sameT;4707;;1;;得心应守;de2 xin1 ying4 shou3;;;obtain heart adapt guard;守;6;-2.0;
+21;noP;4707;;1;;得心应月;de2 xin1 ying4 yue4;;;obtain heart adapt moon;月;4;0.0;0.666431188583374
+22;corr;4632;4.294;1;0.704;心平气和;xin1 ping2 qi4 he2;xīn píng qì hé;Peaceful attitude;heart quiet breath peaceful;和;8;;
+22;diffT;4632;;1;;心平气诃;xin1 ping2 qi4 he1;;;heart quiet breath scold;诃;8;0.0;
+22;sameT;4632;;1;;心平气河;xin1 ping2 qi4 he2;;;heart quiet breath river;河;8;0.0;
+22;noP;4632;;1;;心平气帜;xin1 ping2 qi4 zhi4;;;heart quiet breath flag;帜;8;0.0;0.8432604372501373
+23;corr;4615;4.085;1;0.963;心旷神怡;xin1 kuang4 shen2 yi2;xīn kuàng shén yí;Full of joy;heart free spirit harmonious;怡;8;;
+23;diffT;4615;;1;;心旷神异;xin1 kuang4 shen2 yi4;;;heart free spirit different;异;6;2.0;
+23;sameT;4615;;1;;心旷神夷;xin1 kuang4 shen2 yi2;;;heart free spirit barbarians;夷;6;2.0;
+23;noP;4615;;1;;心旷神籴;xin1 kuang4 shen2 di3;;;heart free spirit grain;籴;8;;0.7206135392189026
+24;corr;4828;4.492;1;0.519;心满意足;xin1 man3 yi4 zu2;xīn mǎn yì zú;Happy in the heart;heart full desire enough;足;7;;
+24;diffT;4828;;1;;心满意诅;xin1 man3 yi4 zu3;;;heart full desire curse;诅;7;0.0;
+24;sameT;4828;;1;;心满意卒;xin1 man3 yi4 zu2;;;heart full desire soldier;卒;8;-1.0;
+24;noP;4828;;1;;心满意卣;xin1 man3 yi4 you3;;;heart full desire wine container;卣;7;0.0;0.7334097027778625
+25;corr;4753;4.671;1;0.63;心甘情愿;xin1 gan1 qing2 yuan4;xīn gān qíng yuàn;Do something with passion;heart sweet emotion will;愿;14;;
+25;diffT;4753;;1;;心甘情缘;xin1 gan1 qing2 yuan2;;;heart sweet emotion fate;缘;12;2.0;
+25;sameT;4753;;1;;心甘情媛;xin1 gan1 qing2 yuan4;;;heart sweet emotion beautiful_woman;媛;12;2.0;
+25;noP;4753;;1;;心甘情疑;xin1 gan1 qing2 yi4;;;heart sweet emotion doubt;疑;14;0.0;0.6707146465778351
+26;corr;4813;4.6;1;0.889;志同道合;zhi4 tong2 dao4 he2;zhì tóng dào hé;To have the same principles;will same road align;合;6;;
+26;diffT;4813;;1;;志同道吓;zhi4 tong2 dao4 he4;;;will same road scare;吓;6;0.0;
+26;sameT;4813;;1;;志同道何;zhi4 tong2 dao4 he2;;;will same road carry;何;7;-1.0;
+26;noP;4813;;1;;志同道亦;zhi4 tong2 dao4 yi4;;;will same road also;亦;6;0.0;0.5357625484466553
+27;corr;4679;3.847;1;0.741;情有独钟;qing2 you3 du2 zhong1;qíng yǒu dú zhōng;Attraction;love have only concentrate;钟;9;;
+27;diffT;4679;;1;;情有独重;qing2 you3 du2 zhong4;;;love have only heavy;重;9;0.0;
+27;sameT;4679;;1;;情有独衷;qing2 you3 du2 zhong1;;;love have only innerfeelings;衷;10;-1.0;
+27;noP;4679;;1;;情有独珏;qing2 you3 du2 yue2;;;love have only jade;珏;9;0.0;0.6338075995445251
+28;corr;466;4.268;1;0.815;惊天动地;jing1 tian1 dong4 di4;jīng tiān dòng dì;Huge impact;shock sky move ground;地;6;;
+28;diffT;466;;1;;惊天动邸;jing1 tian1 dong4 di3;;;shock sky move residence;邸;7;-1.0;
+28;sameT;466;;1;;惊天动弟;jing1 tian1 dong4 di4;;;shock sky move littlebrother;弟;7;-1.0;
+28;noP;466;;1;;惊天动守;jing1 tian1 dong4 shou3;;;shock sky move type;守;6;0.0;0.709667831659317
+29;corr;4731;3.915;1;0.815;我行我素;wo3 xing2 wo3 su4;wǒ xíng wǒ sù;Not care about people's opinions;me walk me essence;素;10;;
+29;diffT;4731;;1;;我行我俗;wo3 xing2 wo3 su2;;;me walk me popular;俗;9;1.0;
+29;sameT;4731;;1;;我行我速;wo3 xing2 wo3 su4;;;me walk me fast;速;10;0.0;
+29;noP;4731;;1;;我行我涌;wo3 xing2 wo3 yong3;;;me walk me emerge;涌;10;0.0;0.7758431881666183
+30;corr;4443;2.805;1;0.852;扑朔迷离;pu1 shuo4 mi2 li2;pū shuò mí lí;not able to tell with certainty;jump male uncertain distinguish;离;10;;
+30;diffT;4443;;1;;扑朔迷莉;pu1 shuo4 mi2 li4;;;jump male uncertain jasmine;莉;10;0.0;
+30;sameT;4443;;1;;扑朔迷梨;pu1 shuo4 mi2 li2;;;jump male uncertain pear;梨;11;-1.0;
+30;noP;4443;;1;;扑朔迷素;pu1 shuo4 mi2 su4;;;jump male uncertain essence;素;10;0.0;0.8142766207456589
+31;corr;4759;4.05;909;0.667;日新月异;ri4 xin1 yue4 yi4;rì xīn yuè yì;change day after day;sun new moon different;异;6;;
+31;diffT;4759;;909;;日新月仪;ri4 xin1 yue4 yi2;;;sun new moon ceremony;仪;5;1.0;
+31;sameT;4759;;909;;日新月亦;ri4 xin1 yue4 yi4;;;sun new moon also;亦;6;0.0;
+31;noP;4759;;909;;日新月吉;ri4 xin1 yue4 ji2;;;sun new moon lucky;吉;6;0.0;0.608966201543808
+32;corr;4543;3.235;538;0.889;有的放矢;you3 de5 fang4 shi3;yǒu de fàng shǐ;to have a precise goal;have target throw arrow;矢;5;;
+32;diffT;4543;;538;;有的放石;you3 de5 fang4 shi2;;;have target throw rock;石;5;0.0;
+32;sameT;4543;;538;;有的放史;you3 de5 fang4 shi3;;;have target throw history;史;5;0.0;
+32;noP;4543;;538;;有的放叶;you3 de5 fang4 ye4;;;have target throw leaf;叶;5;0.0;0.6644134819507599
+33;corr;4256;3.898;75;0.963;标本兼治;biao1 ben3 jian1 zhi4;biāo běn jiān zhì;deal with multiple problems;surface root together treat;治;8;;
+33;diffT;4256;;75;;标本兼直;biao1 ben3 jian1 zhi2;;;surface root together straighten;直;8;0.0;
+33;sameT;4256;;75;;标本兼质;biao1 ben3 jian1 zhi4;;;surface root together question;质;8;0.0;
+33;noP;4256;;75;;标本兼沽;biao1 ben3 jian1 gu1;;;surface root together buy;沽;8;0.0;0.7295309603214264
+34;corr;4719;4.474;867;0.889;根深蒂固;gen1 shen1 di4 gu4;gēn shēn dì gù;deeply rooted thing;root deep sprout strong;固;8;;
+34;diffT;4719;;867;;根深蒂沽;gen1 shen1 di4 gu1;;;root deep sprout buy;沽;8;0.0;
+34;sameT;4719;;867;;根深蒂故;gen1 shen1 di4 gu4;;;root deep sprout old;故;9;-1.0;
+34;noP;4719;;867;;根深蒂直;gen1 shen1 di4 zhi2;;;root deep sprout straighten;直;8;0.0;0.6687738597393036
+35;corr;493;4.439;1;0.704;欢天喜地;huan1 tian1 xi3 di4;huān tiān xǐ dì;extremely happy;happy sky joyful earth;地;6;;
+35;diffT;493;;1;;欢天喜籴;huan1 tian1 xi3 di3;;;happy sky joyful buy grain;籴;8;-2.0;
+35;sameT;493;;1;;欢天喜弟;huan1 tian1 xi3 di4;;;happy sky joyful brother;弟;9;-3.0;
+35;noP;493;;1;;欢天喜爷;huan1 tian1 xi3 he2;;;happy sky joyful grandpa;爷;6;0.0;0.6966394782066345
+36;corr;463;4.686;769;0.519;求真务实;qiu2 zhen1 wu4 shi2;qiú zhēn wù shí;do things seriously;search truth concentrate truth;实;8;;
+36;diffT;463;;769;;求真务式;qiu2 zhen1 wu4 shi4;;;search truth concentrate type;式;6;2.0;
+36;sameT;463;;769;;求真务时;qiu2 zhen1 wu4 shi2;;;search truth concentrate hour;时;7;1.0;
+36;noP;463;;769;;求真务雨;qiu2 zhen1 wu4 yu4;;;search truth concentrate rain;雨;8;0.0;0.7291178405284882
+37;corr;4663;3.686;1;0.741;游刃有余;you2 ren4 you3 yu2;yóu rèn yǒu yú;sort it out with skills;move blade have extra;余;7;;
+37;diffT;4663;;1;;游刃有雨;you2 ren4 you3 yu4;;;move blade have rain;雨;8;-1.0;
+37;sameT;4663;;1;;游刃有鱼;you2 ren4 you3 yu2;;;move blade have fish;鱼;8;-1.0;
+37;noP;4663;;1;;游刃有邸;you2 ren4 you3 di3;;;move blade have residence;邸;7;0.0;0.6036444008350372
+38;corr;4652;4.294;769;0.852;独树一帜;du2 shu4 yi1 zhi4;dú shù yī zhì;stand out;only stand one flag;帜;8;;
+38;diffT;4652;;769;;独树一直;du2 shu4 yi1 zhi2;;;only stand one straighten;直;8;0.0;
+38;sameT;4652;;769;;独树一质;du2 shu4 yi1 zhi4;;;only stand one question;质;8;0.0;
+38;noP;4652;;769;;独树一终;du2 shu4 yi1 zhong1;;;only stand one end;终;8;0.0;0.5513329207897186
+39;corr;4324;3.765;1;0.852;琳琅满目;lin2 lang2 man3 mu4;lín láng mǎn mù;beautiful things to see;beautiful jem full eye;目;5;;
+39;diffT;4324;;1;;琳琅满母;lin2 lang2 man3 mu3;;;beautiful jem full mother;母;5;0.0;
+39;sameT;4324;;1;;琳琅满木;lin2 lang2 man3 mu4;;;beautiful jem full tree;木;4;1.0;
+39;noP;4324;;1;;琳琅满汁;lin2 lang2 man3 zhi1;;;beautiful jem full juice;汁;5;0.0;0.7281740605831146
+40;corr;4828;4.521;1;0.556;甜言蜜语;tian2 yan2 mi4 yu3;tián yán mì yǔ;to use flattering words;sweet words honey speech;语;9;;
+40;diffT;4828;;1;;甜言蜜鱼;tian2 yan2 mi4 yu2;;;sweet words honey fish;鱼;8;1.0;
+40;sameT;4828;;1;;甜言蜜俣;tian2 yan2 mi4 yu3;;;sweet words honey big;俣;9;0.0;
+40;noP;4828;;1;;甜言蜜姚;tian2 yan2 mi4 yao3;;;sweet words honey handsome;姚;9;0.0;0.5537354052066803
+41;corr;4782;4.322;1;0.778;精打细算;jing1 da3 xi4 suan4;jīng dǎ xì suàn;to plan in detail;refined do subtle count;算;14;;
+41;diffT;4782;;1;;精打细酸;jing1 da3 xi4 suan1;;;refined do subtle sour;酸;14;0.0;
+41;sameT;4782;;1;;精打细蒜;jing1 da3 xi4 suan4;;;refined do subtle garlic;蒜;13;1.0;
+41;noP;4782;;1;;精打细疑;jing1 da3 xi4 yi2;;;refined do subtle doubt;疑;14;0.0;0.7100071310997009
+42;corr;4382;3.608;1;0.815;耐人寻味;nai4 ren2 xun2 wei4;nài rén xún wèi;to spark the imagination;resist people search taste;味;8;;
+42;diffT;4382;;1;;耐人寻违;nai4 ren2 xun2 wei2;;;resist people search disobey;违;7;1.0;
+42;sameT;4382;;1;;耐人寻畏;nai4 ren2 xun2 wei4;;;resist people search fear;畏;9;-1.0;
+42;noP;4382;;1;;耐人寻诃;nai4 ren2 xun2 he1;;;resist people search scold;诃;8;0.0;0.746012419462204
+43;corr;4632;4.431;1;0.778;自始至终;zi4 shi3 zhi4 zhong1;zì shǐ zhì zhōng;endless;from beginning to end;终;8;;
+43;diffT;4632;;1;;自始至重;zi4 shi3 zhi4 zhong4;;;from beginning to heavy;重;9;-1.0;
+43;sameT;4632;;1;;自始至衷;zi4 shi3 zhi4 zhong1;;;from beginning to innerfeelings;衷;10;-2.0;
+43;noP;4632;;1;;自始至贤;zi4 shi3 zhi4 xian2;;;from beginning to worthy;贤;8;0.0;0.4592078924179077
+44;corr;4691;4.216;1;0.852;自欺欺人;zi4 qi1 qi1 ren2;zì qī qī rén;to deceive;self deceive deceive person;人;2;;
+44;diffT;4691;;1;;自欺欺刃;zi4 qi1 qi1 ren4;;;self deceive deceive edge_of_the_knife;刃;3;-1.0;
+44;sameT;4691;;1;;自欺欺壬;zi4 qi1 qi1 ren2;;;self deceive deceive ninth;壬;4;-2.0;
+44;noP;4691;;1;;自欺欺力;zi4 qi1 qi1 li4;;;self deceive deceive power;力;2;0.0;0.5525619387626648
+45;corr;485;4.686;1;0.667;自言自语;zi4 yan2 zi4 yu3;zì yán zì yǔ;think out loud;self talk self speech;语;9;;
+45;diffT;485;;1;;自言自鱼;zi4 yan2 zi4 yu2;;;self talk self fish;鱼;8;1.0;
+45;sameT;485;;1;;自言自俣;zi4 yan2 zi4 yu3;;;self talk self big;俣;9;0.0;
+45;noP;485;;1;;自言自胜;zi4 yan2 zi4 sheng4;;;self talk self splendor;胜;9;0.0;0.699114978313446
+46;corr;4152;3.784;769;0.852;舞文弄墨;wu3 wen2 nong4 mo4;wǔ wén nòng mò;play with words;play writing manipulate ink;墨;15;;
+46;diffT;4152;;769;;舞文弄模;wu3 wen2 nong4 mo2;;;play writing manipulate model;模;13;2.0;
+46;sameT;4152;;769;;舞文弄磨;wu3 wen2 nong4 mo4;;;play writing manipulate grind;磨;16;-1.0;
+46;noP;4152;;769;;舞文弄酸;wu3 wen2 nong4 suan1;;;play writing manipulate sour;酸;14;0.0;0.7069944143295288
+47;corr;4667;4.561;1;0.889;若隐若现;ruo4 yin3 ruo4 xian4;ruò yǐn ruò xiàn;be vague;like hide like appear;现;8;;
+47;diffT;4667;;1;;若隐若贤;ruo4 yin3 ruo4 xian2;;;like hide like worthy;贤;8;0.0;
+47;sameT;4667;;1;;若隐若限;ruo4 yin3 ruo4 xian4;;;like hide like limit;限;8;0.0;
+47;noP;4667;;1;;若隐若侈;ruo4 yin3 ruo4 chi3;;;like hide like extravagant;侈;8;0.0;0.727363109588623
+48;corr;491;4.305;1;0.926;见义勇为;jian4 yi4 yong3 wei2;jiàn yì yǒng wéi;to be brave;see justice brave act;为;4;;
+48;diffT;491;;1;;见义勇未;jian4 yi4 yong3 wei4;;;see justice brave not_yet;未;5;-1.0;
+48;sameT;491;;1;;见义勇韦;jian4 yi4 yong3 wei2;;;see justice brave leather;韦;4;0.0;
+48;noP;491;;1;;见义勇月;jian4 yi4 yong3 yue4;;;see justice brave moon;月;4;0.0;0.6565361022949219
+49;corr;4632;4.439;867;0.704;谈天说地;tan2 tian1 shuo1 di4;tán tiān shuō dì;talk of everything;say sky say earth;地;6;;
+49;diffT;4632;;867;;谈天说邸;tan2 tian1 shuo1 di3;;;say sky say residence;邸;7;-1.0;
+49;sameT;4632;;867;;谈天说弟;tan2 tian1 shuo1 di4;;;say sky say little brother;弟;7;-1.0;
+49;noP;4632;;867;;谈天说旨;tan2 tian1 shuo1 zhi3;;;say sky say purpose;旨;6;0.0;0.7892003059387207
+50;corr;4739;4.784;1;0.852;赏心悦目;shang3 xin1 yue4 mu4;shǎng xīn yuè mù;nice to hear;appreciate heart return eye;目;5;;
+50;diffT;4739;;1;;赏心悦母;shang3 xin1 yue4 mu3;;;appreciate heart return mother;母;5;0.0;
+50;sameT;4739;;1;;赏心悦木;shang3 xin1 yue4 mu4;;;appreciate heart return tree;木;4;1.0;
+50;noP;4739;;1;;赏心悦仪;shang3 xin1 yue4 yi2;;;appreciate heart return ceremony;仪;5;0.0;0.6642671823501587
+51;corr;4621;4.109;1;0.704;铺天盖地;pu1 tian1 gai4 di4;pū tiān gài dì;spread everywhere;spread sky cover soil;地;6;;
+51;diffT;4621;;1;;铺天盖籴;pu1 tian1 gai4 di3;;;spread sky cover buy grain;籴;8;-1.0;
+51;sameT;4621;;1;;铺天盖帝;pu1 tian1 gai4 di4;;;spread sky cover emperor;帝;9;-3.0;
+51;noP;4621;;1;;铺天盖夷;pu1 tian1 gai4 yi2;;;spread sky cover barbarians;夷;6;0.0;0.7515331655740738
+52;corr;4674;3.059;769;0.741;风花雪月;feng1 hua1 xue3 yue4;fēng huā xuě yuè;romantic;wind flower snow moon;月;4;;
+52;diffT;4674;;769;;风花雪曰;feng1 hua1 xue3 yue1;;;wind flower snow speak;曰;4;0.0;
+52;sameT;4674;;769;;风花雪乐;feng1 hua1 xue3 yue4;;;wind flower snow music;乐;5;-1.0;
+52;noP;4674;;769;;风花雪止;feng1 hua1 xue3 zhi3;;;wind flower snow stop;止;4;0.0;0.5455586910247803
+53;corr;4475;3.957;1;0.926;风起云涌;feng1 qi3 yun2 yong3;fēng qǐ yún yǒng;largely spread phenomena;wind rise cloud emerge;涌;10;;
+53;diffT;4475;;1;;风起云庸;feng1 qi3 yun2 yong1;;;wind rise cloud common;庸;11;-1.0;
+53;sameT;4475;;1;;风起云勇;feng1 qi3 yun2 yong3;;;wind rise cloud brave;勇;9;1.0;
+53;noP;4475;;1;;风起云莉;feng1 qi3 yun2 li4;;;wind rise cloud jasmine;莉;10;0.0;0.7305909693241119
+54;corr;4735;4.647;1;0.852;齐心协力;qi2 xin1 xie2 li4;qí xīn xié lì;work together;together heart cooperate power;力;2;;
+54;diffT;4735;;1;;齐心协礼;qi2 xin1 xie2 li3;;;together heart cooperate gift;礼;5;-3.0;
+54;sameT;4735;;1;;齐心协立;qi2 xin1 xie2 li4;;;together heart cooperate stand;立;5;-3.0;
+54;noP;4735;;1;;齐心协人;qi2 xin1 xie2 ren2;;;together heart cooperate person;人;2;0.0;0.5525619387626648

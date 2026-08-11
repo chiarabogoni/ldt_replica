@@ -1,0 +1,27 @@
+Model already exists locally: C:\Users\Chiara\OneDrive - Università degli Studi di Padova\Desktop\ldt_2\light_Tencent_AILab_ChineseEmbedding.bin
+
+Reading CSV file: new_data.csv
+Need 77 unique vectors: \u4e1a, \u4e3a, \u4ea6, \u4eba, \u4eea, \u4f59, \u4f88, \u4fe3, \u5047, \u5154
+Loading vectors from C:\Users\Chiara\OneDrive - Università degli Studi di Padova\Desktop\ldt_2\light_Tencent_AILab_ChineseEmbedding.bin...
+Model header: 143613 tokens, 200-dimensional vectors
+Loaded 77 requested vectors.
+Processing 54 items...
+
+Saving results to: new_data_semdistances_completed.csv
+Results saved successfully!
+
+============================================================
+SUMMARY
+============================================================
+Total items processed: 54
+Characters not found in vocabulary: 0
+Valid corr-noP distances: 54
+
+Corr-noP distance statistics:
+  Mean: 0.6723
+  Min: 0.4592
+  Max: 0.8433
+  Std: 0.0813
+============================================================
+
+Processing complete! Output file: new_data_semdistances_completed.csv

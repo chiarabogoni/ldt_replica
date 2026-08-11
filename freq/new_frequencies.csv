@@ -1,0 +1,217 @@
+Item,Condition,Familiarity,Compositionality,Predictability,Register,Spelling,Pin_yin,Ur_Pinyin,Fig_Transl,Lit_Transl,Last_char,Strokes,StrokeDiff,Sem_Distance,Levenshtein_Distance,字符频率,字符百分比
+1,corr,4711,4.646,1,0.407,一心一意,yi1 xin1 yi1 yi4,yī xīn yī yì,Wholeheartedly,one heart one mind,意,13,,,0.0,360232,0.186163%
+1,diffT,4711,,1,,一心一疑,yi1 xin1 yi1 yi2,,,one heart one doubt,疑,14,-1.0,0.385139882564545,0.7,53982,0.027897%
+1,sameT,4711,,1,,一心一裔,yi1 xin1 yi1 yi4,,,one heart one posterity/descendants,裔,13,0.0,0.636198043823242,0.5555555555555556,2350,0.001214%
+1,noP,4711,,1,,一心一廉,yi1 xin1 yi1 lian2,,,one heart one honest,廉,13,0.0,0.5810637176036835,0.5714285714285714,8854,0.004576%
+2,corr,4735,4.333,692,0.407,不知不觉,bu4 zhi1 bu4 jue2,bù zhī bù jué,Without realizing,not know not notice,觉,9,,,0.0,132041,0.068237%
+2,diffT,4735,,692,,不知不绝,bu4 zhi1 bu4 jue4,,,not know not break,绝,9,0.0,0.57639616727829,1.0,72074,0.037247%
+2,sameT,4735,,692,,不知不珏,bu4 zhi1 bu4 jue2,,,not know not jade,珏,9,0.0,0.583285331726074,1.0,172,0.000089%
+2,noP,4735,,692,,不知不药,bu4 zhi1 bu4 yao4,,,not know not medicine,药,9,0.0,0.6341704428195953,1.0,59090,0.030537%
+3,corr,4574,4.373,1,0.704,全心全意,quan2 xin1 quan2 yi4,quán xīn quán yì,With great purpose,all heart all mind,意,13,,,0.0,360232,0.186163%
+3,diffT,4574,,1,,全心全疑,quan2 xin1 quan2 yi2,,,all heart all doubt,疑,14,-1.0,0.378058791160583,0.7,53982,0.027897%
+3,sameT,4574,,1,,全心全裔,quan2 xin1 quan2 yi4,,,all heart all posterity/descendants,裔,13,0.0,0.639594376087189,0.5555555555555556,2350,0.001214%
+3,noP,4574,,1,,全心全廉,quan2 xin1 quan2 lian2,,,all heart all honest,廉,13,0.0,0.5810637176036835,0.5714285714285714,8854,0.004576%
+4,corr,493,4.246,1,0.815,再接再厉,zai4 jie1 zai4 li4,zài jiē zài lì,To persevere,again continue again dedicate,厉,5,,,0.0,17726,0.009161%
+4,diffT,493,,1,,再接再礼,zai4 jie1 zai4 li3,,,again continue again gift,礼,5,0.0,0.784063398838043,1.0,35612,0.018404%
+4,sameT,493,,1,,再接再立,zai4 jie1 zai4 li4,,,again continue again stand,立,5,0.0,0.710692048072815,0.5,204985,0.105933%
+4,noP,493,,1,,再接再史,zai4 jie1 zai4 shi3,,,again continue again history,史,5,0.0,0.6605317294597626,1.0,90469,0.046753%
+5,corr,463,4.784,1,0.704,冰天雪地,bing1 tian1 xue3 di4,bīng tiān xuě dì,Very cold,ice sky snow earth,地,6,,,0.0,969349,0.500945%
+5,diffT,463,,1,,冰天雪邸,bing1 tian1 xue3 di3,,,ice sky snow residence,邸,7,-1.0,0.605431318283081,0.6,1521,0.000786%
+5,sameT,463,,1,,冰天雪弟,bing1 tian1 xue3 di4,,,ice sky snow little brother,弟,7,-1.0,0.50305187702179,0.8333333333333334,42706,0.022070%
+5,noP,463,,1,,冰天雪合,bing1 tian1 xue3 he2,,,ice sky snow together,合,6,0.0,0.6929682791233063,0.6,239277,0.123655%
+6,corr,467,4.293,1,0.815,千方百计,qian1 fang1 bai3 ji4,qiān fāng bǎi jì,Try everything,thousand methods hundred plans,计,4,,,0.0,171949,0.088861%
+6,diffT,467,,1,,千方百吉,qian1 fang1 bai3 ji2,,,thousand methods hundred lucky,吉,6,-2.0,0.705264806747437,0.75,40081,0.020713%
+6,sameT,467,,1,,千方百忌,qian1 fang1 bai3 ji4,,,thousand methods hundred fear,忌,7,-3.0,0.691152095794678,1.0,7938,0.004102%
+6,noP,467,,1,,千方百手,qian1 fang1 bai3 shou3,,,thousand methods hundred hands,手,4,0.0,0.6650361716747284,1.0,280442,0.144928%
+7,corr,4825,4.439,1,0.593,原汁原味,yuan2 zhi1 yuan2 wei4,yuán zhī yuán wèi,Authentic,original juice original taste,味,8,,,0.0,40704,0.021035%
+7,diffT,4825,,1,,原汁原违,yuan2 zhi1 yuan2 wei2,,,original juice original disobey,违,7,1.0,0.657609581947327,1.0,22751,0.011757%
+7,sameT,4825,,1,,原汁原畏,yuan2 zhi1 yuan2 wei4,,,original juice original fear,畏,9,-1.0,0.57129693031311,1.0,6722,0.003474%
+7,noP,4825,,1,,原汁原齿,yuan2 zhi1 yuan2 chi3,,,original juice original teeth,齿,8,0.0,0.6359907984733582,1.0,9415,0.004866%
+8,corr,4737,4.737,867,0.63,反腐倡廉,fan3 fu3 chang4 lian2,fǎn fǔ chàng lián,Fight against corruption,contrast corruption promote honesty,廉,13,,,0.0,8854,0.004576%
+8,diffT,4737,,867,,反腐倡链,fan3 fu3 chang4 lian4,,,contrast corruption promote chain,链,12,1.0,0.726585507392883,1.0,6223,0.003216%
+8,sameT,4737,,867,,反腐倡联,fan3 fu3 chang4 lian2,,,contrast corruption promote ally,联,12,1.0,0.742207765579224,0.625,120301,0.062170%
+8,noP,4737,,867,,反腐倡意,fan3 fu3 chang4 yi4,,,contrast corruption promote mind,意,13,0.0,0.5810637176036835,0.5714285714285714,360232,0.186163%
+9,corr,4074,3.431,923,0.815,叹为观止,tan4 wei2 guan1 zhi3,tàn wéi guān zhǐ,To admire something,sigh consider see stop,止,4,,,0.0,68082,0.035184%
+9,diffT,4074,,923,,叹为观汁,tan4 wei2 guan1 zhi1,,,sigh consider see juice,汁,5,-1.0,0.715784311294556,1.0,3564,0.001842%
+9,sameT,4074,,923,,叹为观旨,tan4 wei2 guan1 zhi3,,,sigh consider see purpose,旨,6,-2.0,0.742361783981323,1.0,10590,0.005473%
+9,noP,4074,,923,,叹为观木,tan4 wei2 guan1 mu4,,,sigh consider see tree,木,4,0.0,0.7333889007568359,1.0,54433,0.028130%
+10,corr,4505,3.768,1,0.704,咬牙切齿,yao3 ya2 qie4 chi3,yǎo yá qiè chǐ,To be furious,bite mouth tighten teeth,齿,8,,,0.0,9415,0.004866%
+10,diffT,4505,,1,,咬牙切蚩,yao3 ya2 qie4 chi1,,,bite mouth tighten ignorant,蚩,10,-2.0,0.690865516662598,1.0,343,0.000177%
+10,sameT,4505,,1,,咬牙切侈,yao3 ya2 qie4 chi3,,,bite mouth tighten extravagant,侈,8,0.0,0.758187294006348,1.0,1703,0.000880%
+10,noP,4505,,1,,咬牙切兔,yao3 ya2 qie4 tu4,,,bite mouth tighten rabbit,兔,8,0.0,0.6310456991195679,1.0,4418,0.002283%
+11,corr,4641,3.712,1,0.667,因地制宜,yin1 di4 zhi4 yi2,yīn dì zhì yí,Best according to circumstances,depending earth establish best,宜,8,,,0.0,18833,0.009733%
+11,diffT,4641,,1,,因地制易,yin1 di4 zhi4 yi4,,,depending earth establish change,易,8,0.0,0.904396593570709,0.75,89730,0.046371%
+11,sameT,4641,,1,,因地制怡,yin1 di4 zhi4 yi2,,,depending earth establish harmony,怡,8,0.0,0.827888369560242,0.75,3649,0.001886%
+11,noP,4641,,1,,因地制诃,yin1 di4 zhi4 he1,,,depending earth establish scold,诃,8,0.0,0.6942698955535889,0.8,814,0.000421%
+12,corr,485,4.257,1,0.444,大吃一惊,da4 chi1 yi1 jing1,dà chī yī jīng,To be surprised,big eat one shock,惊,11,,,0.0,59724,0.030864%
+12,diffT,485,,1,,大吃一颈,da4 chi1 yi1 jing3,,,big eat one neck,颈,11,0.0,0.57145231962204,0.6923076923076923,6104,0.003154%
+12,sameT,485,,1,,大吃一晶,da4 chi1 yi1 jing1,,,big eat one crystal,晶,12,-1.0,0.681798219680786,0.8461538461538461,10038,0.005187%
+12,noP,485,,1,,大吃一绳,da4 chi1 yi1 shen2,,,big eat one rope,绳,11,0.0,0.745548665523529,0.6,7256,0.003750%
+13,corr,4848,4.765,1,0.741,大同小异,da4 tong2 xiao3 yi4,dà tóng xiǎo yì,Similar,big equal small different,异,6,,,0.0,52735,0.027253%
+13,diffT,4848,,1,,大同小仪,da4 tong2 xiao3 yi2,,,big equal small ceremony,仪,5,1.0,0.817426800727844,0.8333333333333334,19064,0.009852%
+13,sameT,4848,,1,,大同小亦,da4 tong2 xiao3 yi4,,,big equal small also,亦,6,0.0,0.673486888408661,0.6,37960,0.019617%
+13,noP,4848,,1,,大同小合,da4 tong2 xiao3 he2,,,big equal small together,合,6,0.0,0.5683249533176422,0.6,239277,0.123655%
+14,corr,4598,4.671,1,0.667,天涯海角,tian1 ya2 hai3 jiao3,tiān yá hǎi jiǎo,Opposites,sky edge sea corner,角,7,,,0.0,50081,0.025881%
+14,diffT,4598,,1,,天涯海娇,tian1 ya2 hai3 jiao1,,,sky edge sea lovable,娇,9,-2.0,0.528025150299072,1.0,5772,0.002983%
+14,sameT,4598,,1,,天涯海狡,tian1 ya2 hai3 jiao3,,,sky edge sea crafty,狡,9,-2.0,0.622124075889587,1.0,2971,0.001535%
+14,noP,4598,,1,,天涯海弟,tian1 ya2 hai3 di4,,,sky edge sea brother,弟,7,0.0,0.7680356651544571,1.0,42706,0.022070%
+15,corr,4391,3.922,1,0.852,如火如荼,ru2 huo3 ru2 tu2,rú huǒ rú tú,Full expansion,like fire like grass,荼,10,,,0.0,616,0.000318%
+15,diffT,4391,,1,,如火如兔,ru2 huo3 ru2 tu4,,,like fire like rabbit,兔,8,2.0,0.84643816947937,0.8333333333333334,4418,0.002283%
+15,sameT,4391,,1,,如火如徒,ru2 huo3 ru2 tu2,,,like fire like apprentice,徒,10,0.0,0.685842514038086,0.5714285714285714,27812,0.014373%
+15,noP,4391,,1,,如火如衷,ru2 huo3 ru2 zhong1,,,like fire like feelings,衷,10,0.0,0.6068208813667297,0.7333333333333333,5781,0.002988%
+16,corr,4706,4.412,1,0.704,安居乐业,an1 ju1 le4 ye4,ān jū lè yè,To live peacefully,peacefully live enjoy work,业,5,,,0.0,296169,0.153056%
+16,diffT,4706,,1,,安居乐爷,an1 ju1 le4 ye2,,,peacefully live enjoy grandpa,爷,6,-1.0,0.621519446372986,0.8,30930,0.015984%
+16,sameT,4706,,1,,安居乐叶,an1 ju1 le4 ye4,,,peacefully live enjoy leaf,叶,5,0.0,0.626404762268066,1.0,36032,0.018621%
+16,noP,4706,,1,,安居乐矢,an1 ju1 le4 shi3,,,peacefully live enjoy arrow,矢,5,0.0,0.745972067117691,0.5,2466,0.001274%
+17,corr,4662,4.294,1,0.815,对症下药,dui4 zheng4 xia4 yao4,duì zhèng xià yào,To treat something,regarding disease give medicine,药,9,,,0.0,59090,0.030537%
+17,diffT,4662,,1,,对症下姚,dui4 zheng4 xia4 yao2,,,regarding disease give handsome,姚,9,0.0,0.737674832344055,0.8,4806,0.002484%
+17,sameT,4662,,1,,对症下钥,dui4 zheng4 xia4 yao4,,,regarding disease give key,钥,9,0.0,0.634344041347504,0.8,3772,0.001949%
+17,noP,4662,,1,,对症下语,dui4 zheng4 xia4 yu3,,,regarding disease give  speech,语,9,0.0,0.7188186645507812,0.8571428571428571,82805,0.042792%
+18,corr,4734,4.525,1,0.667,应有尽有,ying1 you3 jin4 you3,yīng yǒu jìn yǒu,Everything at its place,should exist everything exist,有,6,,,0.0,1782004,0.920913%
+18,diffT,4734,,1,,应有尽优,ying1 you3 jin4 you1,,,should exist everything excellent,优,6,0.0,0.530716300010681,1.0,46613,0.024089%
+18,sameT,4734,,1,,应有尽卣,ying1 you3 jin4 you3,,,should exist everything winecontainer,卣,7,-1.0,0.715323328971863,1.0,118,0.000061%
+18,noP,4734,,1,,应有尽收,ying1 you3 jin4 shou1,,,should exist everything receive,收,6,0.0,0.6245325207710266,1.0,120897,0.062478%
+19,corr,4742,4.72,1,0.741,弄虚作假,nong4 xu1 zuo4 jia3,nòng xū zuò jiǎ,Lie,do fake create mischievous,假,11,,,0.0,62691,0.032398%
+19,diffT,4742,,1,,弄虚作颊,nong4 xu1 zuo4 jia2,,,do fake create cheeks,颊,12,-1.0,0.787495136260986,0.8571428571428571,3025,0.001563%
+19,sameT,4742,,1,,弄虚作胛,nong4 xu1 zuo4 jia3,,,do fake create shoulder_blade,胛,9,2.0,0.647450923919678,0.75,247,0.000128%
+19,noP,4742,,1,,弄虚作梨,nong4 xu1 zuo4 li2,,,do fake create pear,梨,11,0.0,0.7230333089828491,0.8333333333333334,1884,0.000974%
+20,corr,4449,3.559,1,0.889,引人入胜,yin3 ren2 ru4 sheng4,yǐn rén rù shèng,Mesmerize people with beauty,lure person enter splendor,胜,9,,,0.0,49565,0.025614%
+20,diffT,4449,,1,,引人入绳,yin3 ren2 ru4 sheng2,,,lure person enter rope/string,绳,11,-2.0,0.592411518096924,0.8,7256,0.003750%
+20,sameT,4449,,1,,引人入盛,yin3 ren2 ru4 sheng4,,,lure person enter prosperous,盛,11,-2.0,0.577591061592102,1.0,24387,0.012603%
+20,noP,4449,,1,,引人入俣,yin3 ren2 ru4 yu3,,,lure person enter big,俣,9,0.0,0.7845043689012527,0.8333333333333334,197,0.000102%
+21,corr,4707,3.908,1,0.778,得心应手,de2 xin1 ying4 shou3,dé xīn yìng shǒu,Do something with skills,obtain heart adapt hand,手,4,,,0.0,280442,0.144928%
+21,diffT,4707,,1,,得心应收,de2 xin1 ying4 shou1,,,obtain heart adapt receive,收,6,-2.0,0.837331354618073,1.0,120897,0.062478%
+21,sameT,4707,,1,,得心应守,de2 xin1 ying4 shou3,,,obtain heart adapt guard,守,6,-2.0,0.723620891571045,1.0,44264,0.022875%
+21,noP,4707,,1,,得心应月,de2 xin1 ying4 yue4,,,obtain heart adapt moon,月,4,0.0,0.666431188583374,1.0,240566,0.124321%
+22,corr,4632,4.294,1,0.704,心平气和,xin1 ping2 qi4 he2,xīn píng qì hé,Peaceful attitude,heart quiet breath peaceful,和,8,,,0.0,1010465,0.522193%
+22,diffT,4632,,1,,心平气诃,xin1 ping2 qi4 he1,,,heart quiet breath scold,诃,8,0.0,0.613324701786041,0.5,814,0.000421%
+22,sameT,4632,,1,,心平气河,xin1 ping2 qi4 he2,,,heart quiet breath river,河,8,0.0,0.596226394176483,0.5,69687,0.036013%
+22,noP,4632,,1,,心平气帜,xin1 ping2 qi4 zhi4,,,heart quiet breath flag,帜,8,0.0,0.8432604372501373,0.4,2452,0.001267%
+23,corr,4615,4.085,1,0.963,心旷神怡,xin1 kuang4 shen2 yi2,xīn kuàng shén yí,Full of joy,heart free spirit harmonious,怡,8,,,0.0,3649,0.001886%
+23,diffT,4615,,1,,心旷神异,xin1 kuang4 shen2 yi4,,,heart free spirit different,异,6,2.0,0.385139882564545,0.8,52735,0.027253%
+23,sameT,4615,,1,,心旷神夷,xin1 kuang4 shen2 yi2,,,heart free spirit barbarians,夷,6,2.0,0.636198043823242,1.0,4638,0.002397%
+23,noP,4615,,1,,心旷神籴,xin1 kuang4 shen2 di3,,,heart free spirit grain,籴,8,0.0,0.7206135392189026,0.75,106,0.000055%
+24,corr,4828,4.492,1,0.519,心满意足,xin1 man3 yi4 zu2,xīn mǎn yì zú,Happy in the heart,heart full desire enough,足,7,,,0.0,77385,0.039991%
+24,diffT,4828,,1,,心满意诅,xin1 man3 yi4 zu3,,,heart full desire curse,诅,7,0.0,0.755879044532776,1.0,1535,0.000793%
+24,sameT,4828,,1,,心满意卒,xin1 man3 yi4 zu2,,,heart full desire soldier,卒,8,-1.0,0.771393001079559,0.8333333333333334,3306,0.001708%
+24,noP,4828,,1,,心满意卣,xin1 man3 yi4 you3,,,heart full desire wine container,卣,7,0.0,0.7334097027778625,0.75,118,0.000061%
+25,corr,4753,4.671,1,0.63,心甘情愿,xin1 gan1 qing2 yuan4,xīn gān qíng yuàn,Do something with passion,heart sweet emotion will,愿,14,,,0.0,67915,0.035097%
+25,diffT,4753,,1,,心甘情缘,xin1 gan1 qing2 yuan2,,,heart sweet emotion fate,缘,12,2.0,0.605431318283081,1.0,19330,0.009989%
+25,sameT,4753,,1,,心甘情媛,xin1 gan1 qing2 yuan4,,,heart sweet emotion beautiful_woman,媛,12,2.0,0.50305187702179,0.8666666666666667,535,0.000276%
+25,noP,4753,,1,,心甘情疑,xin1 gan1 qing2 yi4,,,heart sweet emotion doubt,疑,14,0.0,0.6707146465778351,1.0,53982,0.027897%
+26,corr,4813,4.6,1,0.889,志同道合,zhi4 tong2 dao4 he2,zhì tóng dào hé,To have the same principles,will same road align,合,6,,,0.0,239277,0.123655%
+26,diffT,4813,,1,,志同道吓,zhi4 tong2 dao4 he4,,,will same road scare,吓,6,0.0,0.547932863235474,0.6,14620,0.007555%
+26,sameT,4813,,1,,志同道何,zhi4 tong2 dao4 he2,,,will same road carry,何,7,-1.0,0.736730813980103,0.5,184335,0.095262%
+26,noP,4813,,1,,志同道亦,zhi4 tong2 dao4 yi4,,,will same road also,亦,6,0.0,0.5357625484466553,0.4,37960,0.019617%
+27,corr,4679,3.847,1,0.741,情有独钟,qing2 you3 du2 zhong1,qíng yǒu dú zhōng,Attraction,love have only concentrate,钟,9,,,0.0,36770,0.019002%
+27,diffT,4679,,1,,情有独重,qing2 you3 du2 zhong4,,,love have only heavy,重,9,0.0,0.639271020889282,1.0,282843,0.146169%
+27,sameT,4679,,1,,情有独衷,qing2 you3 du2 zhong1,,,love have only innerfeelings,衷,10,-1.0,0.636192679405212,0.5384615384615384,5781,0.002988%
+27,noP,4679,,1,,情有独珏,qing2 you3 du2 yue2,,,love have only jade,珏,9,0.0,0.6338075995445251,0.8888888888888888,172,0.000089%
+28,corr,466,4.268,1,0.815,惊天动地,jing1 tian1 dong4 di4,jīng tiān dòng dì,Huge impact,shock sky move ground,地,6,,,0.0,969349,0.500945%
+28,diffT,466,,1,,惊天动邸,jing1 tian1 dong4 di3,,,shock sky move residence,邸,7,-1.0,0.640496015548706,0.6,1521,0.000786%
+28,sameT,466,,1,,惊天动弟,jing1 tian1 dong4 di4,,,shock sky move littlebrother,弟,7,-1.0,0.435827314853668,0.8333333333333334,42706,0.022070%
+28,noP,466,,1,,惊天动守,jing1 tian1 dong4 shou3,,,shock sky move type,守,6,0.0,0.709667831659317,0.75,44264,0.022875%
+29,corr,4731,3.915,1,0.815,我行我素,wo3 xing2 wo3 su4,wǒ xíng wǒ sù,Not care about people's opinions,me walk me essence,素,10,,,0.0,59100,0.030542%
+29,diffT,4731,,1,,我行我俗,wo3 xing2 wo3 su2,,,me walk me popular,俗,9,1.0,0.783965408802032,0.8,17463,0.009025%
+29,sameT,4731,,1,,我行我速,wo3 xing2 wo3 su4,,,me walk me fast,速,10,0.0,0.7236209,1.0,65094,0.033640%
+29,noP,4731,,1,,我行我涌,wo3 xing2 wo3 yong3,,,me walk me emerge,涌,10,0.0,0.7758431881666183,0.8571428571428571,11228,0.005802%
+30,corr,4443,2.805,1,0.852,扑朔迷离,pu1 shuo4 mi2 li2,pū shuò mí lí,not able to tell with certainty,jump male uncertain distinguish,离,10,,,0.0,100744,0.052063%
+30,diffT,4443,,1,,扑朔迷莉,pu1 shuo4 mi2 li4,,,jump male uncertain jasmine,莉,10,0.0,0.616571426391602,0.7777777777777778,8289,0.004284%
+30,sameT,4443,,1,,扑朔迷梨,pu1 shuo4 mi2 li2,,,jump male uncertain pear,梨,11,-1.0,0.625908374786377,0.7777777777777778,1884,0.000974%
+30,noP,4443,,1,,扑朔迷素,pu1 shuo4 mi2 su4,,,jump male uncertain essence,素,10,0.0,0.8142766207456589,0.6666666666666666,59100,0.030542%
+31,corr,4759,4.05,909,0.667,日新月异,ri4 xin1 yue4 yi4,rì xīn yuè yì,change day after day,sun new moon different,异,6,,,0.0,52735,0.027253%
+31,diffT,4759,,909,,日新月仪,ri4 xin1 yue4 yi2,,,sun new moon ceremony,仪,5,1.0,0.633708357810974,0.8333333333333334,19064,0.009852%
+31,sameT,4759,,909,,日新月亦,ri4 xin1 yue4 yi4,,,sun new moon also,亦,6,0.0,0.676875352859497,0.6,37960,0.019617%
+31,noP,4759,,909,,日新月吉,ri4 xin1 yue4 ji2,,,sun new moon lucky,吉,6,0.0,0.608966201543808,0.6,40081,0.020713%
+32,corr,4543,3.235,538,0.889,有的放矢,you3 de5 fang4 shi3,yǒu de fàng shǐ,to have a precise goal,have target throw arrow,矢,5,,,0.0,2466,0.001274%
+32,diffT,4543,,538,,有的放石,you3 de5 fang4 shi2,,,have target throw rock,石,5,0.0,0.665597558021545,0.6,102149,0.052789%
+32,sameT,4543,,538,,有的放史,you3 de5 fang4 shi3,,,have target throw history,史,5,0.0,0.654701113700867,1.0,90469,0.046753%
+32,noP,4543,,538,,有的放叶,you3 de5 fang4 ye4,,,have target throw leaf,叶,5,0.0,0.6644134819507599,1.0,36032,0.018621%
+33,corr,4256,3.898,75,0.963,标本兼治,biao1 ben3 jian1 zhi4,biāo běn jiān zhì,deal with multiple problems,surface root together treat,治,8,,,0.0,156904,0.081086%
+33,diffT,4256,,75,,标本兼直,biao1 ben3 jian1 zhi2,,,surface root together straighten,直,8,0.0,0.625924825668335,0.75,169439,0.087564%
+33,sameT,4256,,75,,标本兼质,biao1 ben3 jian1 zhi4,,,surface root together question,质,8,0.0,0.552642464637756,0.8,104560,0.054035%
+33,noP,4256,,75,,标本兼沽,biao1 ben3 jian1 gu1,,,surface root together buy,沽,8,0.0,0.7295309603214264,0.2,1043,0.000539%
+34,corr,4719,4.474,867,0.889,根深蒂固,gen1 shen1 di4 gu4,gēn shēn dì gù,deeply rooted thing,root deep sprout strong,固,8,,,0.0,37582,0.019422%
+34,diffT,4719,,867,,根深蒂沽,gen1 shen1 di4 gu1,,,root deep sprout buy,沽,8,0.0,0.6723467,0.4,1043,0.000539%
+34,sameT,4719,,867,,根深蒂故,gen1 shen1 di4 gu4,,,root deep sprout old,故,9,-1.0,0.570423543453217,0.4,70067,0.036210%
+34,noP,4719,,867,,根深蒂直,gen1 shen1 di4 zhi2,,,root deep sprout straighten,直,8,0.0,0.6687738597393036,0.5,169439,0.087564%
+35,corr,493,4.439,1,0.704,欢天喜地,huan1 tian1 xi3 di4,huān tiān xǐ dì,extremely happy,happy sky joyful earth,地,6,,,0.0,969349,0.500945%
+35,diffT,493,,1,,欢天喜籴,huan1 tian1 xi3 di3,,,happy sky joyful buy grain,籴,8,-2.0,0.699845671653748,0.75,106,0.000055%
+35,sameT,493,,1,,欢天喜弟,huan1 tian1 xi3 di4,,,happy sky joyful brother,弟,9,-3.0,0.692597031593323,0.8333333333333334,42706,0.022070%
+35,noP,493,,1,,欢天喜爷,huan1 tian1 xi3 he2,,,happy sky joyful grandpa,爷,6,0.0,0.6966394782066345,0.8333333333333334,30930,0.015984%
+36,corr,463,4.686,769,0.519,求真务实,qiu2 zhen1 wu4 shi2,qiú zhēn wù shí,do things seriously,search truth concentrate truth,实,8,,,0.0,368494,0.190432%
+36,diffT,463,,769,,求真务式,qiu2 zhen1 wu4 shi4,,,search truth concentrate type,式,6,2.0,0.712796568870544,1.0,142292,0.073534%
+36,sameT,463,,769,,求真务时,qiu2 zhen1 wu4 shi2,,,search truth concentrate hour,时,7,1.0,0.703918933868408,1.0,833532,0.430757%
+36,noP,463,,769,,求真务雨,qiu2 zhen1 wu4 yu4,,,search truth concentrate rain,雨,8,0.0,0.7291178405284882,0.75,35370,0.018279%
+37,corr,4663,3.686,1,0.741,游刃有余,you2 ren4 you3 yu2,yóu rèn yǒu yú,sort it out with skills,move blade have extra,余,7,,,0.0,50601,0.026150%
+37,diffT,4663,,1,,游刃有雨,you2 ren4 you3 yu4,,,move blade have rain,雨,8,-1.0,0.673227787017822,0.6,35370,0.018279%
+37,sameT,4663,,1,,游刃有鱼,you2 ren4 you3 yu2,,,move blade have fish,鱼,8,-1.0,0.626778244972229,0.7777777777777778,40452,0.020905%
+37,noP,4663,,1,,游刃有邸,you2 ren4 you3 di3,,,move blade have residence,邸,7,0.0,0.6036444008350372,0.8,1521,0.000786%
+38,corr,4652,4.294,769,0.852,独树一帜,du2 shu4 yi1 zhi4,dú shù yī zhì,stand out,only stand one flag,帜,8,,,0.0,2452,0.001267%
+38,diffT,4652,,769,,独树一直,du2 shu4 yi1 zhi2,,,only stand one straighten,直,8,0.0,0.56704044342041,0.75,169439,0.087564%
+38,sameT,4652,,769,,独树一质,du2 shu4 yi1 zhi4,,,only stand one question,质,8,0.0,0.523495554924011,0.8,104560,0.054035%
+38,noP,4652,,769,,独树一终,du2 shu4 yi1 zhong1,,,only stand one end,终,8,0.0,0.5513329207897186,0.6666666666666666,72533,0.037484%
+39,corr,4324,3.765,1,0.852,琳琅满目,lin2 lang2 man3 mu4,lín láng mǎn mù,beautiful things to see,beautiful jem full eye,目,5,,,0.0,180827,0.093449%
+39,diffT,4324,,1,,琳琅满母,lin2 lang2 man3 mu3,,,beautiful jem full mother,母,5,0.0,0.732971429824829,1.0,71462,0.036930%
+39,sameT,4324,,1,,琳琅满木,lin2 lang2 man3 mu4,,,beautiful jem full tree,木,4,1.0,0.772993445396423,1.0,54433,0.028130%
+39,noP,4324,,1,,琳琅满汁,lin2 lang2 man3 zhi1,,,beautiful jem full juice,汁,5,0.0,0.7281740605831146,1.0,3564,0.001842%
+40,corr,4828,4.521,1,0.556,甜言蜜语,tian2 yan2 mi4 yu3,tián yán mì yǔ,to use flattering words,sweet words honey speech,语,9,,,0.0,82805,0.042792%
+40,diffT,4828,,1,,甜言蜜鱼,tian2 yan2 mi4 yu2,,,sweet words honey fish,鱼,8,1.0,0.699845671653748,0.8181818181818182,40452,0.020905%
+40,sameT,4828,,1,,甜言蜜俣,tian2 yan2 mi4 yu3,,,sweet words honey big,俣,9,0.0,0.692597031593323,0.5,197,0.000102%
+40,noP,4828,,1,,甜言蜜姚,tian2 yan2 mi4 yao3,,,sweet words honey handsome,姚,9,0.0,0.5537354052066803,0.8,4806,0.002484%
+41,corr,4782,4.322,1,0.778,精打细算,jing1 da3 xi4 suan4,jīng dǎ xì suàn,to plan in detail,refined do subtle count,算,14,,,0.0,105293,0.054414%
+41,diffT,4782,,1,,精打细酸,jing1 da3 xi4 suan1,,,refined do subtle sour,酸,14,0.0,0.706910967826843,1.0,14855,0.007677%
+41,sameT,4782,,1,,精打细蒜,jing1 da3 xi4 suan4,,,refined do subtle garlic,蒜,13,1.0,0.535614371299744,0.8333333333333334,1091,0.000564%
+41,noP,4782,,1,,精打细疑,jing1 da3 xi4 yi2,,,refined do subtle doubt,疑,14,0.0,0.7100071310997009,0.6,53982,0.027897%
+42,corr,4382,3.608,1,0.815,耐人寻味,nai4 ren2 xun2 wei4,nài rén xún wèi,to spark the imagination,resist people search taste,味,8,,,0.0,40704,0.021035%
+42,diffT,4382,,1,,耐人寻违,nai4 ren2 xun2 wei2,,,resist people search disobey,违,7,1.0,0.589670658111572,1.0,22751,0.011757%
+42,sameT,4382,,1,,耐人寻畏,nai4 ren2 xun2 wei4,,,resist people search fear,畏,9,-1.0,0.602126955986023,1.0,6722,0.003474%
+42,noP,4382,,1,,耐人寻诃,nai4 ren2 xun2 he1,,,resist people search scold,诃,8,0.0,0.746012419462204,0.6,814,0.000421%
+43,corr,4632,4.431,1,0.778,自始至终,zi4 shi3 zhi4 zhong1,zì shǐ zhì zhōng,endless,from beginning to end,终,8,,,0.0,72533,0.037484%
+43,diffT,4632,,1,,自始至重,zi4 shi3 zhi4 zhong4,,,from beginning to heavy,重,9,-1.0,0.57694149017334,1.0,282843,0.146169%
+43,sameT,4632,,1,,自始至衷,zi4 shi3 zhi4 zhong1,,,from beginning to innerfeelings,衷,10,-2.0,0.763003587722778,0.7333333333333333,5781,0.002988%
+43,noP,4632,,1,,自始至贤,zi4 shi3 zhi4 xian2,,,from beginning to worthy,贤,8,0.0,0.4592078924179077,0.8571428571428571,7713,0.003986%
+44,corr,4691,4.216,1,0.852,自欺欺人,zi4 qi1 qi1 ren2,zì qī qī rén,to deceive,self deceive deceive person,人,2,,,0.0,1867999,0.965354%
+44,diffT,4691,,1,,自欺欺刃,zi4 qi1 qi1 ren4,,,self deceive deceive edge_of_the_knife,刃,3,-1.0,0.837331354618073,1.0,2858,0.001477%
+44,sameT,4691,,1,,自欺欺壬,zi4 qi1 qi1 ren2,,,self deceive deceive ninth,壬,4,-2.0,0.723620891571045,1.0,564,0.000291%
+44,noP,4691,,1,,自欺欺力,zi4 qi1 qi1 li4,,,self deceive deceive power,力,2,0.0,0.5525619387626648,1.0,359136,0.185596%
+45,corr,485,4.686,1,0.667,自言自语,zi4 yan2 zi4 yu3,zì yán zì yǔ,think out loud,self talk self speech,语,9,,,0.0,82805,0.042792%
+45,diffT,485,,1,,自言自鱼,zi4 yan2 zi4 yu2,,,self talk self fish,鱼,8,1.0,0.837331354618073,0.8181818181818182,40452,0.020905%
+45,sameT,485,,1,,自言自俣,zi4 yan2 zi4 yu3,,,self talk self big,俣,9,0.0,0.723620891571045,0.5,197,0.000102%
+45,noP,485,,1,,自言自胜,zi4 yan2 zi4 sheng4,,,self talk self splendor,胜,9,0.0,0.699114978313446,0.8,49565,0.025614%
+46,corr,4152,3.784,769,0.852,舞文弄墨,wu3 wen2 nong4 mo4,wǔ wén nòng mò,play with words,play writing manipulate ink,墨,15,,,0.0,13959,0.007214%
+46,diffT,4152,,769,,舞文弄模,wu3 wen2 nong4 mo2,,,play writing manipulate model,模,13,2.0,0.625924825668335,0.625,54891,0.028367%
+46,sameT,4152,,769,,舞文弄磨,wu3 wen2 nong4 mo4,,,play writing manipulate grind,磨,16,-1.0,0.552642464637756,0.7777777777777778,13082,0.006761%
+46,noP,4152,,769,,舞文弄酸,wu3 wen2 nong4 suan1,,,play writing manipulate sour,酸,14,0.0,0.7069944143295288,1.0,14855,0.007677%
+47,corr,4667,4.561,1,0.889,若隐若现,ruo4 yin3 ruo4 xian4,ruò yǐn ruò xiàn,be vague,like hide like appear,现,8,,,0.0,433960,0.224264%
+47,diffT,4667,,1,,若隐若贤,ruo4 yin3 ruo4 xian2,,,like hide like worthy,贤,8,0.0,0.783965408802032,0.8571428571428571,7713,0.003986%
+47,sameT,4667,,1,,若隐若限,ruo4 yin3 ruo4 xian4,,,like hide like limit,限,8,0.0,0.8327733,0.8,66018,0.034117%
+47,noP,4667,,1,,若隐若侈,ruo4 yin3 ruo4 chi3,,,like hide like extravagant,侈,8,0.0,0.727363109588623,0.75,1703,0.000880%
+48,corr,491,4.305,1,0.926,见义勇为,jian4 yi4 yong3 wei2,jiàn yì yǒng wéi,to be brave,see justice brave act,为,4,,,0.0,1039036,0.536958%
+48,diffT,491,,1,,见义勇未,jian4 yi4 yong3 wei4,,,see justice brave not_yet,未,5,-1.0,0.736825942993164,1.0,110491,0.057100%
+48,sameT,491,,1,,见义勇韦,jian4 yi4 yong3 wei2,,,see justice brave leather,韦,4,0.0,0.661362171173096,1.0,10882,0.005624%
+48,noP,491,,1,,见义勇月,jian4 yi4 yong3 yue4,,,see justice brave moon,月,4,0.0,0.6565361022949219,1.0,240566,0.124321%
+49,corr,4632,4.439,867,0.704,谈天说地,tan2 tian1 shuo1 di4,tán tiān shuō dì,talk of everything,say sky say earth,地,6,,,0.0,969349,0.500945%
+49,diffT,4632,,867,,谈天说邸,tan2 tian1 shuo1 di3,,,say sky say residence,邸,7,-1.0,0.693909406661987,0.6,1521,0.000786%
+49,sameT,4632,,867,,谈天说弟,tan2 tian1 shuo1 di4,,,say sky say little brother,弟,7,-1.0,0.673902928829193,0.8333333333333334,42706,0.022070%
+49,noP,4632,,867,,谈天说旨,tan2 tian1 shuo1 zhi3,,,say sky say purpose,旨,6,0.0,0.7892003059387207,0.8,10590,0.005473%
+50,corr,4739,4.784,1,0.852,赏心悦目,shang3 xin1 yue4 mu4,shǎng xīn yuè mù,nice to hear,appreciate heart return eye,目,5,,,0.0,180827,0.093449%
+50,diffT,4739,,1,,赏心悦母,shang3 xin1 yue4 mu3,,,appreciate heart return mother,母,5,0.0,0.672346711158752,1.0,71462,0.036930%
+50,sameT,4739,,1,,赏心悦木,shang3 xin1 yue4 mu4,,,appreciate heart return tree,木,4,1.0,0.60686981678009,1.0,54433,0.028130%
+50,noP,4739,,1,,赏心悦仪,shang3 xin1 yue4 yi2,,,appreciate heart return ceremony,仪,5,0.0,0.6642671823501587,1.0,19064,0.009852%
+51,corr,4621,4.109,1,0.704,铺天盖地,pu1 tian1 gai4 di4,pū tiān gài dì,spread everywhere,spread sky cover soil,地,6,,,0.0,969349,0.500945%
+51,diffT,4621,,1,,铺天盖籴,pu1 tian1 gai4 di3,,,spread sky cover buy grain,籴,8,-1.0,0.636153936386108,0.75,106,0.000055%
+51,sameT,4621,,1,,铺天盖帝,pu1 tian1 gai4 di4,,,spread sky cover emperor,帝,9,-3.0,0.640032649040222,0.75,66035,0.034126%
+51,noP,4621,,1,,铺天盖夷,pu1 tian1 gai4 yi2,,,spread sky cover barbarians,夷,6,0.0,0.7515331655740738,0.8,4638,0.002397%
+52,corr,4674,3.059,769,0.741,风花雪月,feng1 hua1 xue3 yue4,fēng huā xuě yuè,romantic,wind flower snow moon,月,4,,,0.0,240566,0.124321%
+52,diffT,4674,,769,,风花雪曰,feng1 hua1 xue3 yue1,,,wind flower snow speak,曰,4,0.0,0.673227787017822,1.0,11075,0.005723%
+52,sameT,4674,,769,,风花雪乐,feng1 hua1 xue3 yue4,,,wind flower snow music,乐,5,-1.0,0.626778244972229,1.0,64965,0.033573%
+52,noP,4674,,769,,风花雪止,feng1 hua1 xue3 zhi3,,,wind flower snow stop,止,4,0.0,0.5455586910247803,1.0,68082,0.035184%
+53,corr,4475,3.957,1,0.926,风起云涌,feng1 qi3 yun2 yong3,fēng qǐ yún yǒng,largely spread phenomena,wind rise cloud emerge,涌,10,,,0.0,11228,0.005802%
+53,diffT,4475,,1,,风起云庸,feng1 qi3 yun2 yong1,,,wind rise cloud common,庸,11,-1.0,0.763892531394958,1.0,5835,0.003015%
+53,sameT,4475,,1,,风起云勇,feng1 qi3 yun2 yong3,,,wind rise cloud brave,勇,9,1.0,0.526011526584625,0.375,21819,0.011276%
+53,noP,4475,,1,,风起云莉,feng1 qi3 yun2 li4,,,wind rise cloud jasmine,莉,10,0.0,0.7305909693241119,0.7142857142857143,8289,0.004284%
+54,corr,4735,4.647,1,0.852,齐心协力,qi2 xin1 xie2 li4,qí xīn xié lì,work together,together heart cooperate power,力,2,,,0.0,359136,0.185596%
+54,diffT,4735,,1,,齐心协礼,qi2 xin1 xie2 li3,,,together heart cooperate gift,礼,5,-3.0,0.760334610939026,1.0,35612,0.018404%
+54,sameT,4735,,1,,齐心协立,qi2 xin1 xie2 li4,,,together heart cooperate stand,立,5,-3.0,0.733427286148071,1.0,204985,0.105933%
+54,noP,4735,,1,,齐心协人,qi2 xin1 xie2 ren2,,,together heart cooperate person,人,2,0.0,0.5525619387626648,1.0,1867999,0.965354%
