@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 """
 Semantic distance calculation using Tencent Word2Vec embeddings.
-Processes new_data.csv to compute corr vs noP semantic distance.
+Processes data_original.csv to compute corr vs sameT, diffT, and noP distances.
 """
 
 
@@ -15,8 +15,11 @@ Processes new_data.csv to compute corr vs noP semantic distance.
 
 REPO_ID = "shibing624/text2vec-word2vec-tencent-chinese"
 MODEL_FILENAME = "light_Tencent_AILab_ChineseEmbedding.bin"
-INPUT_FILE = "new_data.csv"
-OUTPUT_FILE = "new_data_semdistances_completed.csv"
+PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SHARED_FILE = os.path.join(PROJECT_DIR, "data_measures.csv")
+INPUT_FILE = SHARED_FILE if os.path.exists(SHARED_FILE) else os.path.join(
+    PROJECT_DIR, "data_original.csv")
+OUTPUT_FILE = SHARED_FILE
 
 # ============================================================================
 # Helper Functions
@@ -155,7 +158,7 @@ def process_data_file(model_path, input_file, output_file):
     Process CSV file and calculate semantic distances.
 
     For each item:
-    - Calculate distance/similarity between corr and noP (Last_char)
+    - Calculate distance between corr and sameT, diffT, and noP (Last_char)
 
     Args:
         model_path: Path to the binary model file
@@ -163,17 +166,17 @@ def process_data_file(model_path, input_file, output_file):
         output_file: Path to save output CSV file
     """
     print(f"\nReading CSV file: {input_file}")
-    df = pd.read_csv(input_file, sep=';')
+    df = pd.read_csv(input_file, sep=';', encoding='utf-8')
 
     tokens_needed = set(df.loc[df['Condition'].isin(
-        ['corr', 'noP']), 'Last_char'].dropna().astype(str))
+        ['corr', 'sameT', 'diffT', 'noP']), 'Last_char'].dropna().astype(str))
     sample_tokens = [token.encode('unicode_escape').decode(
         'ascii') for token in sorted(list(tokens_needed))[:10]]
     print(f"Need {len(tokens_needed)} unique vectors: {', '.join(sample_tokens)}")
     model = load_model_for_tokens(model_path, tokens_needed)
 
-    # Create new column for the long-format output
-    df['semantic_distance_corr_noP'] = np.nan
+    distance_column = 'Sem_Distance'
+    df[distance_column] = np.nan
 
     print(f"Processing {len(df['Item'].unique())} items...")
 
@@ -183,9 +186,8 @@ def process_data_file(model_path, input_file, output_file):
     for item_num in sorted(df['Item'].unique()):
         item_df = df[df['Item'] == item_num]
 
-        # Get rows for each condition
+        # Get the corr row and the three comparison rows.
         corr_rows = item_df[item_df['Condition'] == 'corr']
-        noP_rows = item_df[item_df['Condition'] == 'noP']
 
         if corr_rows.empty:
             continue
@@ -196,21 +198,29 @@ def process_data_file(model_path, input_file, output_file):
         if vec_corr is None:
             not_found.add(corr_char)
 
-        # Distance: corr vs noP
-        if not noP_rows.empty:
-            nop_char = noP_rows['Last_char'].values[0]
-            vec_nop = safe_get_vector(model, nop_char)
+        for condition in ['sameT', 'diffT', 'noP']:
+            condition_rows = item_df[item_df['Condition'] == condition]
+            if condition_rows.empty:
+                continue
 
-            if vec_nop is None:
-                not_found.add(nop_char)
+            condition_char = condition_rows['Last_char'].values[0]
+            vec_condition = safe_get_vector(model, condition_char)
 
-            dist = cosine_distance(vec_corr, vec_nop)
+            if vec_condition is None:
+                not_found.add(condition_char)
 
-            df.loc[noP_rows.index[0], 'semantic_distance_corr_noP'] = dist
+            distance = cosine_distance(vec_corr, vec_condition)
+            df.loc[condition_rows.index[0], distance_column] = distance
 
     # Save results
     print(f"\nSaving results to: {output_file}")
-    df.to_csv(output_file, index=False, sep=';')
+    df.to_csv(
+        output_file,
+        index=False,
+        sep=';',
+        encoding='utf-8-sig',
+        na_rep='NA',
+    )
     print("Results saved successfully!")
 
     # Print summary
@@ -224,15 +234,15 @@ def process_data_file(model_path, input_file, output_file):
             'ascii') for token in sorted(not_found)[:20]]
         print(f"  Missing characters: {', '.join(missing_preview)}")
 
-    valid_dists = df['semantic_distance_corr_noP'].notna().sum()
-    print(f"Valid corr-noP distances: {valid_dists}")
+    valid_dists = df[distance_column].notna().sum()
+    print(f"Valid semantic distances: {valid_dists}")
 
     if valid_dists > 0:
-        print(f"\nCorr-noP distance statistics:")
-        print(f"  Mean: {df['semantic_distance_corr_noP'].mean():.4f}")
-        print(f"  Min: {df['semantic_distance_corr_noP'].min():.4f}")
-        print(f"  Max: {df['semantic_distance_corr_noP'].max():.4f}")
-        print(f"  Std: {df['semantic_distance_corr_noP'].std():.4f}")
+        print("\nSemantic distance statistics:")
+        print(f"  Mean: {df[distance_column].mean():.4f}")
+        print(f"  Min: {df[distance_column].min():.4f}")
+        print(f"  Max: {df[distance_column].max():.4f}")
+        print(f"  Std: {df[distance_column].std():.4f}")
 
     print(f"{'='*60}\n")
 

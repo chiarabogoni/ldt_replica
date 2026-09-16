@@ -1,0 +1,323 @@
+/* ====================================================
+   Chengyu Lexical Decision Task - Styling
+   ==================================================== */
+
+/* General Body Styling */
+body {
+  background-color: #b3b3b3;
+  color: #010c1b;
+}
+
+/* Fixation cross */
+.fix {
+  font-size: 80px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fix img {
+  width: 200px !important;
+  height: 200px !important;
+  font-size: inherit;
+}
+
+.dragon-fixation {
+  width: 200px !important;
+  height: 200px !important;
+}
+
+/* Prefix characters (first 3 characters) */
+.pre {
+  font-size: 120px;
+  font-weight: bold;
+  color: #010c1b;
+}
+
+/* Target character (final character for LDT response) */
+.ldt {
+  font-size: 120px;
+  font-weight: bold;
+  color: #010c1b;
+}
+
+/* Instructions */
+.instruction-text {
+  font-size: 32px;
+  line-height: 2;
+}
+
+.instruction-text p {
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Highlighted Instruction Box */
+.instruction-highlight {
+  border: 2px solid #d9534f;
+  background-color: #fff3cd;
+  padding: 12px 15px;
+  margin: 15px auto;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 0 15px rgba(217, 83, 79, 0.2);
+  border-radius: 8px;
+}
+
+.instruction-highlight-text {
+  font-size: 22px;
+  line-height: 1.6;
+  text-align: center;
+  color: #d9534f;
+  margin: 0;
+  font-weight: bold;
+}
+
+.box-top-icon {
+  width: 60px !important;
+  height: 60px !important;
+  margin: 0 auto 10px auto;
+  display: block;
+}
+
+/* Consent Form */
+.consent-box {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 25px;
+  margin: 20px auto;
+  max-height: 60vh;
+  overflow-y: auto;
+  text-align: justify;
+  width: 90%;
+  max-width: 900px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+  font-size: 22px;
+  line-height: 1.8;
+  border-radius: 8px;
+}
+
+.consent-title {
+  margin-bottom: 20px;
+}
+
+.consent-title-highlight {
+  font-size: 28px;
+  font-weight: bold;
+  color: #d9534f;
+  margin: 0;
+  text-align: center;
+}
+
+.consent-agreement-header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.consent-checklist {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.consent-checklist li {
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+.consent-box p {
+  font-weight: normal;
+  margin: 15px 0;
+}
+
+/* Buttons */
+.jspsych-btn {
+  background-color: white;
+  color: #666;
+  margin-right: 15px;
+  padding: 15px 35px !important;
+  font-size: 20px !important;
+  min-height: 50px;
+}
+
+.jspsych-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.btn-primary {
+  background-color: #2c3e50;
+  color: white;
+  font-weight: bold;
+  padding: 15px 45px !important;
+  border: none;
+  cursor: pointer;
+  font-size: 20px !important;
+  min-height: 50px;
+}
+
+.btn-secondary {
+  color: #666;
+  margin-right: 20px;
+}
+
+.btn-disagree {
+  color: #666;
+  margin-right: 20px;
+  padding: 15px 35px !important;
+  font-size: 20px !important;
+  min-height: 50px;
+}
+
+.btn-agree {
+  background-color: #2c3e50;
+  color: white;
+  font-weight: bold;
+  padding: 15px 45px !important;
+  font-size: 20px !important;
+  min-height: 50px;
+}
+
+/* Survey Component */
+.sv-root-modern .sv-footer__complete-btn {
+  background-color: #2c3e50;
+  color: white;
+  padding: 15px 40px !important;
+  border: none;
+  cursor: pointer;
+  font-size: 22px !important;
+  min-height: 55px;
+}
+
+.sv-root-modern .sv-title {
+  font-size: 32px !important;
+  margin: 20px 0 !important;
+}
+
+.sv-root-modern .sv-question__title {
+  font-size: 28px !important;
+  margin: 20px 0 !important;
+}
+
+.sv-root-modern input[type="text"],
+.sv-root-modern textarea {
+  font-size: 22px !important;
+  padding: 12px !important;
+  min-height: 45px;
+}
+
+.sv-root-modern .sv-item__control-label {
+  font-size: 22px !important;
+}
+
+.sv-root-modern .sv-item input[type="radio"],
+.sv-root-modern .sv-item input[type="checkbox"] {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+/* End Screens */
+.end-experiment-message {
+  font-size: 28px;
+  margin-top: 50px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.thank-you-screen {
+  text-align: center;
+}
+
+.thank-you-screen p {
+  font-size: 32px;
+  line-height: 1.8;
+  margin: 20px 0;
+}
+
+.contact-info-box {
+  background-color: #f9f9f9;
+  margin-top: 30px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+.contact-info-box p {
+  font-size: 16px;
+}
+
+.closing-message {
+  margin-top: 40px;
+  color: #010c1b;
+  font-size: 22px;
+}
+
+.closing-message-small {
+  margin-top: 15px;
+  color: #666;
+  font-size: 14px;
+}
+
+/* Utility Classes */
+.text-justify {
+  text-align: justify;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.p-25 {
+  padding: 25px;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ccc;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-size-small {
+  font-size: 15px;
+}
+
+.font-size-medium {
+  font-size: 24px;
+}
+
+.font-size-large {
+  font-size: 1.2em;
+}

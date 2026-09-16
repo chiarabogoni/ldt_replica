@@ -10,10 +10,15 @@ import pandas as pd
 # Configuration
 # ============================================================================
 
+PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+FREQ_DIR = os.path.dirname(os.path.abspath(__file__))
+SHARED_FILE = os.path.join(PROJECT_DIR, "data_measures.csv")
+
 # Jun Da Modern Chinese Character Frequency data
-FREQUENCY_FILE = "CharFreq-Modern.xls"  # or .csv if converted
-INPUT_FILE = "new_data.csv"
-OUTPUT_FILE = "new_frequencies.csv"
+FREQUENCY_FILE = os.path.join(FREQ_DIR, "CharFreq-Modern.xls")
+INPUT_FILE = SHARED_FILE if os.path.exists(SHARED_FILE) else os.path.join(
+    PROJECT_DIR, "data_original.csv")
+OUTPUT_FILE = SHARED_FILE
 
 # ============================================================================
 # Load Frequency Data
@@ -88,7 +93,7 @@ def get_char_stats(char_list, freq_data):
 print(f"\nLoading character data from {INPUT_FILE}...")
 try:
     # The dataset uses semicolons as delimiters
-    input_df = pd.read_csv(INPUT_FILE, sep=';')
+    input_df = pd.read_csv(INPUT_FILE, sep=';', encoding='utf-8')
     print(f"✓ Loaded {len(input_df)} rows")
 except FileNotFoundError:
     print(f"ERROR: {INPUT_FILE} not found!")
@@ -156,12 +161,18 @@ print("\nSaving results...")
 
 # Save frequency statistics
 stats_output = OUTPUT_FILE.replace('.csv', '_stats.csv')
-stats_df.to_csv(stats_output, index=False, encoding='utf-8')
+stats_df.to_csv(stats_output, index=False, encoding='utf-8-sig', na_rep='NA')
 print(f"✓ Frequency statistics saved to: {stats_output}")
 
 # Save merged data with frequencies
 merged_output = OUTPUT_FILE
-input_df.to_csv(merged_output, index=False, encoding='utf-8')
+input_df.to_csv(
+    merged_output,
+    index=False,
+    sep=';',
+    encoding='utf-8-sig',
+    na_rep='NA',
+)
 print(f"✓ Data with frequencies saved to: {merged_output}")
 
 # ============================================================================

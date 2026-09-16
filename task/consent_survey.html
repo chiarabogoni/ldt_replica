@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Consent & Survey</title>
+
+  <script src="https://unpkg.com/jspsych@7.3.3"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-html-button-response@1.1.2"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-survey@1.0.1/dist/index.browser.min.js"></script>
+  
+  <link rel="stylesheet" href="https://unpkg.com/jspsych@7.3.3/css/jspsych.css">
+  <link rel="stylesheet" href="https://unpkg.com/@jspsych/plugin-survey@1.0.1/css/survey.css">
+  <link rel="stylesheet" href="chengyu_style.css">
+
+</head>
+
+<body>
+
+<script>
+  /* -----------------------------------------------------------
+     0. INITIALIZATION
+     ----------------------------------------------------------- */
+  function initializeConsent() {
+    // Initialize jsPsych
+    const jsPsych = initJsPsych();
+
+    let timeline = [];
+
+    /* -----------------------------------------------------------
+       1. CONSENT
+       ----------------------------------------------------------- */
+    const informed_consent = {
+    type: jsPsychHtmlButtonResponse,
+    stimulus: `
+      <div class="instruction-highlight">
+        <h2 class="consent-title-highlight">研究参与知情同意书</h2>
+      </div>
+      <div class="consent-box">
+        <p>尊敬的参与者：</p>
+        <p>本文件旨在征求您对参加一项心理语言学研究的知情同意。该研究属于<strong>帕多瓦大学硕士论文项目</strong>，由发展与社会化心理学系的 <strong>Francesco Vespignani 教授</strong>、语言与文学研究系的 <strong>Linda Badan 教授</strong>共同协调，并由语言学硕士生 <strong>Chiara Bogoni 女士</strong>（语言与文学研究系）具体执行。</p>
+        
+        <p><strong>1. 研究目的与流程</strong><br>
+        </p>本研究旨在探讨成语加工过程中涉及的预测机制。实验内容为一个词汇判断任务（Lexical Decision Task）：在实验过程中，您将逐字看到若干成语。当最后一个字出现后，系统会询问您刚才看到的是正确还是错误的成语。整个研究预计耗时约 10 分钟。实验需在电脑上进行，并要求稳定的网络连接，以及安静、光线良好的环境。
+ 
+        <p><strong>2. 隐私与数据处理</strong><br>
+        在开始实验之前，我们将请您填写一份简短的问卷。所有收集的数据将按照现行法规进行处理。根据隐私保护法律（欧盟条例 2016/679 - GDPR，以及意大利法令 D.Lgs. 196/2003 及其后续修订），数据均以匿名形式收集。研究结果可能会以原始数据或汇总数据的形式发表在科学出版物或科研网站上。实验结束时，您将获得一个只有您自己知道的代码，凭借该代码，您可以要求从研究数据库中退回或删除您的数据。如果删除请求在数据收集一个月后才提出，我们无法保证这些匿名数据是否已存在于其他研究数据库中。</p>
+
+        <br>
+        <p class="consent-agreement-header"><strong>参与与数据使用同意书</strong></p>
+        <hr class="border-bottom">
+        
+        <p>在此，我声明自愿同意参加本研究。我确认:</p>
+        <ul class="consent-checklist">
+          <li>✅ 我知悉本研究遵守意大利现行法律 D.Lgs. 196/2003 以及欧盟 GDPR 679/2016 关于个人数据保护的规定。</li>
+          <li>✅ 我知悉我有权在任何时间退出本研究（只需关闭浏览器窗口），无需提供理由；并可通过实验结束时获得的代码，要求不使用我已提供的数据。</li>
+          <li>✅ 我知悉所有数据将以匿名方式收集，且系统不会收集有关我进行实验所用电脑或 IP 地址的任何信息。</li>
+          <li>✅ 我知悉数据将仅用于科学和统计目的，且我确认自己已年满 18 岁。</li>
+        </ul>
+      </div>
+    `,
+    choices: ['我不同意', '我同意'],
+    button_html: [
+        '<button class="jspsych-btn btn-disagree">%choice%</button>', 
+        '<button class="jspsych-btn btn-agree">%choice%</button>'
+    ],
+    data: { task: 'informed_consent' },
+    on_finish: function(data){
+        // If the user clicks button index 0 (I Disagree), end the experiment.
+        if(data.response === 0){
+            jsPsych.endExperiment('<p class="end-experiment-message">您选择了不参与本研究。<br>实验已结束，感谢您的关注。</p>');
+        }
+    }
+  };
+
+    
+  /* -----------------------------------------------------------
+     3. SURVEY PART
+     ----------------------------------------------------------- */
+  const survey_trial = {
+    type: jsPsychSurvey, 
+    survey_json: {
+      title: "社会语言学问卷",
+      showQuestionNumbers: "off",
+      completeText: "提交问卷", 
+      elements: [
+        { type: "text", name: "age", title: "年龄", isRequired: true },
+        { type: "radiogroup", name: "gender", title: "性别", choices: ["男性", "女性", "我更愿意不说明"], isRequired: true },
+        { type: "text", name: "place_of_birth", title: "出生城市", isRequired: true },
+        { type: "radiogroup", name: "education", title: "请问您到目前为止获得的最高学位是?", choices: ["高中", "学士学位（本科)", "硕士学位", "博士学位"], isRequired: true },
+        { type: "checkbox", name: "language", title: "您使用哪些语言？", choices: ["普通话", "方言"], isRequired: true },
+        { type: "text", name: "dialect", title: "您说哪种方言？", visibleIf: "{language} contains('方言')", isRequired: false },
+        { type: "radiogroup", name: "language_acquisition", title: "您从几岁开始学习普通话？", choices: ["0-3岁", "4-6岁", "7-12岁", "13岁及以上"] , isRequired: true},
+        { type: "text", name: "language_acquisition2", title: "除了普通话和您的方言之外，您还会说哪些语言？", isRequired: true },
+        { type: "radiogroup", name: "language_use", title: "您说普通话的频率是怎样的?", choices: ["极少", "每年几次", "每月都讲", "每周都讲", "每天都讲"], isRequired: true },
+        { type: "checkbox", name: "language_use2", title: "您通常在什么场合使用普通话?", choices: ["家庭", "工作", "学校", "朋友之间", "线上交流"], showOtherItem: true, otherText: "其他（请说明）", isRequired: true }
+      ]
+    },
+    // Save survey responses to jsPsych data
+    on_finish: function(data) {
+        const responses = data.response;
+        // Add survey responses to jsPsych data so it gets saved locally
+        jsPsych.data.addProperties(responses);
+    }
+  };
+
+  /* -----------------------------------------------------------
+     BUILD TIMELINE
+     ----------------------------------------------------------- */
+  timeline.push(informed_consent);
+  timeline.push(survey_trial);
+
+  // Add button to proceed to experiment
+  const proceed_to_experiment = {
+    type: jsPsychHtmlButtonResponse,
+    stimulus: `
+      <div style="text-align: center;"><img src="computer-svgrepo-com.svg" class="box-top-icon"></div>
+      <div class="instruction-highlight">
+        <p class="instruction-highlight-text">感谢您同意参加本研究。您准备好开始实验了吗？</p>
+      </div>
+    `,
+    choices: ['开始实验'],
+    button_html: '<button class="jspsych-btn btn-primary">%choice%</button>',
+    on_finish: function() {
+      // Save survey data locally before proceeding
+      jsPsych.data.get().localSave('csv', 'consent_survey_data.csv');
+      // Navigate to the experiment
+      setTimeout(function() {
+        window.location.href = 'ldt_chengyu.html';
+      }, 500);
+    }
+  };
+
+  timeline.push(proceed_to_experiment);
+
+  // Run the timeline
+  jsPsych.run(timeline);
+  }
+
+  // Initialize when page loads - ensure scripts are loaded
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeConsent);
+  } else {
+    initializeConsent();
+  }
+</script>
+
+</body>
+</html>

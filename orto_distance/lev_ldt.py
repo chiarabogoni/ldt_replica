@@ -4,6 +4,7 @@ Uses IDS (Ideographic Description Sequences) to compute structural distances
 between characters based on their radical decomposition.
 """
 
+import os
 import re
 from typing import List
 from Levenshtein import distance
@@ -13,9 +14,13 @@ import pandas as pd
 # Configuration
 # ============================================================================
 
-IDS_FILE = 'IDSdecomp.csv'
-INPUT_FILE = 'new_data.csv'
-OUTPUT_FILE = 'data_levenshtein.csv'
+PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ORTHO_DIR = os.path.dirname(os.path.abspath(__file__))
+SHARED_FILE = os.path.join(PROJECT_DIR, 'data_measures.csv')
+IDS_FILE = os.path.join(ORTHO_DIR, 'IDSdecomp.csv')
+INPUT_FILE = SHARED_FILE if os.path.exists(SHARED_FILE) else os.path.join(
+    PROJECT_DIR, 'new_data.csv')
+OUTPUT_FILE = SHARED_FILE
 
 # ============================================================================
 # IDS Tokenization
@@ -127,7 +132,7 @@ print("=" * 80)
 # Load IDS decomposition data
 print(f"\nLoading IDS decomposition from {IDS_FILE}...")
 try:
-    ids = pd.read_csv(IDS_FILE)
+    ids = pd.read_csv(IDS_FILE, encoding='utf-8')
     print(f"✓ Loaded {len(ids)} IDS entries")
 except FileNotFoundError:
     print(f"ERROR: {IDS_FILE} not found!")
@@ -137,7 +142,7 @@ except FileNotFoundError:
 # Load character data
 print(f"\nLoading character data from {INPUT_FILE}...")
 try:
-    ch = pd.read_csv(INPUT_FILE, sep=';')
+    ch = pd.read_csv(INPUT_FILE, sep=';', encoding='utf-8')
     print(f"✓ Loaded {len(ch)} rows")
 except FileNotFoundError:
     print(f"ERROR: {INPUT_FILE} not found!")
@@ -193,15 +198,9 @@ ch["Levenshtein_Distance"] = ld
 print(f"\n{'='*80}")
 print("Saving results...")
 
-# Save detailed measures
-detailed_df = pd.DataFrame(rowlist)
-detailed_df.to_csv(OUTPUT_FILE, index=False, na_rep='NA')
-print(f"✓ Detailed results saved to: {OUTPUT_FILE}")
-
-# Save updated original file
-updated_file = INPUT_FILE.replace('.csv', '_with_levenshtein.csv')
-ch.to_csv(updated_file, index=False, na_rep='NA')
-print(f"✓ Updated data saved to: {updated_file}")
+# Save the updated shared data file
+ch.to_csv(OUTPUT_FILE, index=False, sep=';', encoding='utf-8-sig', na_rep='NA')
+print(f"✓ Updated shared data saved to: {OUTPUT_FILE}")
 
 # Print summary statistics
 print(f"\n{'='*80}")

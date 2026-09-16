@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey + Lexical Decision Task</title>
+
+  <script src="https://unpkg.com/jspsych@7.3.3"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-html-button-response@1.1.2"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@1.1.2"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-fullscreen@1.2.0"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-survey@1.0.1/dist/index.browser.min.js"></script>
+  <script src="lib/jspsych-pavlovia-3.0.0.js"></script>
+  
+  <link rel="stylesheet" href="https://unpkg.com/jspsych@7.3.3/css/jspsych.css">
+  <link rel="stylesheet" href="https://unpkg.com/@jspsych/plugin-survey@1.0.1/css/survey.css">
+  <link rel="stylesheet" href="chengyu_style.css">
+
+</head>
+
+<body>
+
+<script>
+  /* -----------------------------------------------------------
+     0. LIST SELECTION FOR LOCAL TESTING
+     ----------------------------------------------------------- */
+  // FOR LOCAL TESTING: Randomly select L1A, L1B, L2A, L2B, L3A, or L3B
+  // When deployed on JATOS server, this will be replaced with parameter-based list selection
+    var list_versions = [
+      'L1A', 'L1B', 'L2A', 'L2B', 'L3A', 'L3B',
+      'L4A', 'L4B', 'L5A', 'L5B', 'L6A', 'L6B'
+    ];
+  var version_label = list_versions[Math.floor(Math.random() * list_versions.length)];
+  var experimental_stimuli = null;
+  var fillers = [];
+
+  // Define the filename globally so we can use it later
+  var save_filename = "test_list_" + version_label + "_CBtask.csv";
+
+  // Load stimuli and initialize
+  fetch('./stimuli.json')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then(data => {
+      console.log('Stimuli loaded:', data);
+      console.log('Assigned list version:', version_label);
+      experimental_stimuli = data[version_label];
+      if (!experimental_stimuli) {
+        throw new Error('List version ' + version_label + ' not found in stimuli.json');
+      }
+      console.log(version_label + ' items:', experimental_stimuli.length);
+      initializeExperiment();
+    })
+    .catch(error => {
+      console.error('Error loading stimuli:', error);
+      alert('Error: Could not load stimuli.json or list version ' + version_label + '. Check console for details.\n' + error.message);
+    });
+
+  function initializeExperiment() {
+    /* -----------------------------------------------------------
+       1. INITIALIZATION
+       ----------------------------------------------------------- */
+    // Generate a simple participant ID based on timestamp
+    var participant_id = new Date().getTime().toString();
+    
+    const jsPsych = initJsPsych({
+      on_finish: function() {
+        console.log('Experiment finished. Data can be saved by the browser.');
+      }
+    });
+
+    // ADD ALL DATA PROPERTIES BEFORE RUNNING TIMELINE
+    var properties = {
+        list_version: version_label,
+        participant_id: participant_id
+    };
+    
+    jsPsych.data.addProperties(properties);
+
+    let timeline = [];
+
+  const enter_fullscreen = {
+  type: jsPsychFullscreen,
+  fullscreen_mode: true,
+  message: '<div style="text-align: center;"><img src="notebook-svgrepo-com.svg" class="box-top-icon"><div class="instruction-highlight"><p class="instruction-highlight-text">点击下方按钮后，实验将进入全屏模式。请在开始前认真阅读说明.</p></div></div>',
+  button_label: '阅读说明'
+};
+
+  const instructions = {
+    type: jsPsychHtmlButtonResponse,
+    stimulus: '<p class="instruction-text">您好！感谢您同意参加我们的研究。您即将参加一项词汇判断实验。实验中的每个项目由一个成语组成（可能是正确的，也可能是不正确的），均由四个汉字构成。每个项目开始时，屏幕上会出现一张龙的图片。请按键盘上的任意键以显示汉字。汉字将会快速地逐个呈现在屏幕上。在每个序列结束时，您需要判断刚才看到的成语是否正确。</p><div class="instruction-highlight"><p class="instruction-highlight-text">当最后一个汉字出现时，请在键盘上按：<br><strong>A = 是（这是一个正确的成语）<br>L = 否（这个成语不正确）</strong></p></div><p class="instruction-text">在您作答后，龙的图片将再次出现。当您准备好时，请按键盘上的任意键开始下一个项目。请尽量快速作答，不必过度思考。建议您在安静、光线良好且网络连接稳定的环境中进行实验。接下来将呈现 5 个练习项目，以帮助您熟悉实验流程。准备好后，请点击按钮。</p>',
+    choices: ['开始练习'],
+    button_html: '<button class="jspsych-btn btn-primary">%choice%</button>'
+  };
+
+  const params = { fixT: 500, wordT: 350, blankT: 100, ldtT: 300000000 };
+
+  /* -----------------------------------------------------------
+     3. PRACTICE STIMULI
+     ----------------------------------------------------------- */
+  const practice_stimuli = [
+  { item: 'p1', string: "画蛇添足", cond: "practice" },
+  { item: 'p2', string: "名副其实", cond: "practice" },
+  { item: 'p3', string: "层出不水", cond: "practice" },
+  { item: 'p4', string: "义无反顾", cond: "practice" }, 
+  { item: 'p5', string: "一厢情愿", cond: "practice" } 
+  ];
+
+  /* -----------------------------------------------------------
+     4. TRIAL FACTORY
+     ----------------------------------------------------------- */
+  function make_trial(stim_data, is_practice=false) {
+    var trial_sequence = [];
+    
+    // Handle both 'string' (practice) and 'spelling' (experimental) field names
+    var stimulus_text = stim_data.string || stim_data.spelling;
+
+    // Fixation Cross - wait for participant to press any key to continue
+    trial_sequence.push({
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: '<img src="dragon-svgrepo-com.svg" class="dragon-fixation">',
+      choices: "ALL_KEYS",
+      trial_duration: null,
+      css_classes: ['fix'],
+      response_ends_trial: true
+    });
+
+    // 500ms blank screen after dragon
+    trial_sequence.push({
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: '',
+      choices: "NO_KEYS",
+      trial_duration: 500
+    });
+
+    // Rapid presentation of the first 3 characters
+    for(let i=0; i<3; i++) {
+        trial_sequence.push({
+            type: jsPsychHtmlKeyboardResponse,
+            stimulus: stimulus_text[i],
+            choices: "NO_KEYS",
+            trial_duration: params.wordT,
+            css_classes: ['pre']
+        });
+        trial_sequence.push({ 
+          type: jsPsychHtmlKeyboardResponse, 
+          stimulus: '', 
+          choices: "NO_KEYS", 
+          trial_duration: params.blankT 
+        });
+    }
+
+    // Final target character
+    trial_sequence.push({
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: stimulus_text[3],
+      choices: ['a', 'l'], 
+      data: {
+        task: is_practice ? 'practice_target' : 'CB.task', 
+        full_word: stimulus_text,
+        item_id: stim_data.item,
+        condition: stim_data.cond || stim_data.condition,
+        stimulus_type: is_practice ? 'practice' : ((stim_data.cond === 'filler' || stim_data.condition === 'filler') ? 'filler' : 'experimental'),
+        // Map correct_response from stimuli: 'vero' (true) → 'a', 'falso' (false) → 'l'
+        correct_response: (stim_data.correct_response === 'vero') ? 'a' : 'l'
+      },
+      on_finish: function(data){
+        // Determine if response is correct: compare participant response with correct_response
+        data.accuracy = (data.response === data.correct_response) ? 'CORRECT' : 'WRONG';
+      },
+      trial_duration: params.ldtT,
+      css_classes: ['ldt'],
+    });
+
+    // 1 second blank screen after LDT response
+    trial_sequence.push({
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: '',
+      choices: "NO_KEYS",
+      trial_duration: 1000
+    });
+
+    return trial_sequence;
+  }
+
+  /* -----------------------------------------------------------
+     5. BUILD TIMELINE
+     ----------------------------------------------------------- */
+  timeline.push(enter_fullscreen);
+  timeline.push(instructions);
+
+  practice_stimuli.forEach(item => {
+    timeline = timeline.concat(make_trial(item, true));
+  });
+
+  const start_real_experiment = {
+    type: jsPsychHtmlButtonResponse,
+    stimulus: `
+      <div style="text-align: center;"><img src="computer-svgrepo-com.svg" class="box-top-icon"></div>
+      <div class="instruction-text">
+        <div class="instruction-highlight">
+          <p class="instruction-highlight-text">练习阶段已结束。<br>点击下方按钮正式开始实验。</p>
+        </div>
+      </div>`,
+    choices: ['开始正式实验'],
+    button_html: '<button class="jspsych-btn btn-primary">%choice%</button>'
+  };
+  timeline.push(start_real_experiment);
+
+  // Add experimental stimuli to timeline
+  // Each list in stimuli.json already contains fillers mixed in
+  if (typeof experimental_stimuli !== 'undefined' && experimental_stimuli.length > 0) {
+      experimental_stimuli.forEach(item => {
+        timeline = timeline.concat(make_trial(item));
+      });
+  } else {
+    console.error("Stimuli not found or empty");
+  }
+
+  timeline.push({ type: jsPsychFullscreen, fullscreen_mode: false });
+
+  /* -----------------------------------------------------------
+     9. SAVE DATA
+     ----------------------------------------------------------- */
+ const save_data_trial = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: '<p class="instruction-text">实验结束。数据正在生成并保存，请稍候...</p>',
+    choices: "NO_KEYS",
+    trial_duration: 2000,
+    on_finish: function() {
+      jsPsych.data.get().localSave('csv', save_filename);
+    }
+  };
+  timeline.push(save_data_trial);
+
+   /* -----------------------------------------------------------
+     10. ENDING SCREEN
+     ----------------------------------------------------------- */
+  const thank_you_screen = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: `
+      <div class="instruction-text text-center thank-you-screen">
+        <div style="text-align: center;"><img src="heart-svgrepo-com.svg" class="box-top-icon"></div>
+        <div class="instruction-highlight">
+          <p class="instruction-highlight-text">感谢您参与我们的实验！如果您有任何疑问或需要进一步了解相关信息，欢迎随时通过邮件与我们联系。</p>
+        </div>
+        <div class="instruction-highlight">
+          <p class="instruction-highlight-text">联系方式:</p>
+          <p>Chiara Bogoni: <a href="mailto:chiara.bogoni@studenti.unipd.it">chiara.bogoni@studenti.unipd.it</a></p>
+          <p>Francesco Vespignani: <a href="mailto:francesco.vespignani@unipd.it">francesco.vespignani@unipd.it</a></p>
+          <p>Linda Badan: <a href="mailto:linda.badan@unipd.it">linda.badan@unipd.it</a></p>
+        </div>
+        <p class="closing-message-small">数据已自动保存。您现在可以关闭此窗口。</p>
+      </div>
+    `,
+    choices: "NO_KEYS" 
+  };
+
+  timeline.push(thank_you_screen);
+
+  // Start Experiment
+  jsPsych.run(timeline);
+  } // End initializeExperiment function
+
+  // Ensure DOM is ready before attempting fetch
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+      // Fetches will start after this event
+    });
+  }
+
+</script>
+</body>
+</html>

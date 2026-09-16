@@ -1,0 +1,55 @@
+ISTRUZIONI
+
+Gentile partecipante,
+
+il presente documento ha lo scopo di richiedere il Suo consenso informato alla partecipazione a uno studio di psicolinguistica. I responsabili del progetto sono Chiara Bogoni, dottoranda in Linguistica presso la Libera Università di Bolzano, la Prof.ssa Linda Badan (Dipartimento di Studi Linguistici e Letterari, Università di Padova) e i Professori Francesco Vespignani e Eduardo Navarrete (Dipartimento di Psicologia dello Sviluppo e della Socializzazione, Università di Padova). 
+
+Obiettivi e procedura della ricerca
+
+Questo studio si propone di indagare i meccanismi di predizione coinvolti nel processo di elaborazione delle espressioni idiomatiche in cinese (chéngyǔ). Il compito sperimentale consiste in un compito di decisione lessicale (Lexical Decision Task): durante l'esperimento Le verranno mostrate delle espressioni idiomatiche parola per parola. Quando apparirà l'ultima parola, Le verrà chiesto se quella appena visualizzata fosse un'espressione idiomatica corretta o errata. L'esperimento deve obbligatoriamente essere svolto al computer poiché la scelta lessicale va effettuata tramite una tastiera fisica, richiede una connessione internet stabile e un ambiente silenzioso e ben illuminato. 
+
+L'intero esperimento dura al massimo dieci minuti.
+
+Privacy e trattamento dei dati
+
+Prima di iniziare l'esperimento, Le chiederemo di compilare un breve questionario. Tutti i dati raccolti saranno trattati nel rispetto della normativa vigente. Ai sensi della normativa sulla protezione della privacy (Regolamento UE 2016/679 - GDPR e Decreto Legislativo italiano n. 196/2003 e successive modifiche), i dati vengono raccolti in forma anonima. I risultati della ricerca potranno essere pubblicati sotto forma di dati grezzi o aggregati in pubblicazioni scientifiche o su siti web di ricerca. Al termine dell'esperimento riceverà un codice univoco a Sua esclusiva conoscenza, tramite il quale potrà richiedere il ritiro o la cancellazione dei Suoi dati dal database della ricerca. Qualora la richiesta di cancellazione venga presentata un mese dopo la raccolta dei dati, non possiamo garantire che tali dati anonimi non siano già stati inseriti in altri database di ricerca.
+
+Consenso alla partecipazione e all'uso dei dati
+
+Con la presente dichiaro di acconsentire volontariamente a partecipare a questo studio. Confermo di:
+✅ Essere a conoscenza che questo studio rispetta le normative italiane vigenti (D.Lgs. 196/2003) e il GDPR UE 679/2016 in materia di protezione dei dati personali;
+✅ Essere a conoscenza del mio diritto di ritirarmi dallo studio in qualsiasi momento (semplicemente chiudendo la finestra del browser) senza dover fornire alcuna motivazione, e di poter richiedere l'esclusione dall'utilizzo dei dati forniti tramite il codice ottenuto alla fine dell'esperimento;
+✅ Essere a conoscenza del fatto che tutti i dati saranno raccolti in forma anonima e che il sistema non raccoglierà alcuna informazione relativa al computer o all'indirizzo IP utilizzato per lo svolgimento dell'esperimento;
+✅ Essere a conoscenza del fatto che i dati saranno utilizzati esclusivamente per scopi scientifici e statistici, e di confermare di avere compiuto 18 anni
+
+
+TESTO DOPO IL SURVEY #1
+Grazie per aver acconsentito a partecipare a questo studio. È pronto per iniziare l'esperimento? Clicchi sul pulsante per continuare!
+
+TESTO DOPO IL SURVEY #2
+Cliccando sul pulsante sottostante, l'esperimento passerà alla modalità a schermo intero. Si prega di leggere attentamente le istruzioni prima di iniziare.
+
+ISTRUZIONI DOPO SURVEY
+
+Buongiorno! Sta per prendere parte a un esperimento di decisione lessicale. Prima di cominciare, ricorda che l'esperimento va svolto obbligatoriamente su un laptop con tastiera. L'esperimento non funzionerà su tablet o telefonini.
+
+Ciascun elemento dell'esperimento è costituito da un'espressione idiomatica (che può essere corretta o errata), formata da quattro caratteri cinesi. All'inizio di ogni item sperimentale, sullo schermo comparirà l'immagine di un drago. Premi un tasto qualsiasi della tastiera per visualizzare i caratteri. I caratteri cinesi verranno presentati sullo schermo rapidamente, uno alla volta. Quando compare il quarto e ultimo carattere, dovrà decidere se quello che ha appena visto è un idioma corretto oppure no. 
+
+Quando compare l'ultimo carattere cinese, prema sulla tastiera:
+A = Sì (è un'espressione idiomatica corretta)
+L = No (questa espressione non è corretta)
+
+ATTENZIONE: La scelta deve essere il più veloce possibile! Se sarà troppo lento, comparirà un avviso che la solleciterà ad essere più veloce.
+
+Dopo ciascuna risposta, l'immagine del drago apparirà di nuovo. Quando è pronto, prema un tasto qualsiasi della tastiera per iniziare l'elemento successivo. Le consigliamo di svolgere l'esperimento in un ambiente silenzioso, ben illuminato e con una connessione internet stabile. Di seguito verranno proposti 5 elementi di prova per aiutarla a familiarizzare con la procedura sperimentale. Quando è pronto, clicchi sul pulsante.
+
+TIME ALERT
+
+Troppo lento! Prova a essere più veloce
+
+TESTO DOPO GLI ITEM DI PROVA
+
+Fase di prova terminata.
+Clicchi sul pulsante sottostante per iniziare ufficialmente l'esperimento. Ricorda, devi essere il più veloce possibile!
+
+
