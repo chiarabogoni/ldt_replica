@@ -1,217 +1,217 @@
 ﻿Item;Condition;Familiarity;Compositionality;Predictability;Register;Spelling;Pin_yin;Ur_Pinyin;Fig_Transl;Lit_Transl;Last_char;Strokes;StrokeDiff
-1;corr;4711;4.646;1;0.407;一心一意;yi1 xin1 yi1 yi4;yī xīn yī yì;Wholeheartedly;one heart one mind;意;13;NA
-1;diffT;4711;NA;1;NA;一心一疑;yi1 xin1 yi1 yi2;NA;NA;one heart one doubt;疑;14;1
-1;sameT;4711;NA;1;NA;一心一裔;yi1 xin1 yi1 yi4;NA;NA;one heart one posterity/descendants;裔;13;0
-1;noP;4711;NA;1;NA;一心一廉;yi1 xin1 yi1 lian2;NA;NA;one heart one honest;廉;13;0
-2;corr;4735;4.333;692;0.407;不知不觉;bu4 zhi1 bu4 jue2;bù zhī bù jué;Without realizing;not know not notice;觉;9;NA
-2;diffT;4735;NA;692;NA;不知不绝;bu4 zhi1 bu4 jue4;NA;NA;not know not break;绝;9;0
-2;sameT;4735;NA;692;NA;不知不珏;bu4 zhi1 bu4 jue2;NA;NA;not know not jade;珏;9;0
-2;noP;4735;NA;692;NA;不知不药;bu4 zhi1 bu4 yao4;NA;NA;not know not medicine;药;9;0
-3;corr;4574;4.373;1;0.704;全心全意;quan2 xin1 quan2 yi4;quán xīn quán yì;With great purpose;all heart all mind;意;13;NA
-3;diffT;4574;NA;1;NA;全心全疑;quan2 xin1 quan2 yi2;NA;NA;all heart all doubt;疑;14;1
-3;sameT;4574;NA;1;NA;全心全裔;quan2 xin1 quan2 yi4;NA;NA;all heart all posterity/descendants;裔;13;0
-3;noP;4574;NA;1;NA;全心全廉;quan2 xin1 quan2 lian2;NA;NA;all heart all honest;廉;13;0
-4;corr;493;4.246;1;0.815;再接再厉;zai4 jie1 zai4 li4;zài jiē zài lì;To persevere;again continue again dedicate;厉;5;NA
-4;diffT;493;NA;1;NA;再接再礼;zai4 jie1 zai4 li3;NA;NA;again continue again gift;礼;5;0
-4;sameT;493;NA;1;NA;再接再立;zai4 jie1 zai4 li4;NA;NA;again continue again stand;立;5;0
-4;noP;493;NA;1;NA;再接再史;zai4 jie1 zai4 shi3;NA;NA;again continue again history;史;5;0
-5;corr;463;4.784;1;0.704;冰天雪地;bing1 tian1 xue3 di4;bīng tiān xuě dì;Very cold;ice sky snow earth;地;6;NA
-5;diffT;463;NA;1;NA;冰天雪邸;bing1 tian1 xue3 di3;NA;NA;ice sky snow residence;邸;7;1
-5;sameT;463;NA;1;NA;冰天雪弟;bing1 tian1 xue3 di4;NA;NA;ice sky snow little brother;弟;7;1
-5;noP;463;NA;1;NA;冰天雪合;bing1 tian1 xue3 he2;NA;NA;ice sky snow together;合;6;0
-6;corr;467;4.293;1;0.815;千方百计;qian1 fang1 bai3 ji4;qiān fāng bǎi jì;Try everything;thousand methods hundred plans;计;4;NA
-6;diffT;467;NA;1;NA;千方百吉;qian1 fang1 bai3 ji2;NA;NA;thousand methods hundred lucky;吉;6;2
-6;sameT;467;NA;1;NA;千方百忌;qian1 fang1 bai3 ji4;NA;NA;thousand methods hundred fear;忌;7;3
-6;noP;467;NA;1;NA;千方百手;qian1 fang1 bai3 shou3;NA;NA;thousand methods hundred hands;手;4;0
-7;corr;4825;4.439;1;0.593;原汁原味;yuan2 zhi1 yuan2 wei4;yuán zhī yuán wèi;Authentic;original juice original taste;味;8;NA
-7;diffT;4825;NA;1;NA;原汁原违;yuan2 zhi1 yuan2 wei2;NA;NA;original juice original disobey;违;7;-1
-7;sameT;4825;NA;1;NA;原汁原畏;yuan2 zhi1 yuan2 wei4;NA;NA;original juice original fear;畏;9;1
-7;noP;4825;NA;1;NA;原汁原齿;yuan2 zhi1 yuan2 chi3;NA;NA;original juice original teeth;齿;8;0
-8;corr;4737;4.737;867;0.63;反腐倡廉;fan3 fu3 chang4 lian2;fǎn fǔ chàng lián;Fight against corruption;contrast corruption promote honesty;廉;13;NA
-8;diffT;4737;NA;867;NA;反腐倡链;fan3 fu3 chang4 lian4;NA;NA;contrast corruption promote chain;链;12;-1
-8;sameT;4737;NA;867;NA;反腐倡联;fan3 fu3 chang4 lian2;NA;NA;contrast corruption promote ally;联;12;-1
-8;noP;4737;NA;867;NA;反腐倡晶;fan3 fu3 chang4 jing1;NA;NA;contrast corruption promote crystal;晶;12;-1
-9;corr;4074;3.431;923;0.815;叹为观止;tan4 wei2 guan1 zhi3;tàn wéi guān zhǐ;To admire something;sigh consider see stop;止;4;NA
-9;diffT;4074;NA;923;NA;叹为观汁;tan4 wei2 guan1 zhi1;NA;NA;sigh consider see juice;汁;5;1
-9;sameT;4074;NA;923;NA;叹为观旨;tan4 wei2 guan1 zhi3;NA;NA;sigh consider see purpose;旨;6;2
-9;noP;4074;NA;923;NA;叹为观木;tan4 wei2 guan1 mu4;NA;NA;sigh consider see tree;木;4;0
-10;corr;4505;3.768;1;0.704;咬牙切齿;yao3 ya2 qie4 chi3;yǎo yá qiè chǐ;To be furious;bite mouth tighten teeth;齿;8;NA
-10;diffT;4505;NA;1;NA;咬牙切蚩;yao3 ya2 qie4 chi1;NA;NA;bite mouth tighten ignorant;蚩;10;2
-10;sameT;4505;NA;1;NA;咬牙切侈;yao3 ya2 qie4 chi3;NA;NA;bite mouth tighten extravagant;侈;8;0
-10;noP;4505;NA;1;NA;咬牙切兔;yao3 ya2 qie4 tu4;NA;NA;bite mouth tighten rabbit;兔;8;0
-11;corr;4641;3.712;1;0.667;因地制宜;yin1 di4 zhi4 yi2;yīn dì zhì yí;Best according to circumstances;depending earth establish best;宜;8;NA
-11;diffT;4641;NA;1;NA;因地制易;yin1 di4 zhi4 yi4;NA;NA;depending earth establish change;易;8;0
-11;sameT;4641;NA;1;NA;因地制怡;yin1 di4 zhi4 yi2;NA;NA;depending earth establish harmony;怡;8;0
-11;noP;4641;NA;1;NA;因地制诃;yin1 di4 zhi4 he1;NA;NA;depending earth establish scold;诃;8;0
-12;corr;485;4.257;1;0.444;大吃一惊;da4 chi1 yi1 jing1;dà chī yī jīng;To be surprised;big eat one shock;惊;11;NA
-12;diffT;485;NA;1;NA;大吃一颈;da4 chi1 yi1 jing3;NA;NA;big eat one neck;颈;11;0
-12;sameT;485;NA;1;NA;大吃一晶;da4 chi1 yi1 jing1;NA;NA;big eat one crystal;晶;12;1
-12;noP;485;NA;1;NA;大吃一绳;da4 chi1 yi1 shen2;NA;NA;big eat one rope;绳;11;0
-13;corr;4848;4.765;1;0.741;大同小异;da4 tong2 xiao3 yi4;dà tóng xiǎo yì;Similar;big equal small different;异;6;NA
-13;diffT;4848;NA;1;NA;大同小仪;da4 tong2 xiao3 yi2;NA;NA;big equal small ceremony;仪;5;-1
-13;sameT;4848;NA;1;NA;大同小亦;da4 tong2 xiao3 yi4;NA;NA;big equal small also;亦;6;0
-13;noP;4848;NA;1;NA;大同小合;da4 tong2 xiao3 he2;NA;NA;big equal small together;合;6;0
-14;corr;4598;4.671;1;0.667;天涯海角;tian1 ya2 hai3 jiao3;tiān yá hǎi jiǎo;Opposites;sky edge sea corner;角;7;NA
-14;diffT;4598;NA;1;NA;天涯海娇;tian1 ya2 hai3 jiao1;NA;NA;sky edge sea lovable;娇;9;2
-14;sameT;4598;NA;1;NA;天涯海狡;tian1 ya2 hai3 jiao3;NA;NA;sky edge sea crafty;狡;9;2
-14;noP;4598;NA;1;NA;天涯海弟;tian1 ya2 hai3 di4;NA;NA;sky edge sea brother;弟;7;0
-15;corr;4391;3.922;1;0.852;如火如荼;ru2 huo3 ru2 tu2;rú huǒ rú tú;Full expansion;like fire like grass;荼;10;NA
-15;diffT;4391;NA;1;NA;如火如兔;ru2 huo3 ru2 tu4;NA;NA;like fire like rabbit;兔;8;-2
-15;sameT;4391;NA;1;NA;如火如徒;ru2 huo3 ru2 tu2;NA;NA;like fire like apprentice;徒;10;0
-15;noP;4391;NA;1;NA;如火如衷;ru2 huo3 ru2 zhong1;NA;NA;like fire like feelings;衷;10;0
-16;corr;4706;4.412;1;0.704;安居乐业;an1 ju1 le4 ye4;ān jū lè yè;To live peacefully;peacefully live enjoy work;业;5;NA
-16;diffT;4706;NA;1;NA;安居乐爷;an1 ju1 le4 ye2;NA;NA;peacefully live enjoy grandpa;爷;6;1
-16;sameT;4706;NA;1;NA;安居乐叶;an1 ju1 le4 ye4;NA;NA;peacefully live enjoy leaf;叶;5;0
-16;noP;4706;NA;1;NA;安居乐矢;an1 ju1 le4 shi3;NA;NA;peacefully live enjoy arrow;矢;5;0
-17;corr;4662;4.294;1;0.815;对症下药;dui4 zheng4 xia4 yao4;duì zhèng xià yào;To treat something;regarding disease give medicine;药;9;NA
-17;diffT;4662;NA;1;NA;对症下姚;dui4 zheng4 xia4 yao2;NA;NA;regarding disease give handsome;姚;9;0
-17;sameT;4662;NA;1;NA;对症下钥;dui4 zheng4 xia4 yao4;NA;NA;regarding disease give key;钥;9;0
-17;noP;4662;NA;1;NA;对症下语;dui4 zheng4 xia4 yu3;NA;NA;regarding disease give  speech;语;9;0
-18;corr;4734;4.525;1;0.667;应有尽有;ying1 you3 jin4 you3;yīng yǒu jìn yǒu;Everything at its place;should exist everything exist;有;6;NA
-18;diffT;4734;NA;1;NA;应有尽优;ying1 you3 jin4 you1;NA;NA;should exist everything excellent;优;6;0
-18;sameT;4734;NA;1;NA;应有尽卣;ying1 you3 jin4 you3;NA;NA;should exist everything winecontainer;卣;7;1
-18;noP;4734;NA;1;NA;应有尽收;ying1 you3 jin4 shou1;NA;NA;should exist everything receive;收;6;0
-19;corr;4742;4.72;1;0.741;弄虚作假;nong4 xu1 zuo4 jia3;nòng xū zuò jiǎ;Lie;do fake create mischievous;假;11;NA
-19;diffT;4742;NA;1;NA;弄虚作颊;nong4 xu1 zuo4 jia2;NA;NA;do fake create cheeks;颊;12;1
-19;sameT;4742;NA;1;NA;弄虚作胛;nong4 xu1 zuo4 jia3;NA;NA;do fake create shoulder_blade;胛;9;-2
-19;noP;4742;NA;1;NA;弄虚作梨;nong4 xu1 zuo4 li2;NA;NA;do fake create pear;梨;11;0
-20;corr;4449;3.559;1;0.889;引人入胜;yin3 ren2 ru4 sheng4;yǐn rén rù shèng;Mesmerize people with beauty;lure person enter splendor;胜;9;NA
-20;diffT;4449;NA;1;NA;引人入绳;yin3 ren2 ru4 sheng2;NA;NA;lure person enter rope/string;绳;11;2
-20;sameT;4449;NA;1;NA;引人入盛;yin3 ren2 ru4 sheng4;NA;NA;lure person enter prosperous;盛;11;2
-20;noP;4449;NA;1;NA;引人入俣;yin3 ren2 ru4 yu3;NA;NA;lure person enter big;俣;9;0
-21;corr;4707;3.908;1;0.778;得心应手;de2 xin1 ying4 shou3;dé xīn yìng shǒu;Do something with skills;obtain heart adapt hand;手;4;NA
-21;diffT;4707;NA;1;NA;得心应收;de2 xin1 ying4 shou1;NA;NA;obtain heart adapt receive;收;6;2
-21;sameT;4707;NA;1;NA;得心应守;de2 xin1 ying4 shou3;NA;NA;obtain heart adapt guard;守;6;2
-21;noP;4707;NA;1;NA;得心应月;de2 xin1 ying4 yue4;NA;NA;obtain heart adapt moon;月;4;0
-22;corr;4632;4.294;1;0.704;心平气和;xin1 ping2 qi4 he2;xīn píng qì hé;Peaceful attitude;heart quiet breath peaceful;和;8;NA
-22;diffT;4632;NA;1;NA;心平气诃;xin1 ping2 qi4 he1;NA;NA;heart quiet breath scold;诃;8;0
-22;sameT;4632;NA;1;NA;心平气河;xin1 ping2 qi4 he2;NA;NA;heart quiet breath river;河;8;0
-22;noP;4632;NA;1;NA;心平气帜;xin1 ping2 qi4 zhi4;NA;NA;heart quiet breath flag;帜;8;0
-23;corr;4615;4.085;1;0.963;心旷神怡;xin1 kuang4 shen2 yi2;xīn kuàng shén yí;Full of joy;heart free spirit harmonious;怡;8;NA
-23;diffT;4615;NA;1;NA;心旷神异;xin1 kuang4 shen2 yi4;NA;NA;heart free spirit different;异;6;-2
-23;sameT;4615;NA;1;NA;心旷神夷;xin1 kuang4 shen2 yi2;NA;NA;heart free spirit barbarians;夷;6;-2
-23;noP;4615;NA;1;NA;心旷神籴;xin1 kuang4 shen2 di3;NA;NA;heart free spirit grain;籴;8;0
-24;corr;4828;4.492;1;0.519;心满意足;xin1 man3 yi4 zu2;xīn mǎn yì zú;Happy in the heart;heart full desire enough;足;7;NA
-24;diffT;4828;NA;1;NA;心满意诅;xin1 man3 yi4 zu3;NA;NA;heart full desire curse;诅;7;0
-24;sameT;4828;NA;1;NA;心满意卒;xin1 man3 yi4 zu2;NA;NA;heart full desire soldier;卒;8;1
-24;noP;4828;NA;1;NA;心满意卣;xin1 man3 yi4 you3;NA;NA;heart full desire wine container;卣;7;0
-25;corr;4753;4.671;1;0.63;心甘情愿;xin1 gan1 qing2 yuan4;xīn gān qíng yuàn;Do something with passion;heart sweet emotion will;愿;14;NA
-25;diffT;4753;NA;1;NA;心甘情缘;xin1 gan1 qing2 yuan2;NA;NA;heart sweet emotion fate;缘;12;-2
-25;sameT;4753;NA;1;NA;心甘情媛;xin1 gan1 qing2 yuan4;NA;NA;heart sweet emotion beautiful_woman;媛;12;-2
-25;noP;4753;NA;1;NA;心甘情疑;xin1 gan1 qing2 yi4;NA;NA;heart sweet emotion doubt;疑;14;0
-26;corr;4813;4.6;1;0.889;志同道合;zhi4 tong2 dao4 he2;zhì tóng dào hé;To have the same principles;will same road align;合;6;NA
-26;diffT;4813;NA;1;NA;志同道吓;zhi4 tong2 dao4 he4;NA;NA;will same road scare;吓;6;0
-26;sameT;4813;NA;1;NA;志同道何;zhi4 tong2 dao4 he2;NA;NA;will same road carry;何;7;1
-26;noP;4813;NA;1;NA;志同道亦;zhi4 tong2 dao4 yi4;NA;NA;will same road also;亦;6;0
-27;corr;4679;3.847;1;0.741;情有独钟;qing2 you3 du2 zhong1;qíng yǒu dú zhōng;Attraction;love have only concentrate;钟;9;NA
-27;diffT;4679;NA;1;NA;情有独重;qing2 you3 du2 zhong4;NA;NA;love have only heavy;重;9;0
-27;sameT;4679;NA;1;NA;情有独衷;qing2 you3 du2 zhong1;NA;NA;love have only innerfeelings;衷;10;1
-27;noP;4679;NA;1;NA;情有独珏;qing2 you3 du2 yue2;NA;NA;love have only jade;珏;9;0
-28;corr;466;4.268;1;0.815;惊天动地;jing1 tian1 dong4 di4;jīng tiān dòng dì;Huge impact;shock sky move ground;地;6;NA
-28;diffT;466;NA;1;NA;惊天动邸;jing1 tian1 dong4 di3;NA;NA;shock sky move residence;邸;7;1
-28;sameT;466;NA;1;NA;惊天动弟;jing1 tian1 dong4 di4;NA;NA;shock sky move littlebrother;弟;7;1
-28;noP;466;NA;1;NA;惊天动守;jing1 tian1 dong4 shou3;NA;NA;shock sky move type;守;6;0
-29;corr;4731;3.915;1;0.815;我行我素;wo3 xing2 wo3 su4;wǒ xíng wǒ sù;Not care about people's opinions;me walk me essence;素;10;NA
-29;diffT;4731;NA;1;NA;我行我俗;wo3 xing2 wo3 su2;NA;NA;me walk me popular;俗;9;-1
-29;sameT;4731;NA;1;NA;我行我速;wo3 xing2 wo3 su4;NA;NA;me walk me fast;速;10;0
-29;noP;4731;NA;1;NA;我行我涌;wo3 xing2 wo3 yong3;NA;NA;me walk me emerge;涌;10;0
-30;corr;4443;2.805;1;0.852;扑朔迷离;pu1 shuo4 mi2 li2;pū shuò mí lí;not able to tell with certainty;jump male uncertain distinguish;离;10;NA
-30;diffT;4443;NA;1;NA;扑朔迷莉;pu1 shuo4 mi2 li4;NA;NA;jump male uncertain jasmine;莉;10;0
-30;sameT;4443;NA;1;NA;扑朔迷梨;pu1 shuo4 mi2 li2;NA;NA;jump male uncertain pear;梨;11;1
-30;noP;4443;NA;1;NA;扑朔迷素;pu1 shuo4 mi2 su4;NA;NA;jump male uncertain essence;素;10;0
-31;corr;4759;4.05;909;0.667;日新月异;ri4 xin1 yue4 yi4;rì xīn yuè yì;change day after day;sun new moon different;异;6;NA
-31;diffT;4759;NA;909;NA;日新月仪;ri4 xin1 yue4 yi2;NA;NA;sun new moon ceremony;仪;5;-1
-31;sameT;4759;NA;909;NA;日新月亦;ri4 xin1 yue4 yi4;NA;NA;sun new moon also;亦;6;0
-31;noP;4759;NA;909;NA;日新月吉;ri4 xin1 yue4 ji2;NA;NA;sun new moon lucky;吉;6;0
-32;corr;4543;3.235;538;0.889;有的放矢;you3 de5 fang4 shi3;yǒu de fàng shǐ;to have a precise goal;have target throw arrow;矢;5;NA
-32;diffT;4543;NA;538;NA;有的放石;you3 de5 fang4 shi2;NA;NA;have target throw rock;石;5;0
-32;sameT;4543;NA;538;NA;有的放史;you3 de5 fang4 shi3;NA;NA;have target throw history;史;5;0
-32;noP;4543;NA;538;NA;有的放叶;you3 de5 fang4 ye4;NA;NA;have target throw leaf;叶;5;0
-33;corr;4256;3.898;75;0.963;标本兼治;biao1 ben3 jian1 zhi4;biāo běn jiān zhì;deal with multiple problems;surface root together treat;治;8;NA
-33;diffT;4256;NA;75;NA;标本兼直;biao1 ben3 jian1 zhi2;NA;NA;surface root together straighten;直;8;0
-33;sameT;4256;NA;75;NA;标本兼质;biao1 ben3 jian1 zhi4;NA;NA;surface root together question;质;8;0
-33;noP;4256;NA;75;NA;标本兼娇;biao1 ben3 jian1 jiao1;NA;NA;surface root together lovable;娇;9;1
-34;corr;4719;4.474;867;0.889;根深蒂固;gen1 shen1 di4 gu4;gēn shēn dì gù;deeply rooted thing;root deep sprout strong;固;8;NA
-34;diffT;4719;NA;867;NA;根深蒂沽;gen1 shen1 di4 gu1;NA;NA;root deep sprout buy;沽;8;0
-34;sameT;4719;NA;867;NA;根深蒂故;gen1 shen1 di4 gu4;NA;NA;root deep sprout old;故;9;1
-34;noP;4719;NA;867;NA;根深蒂直;gen1 shen1 di4 zhi2;NA;NA;root deep sprout straighten;直;8;0
-35;corr;493;4.439;1;0.704;欢天喜地;huan1 tian1 xi3 di4;huān tiān xǐ dì;extremely happy;happy sky joyful earth;地;6;NA
-35;diffT;493;NA;1;NA;欢天喜籴;huan1 tian1 xi3 di3;NA;NA;happy sky joyful buy grain;籴;8;2
-35;sameT;493;NA;1;NA;欢天喜弟;huan1 tian1 xi3 di4;NA;NA;happy sky joyful brother;弟;9;3
-35;noP;493;NA;1;NA;欢天喜爷;huan1 tian1 xi3 he2;NA;NA;happy sky joyful grandpa;爷;6;0
-36;corr;463;4.686;769;0.519;求真务实;qiu2 zhen1 wu4 shi2;qiú zhēn wù shí;do things seriously;search truth concentrate truth;实;8;NA
-36;diffT;463;NA;769;NA;求真务式;qiu2 zhen1 wu4 shi4;NA;NA;search truth concentrate type;式;6;-2
-36;sameT;463;NA;769;NA;求真务时;qiu2 zhen1 wu4 shi2;NA;NA;search truth concentrate hour;时;7;-1
-36;noP;463;NA;769;NA;求真务雨;qiu2 zhen1 wu4 yu4;NA;NA;search truth concentrate rain;雨;8;0
-37;corr;4663;3.686;1;0.741;游刃有余;you2 ren4 you3 yu2;yóu rèn yǒu yú;sort it out with skills;move blade have extra;余;7;NA
-37;diffT;4663;NA;1;NA;游刃有雨;you2 ren4 you3 yu4;NA;NA;move blade have rain;雨;8;1
-37;sameT;4663;NA;1;NA;游刃有鱼;you2 ren4 you3 yu2;NA;NA;move blade have fish;鱼;8;1
-37;noP;4663;NA;1;NA;游刃有邸;you2 ren4 you3 di3;NA;NA;move blade have residence;邸;7;0
-38;corr;4652;4.294;769;0.852;独树一帜;du2 shu4 yi1 zhi4;dú shù yī zhì;stand out;only stand one flag;帜;8;NA
-38;diffT;4652;NA;769;NA;独树一直;du2 shu4 yi1 zhi2;NA;NA;only stand one straighten;直;8;0
-38;sameT;4652;NA;769;NA;独树一质;du2 shu4 yi1 zhi4;NA;NA;only stand one question;质;8;0
-38;noP;4652;NA;769;NA;独树一终;du2 shu4 yi1 zhong1;NA;NA;only stand one end;终;8;0
-39;corr;4324;3.765;1;0.852;琳琅满目;lin2 lang2 man3 mu4;lín láng mǎn mù;beautiful things to see;beautiful jem full eye;目;5;NA
-39;diffT;4324;NA;1;NA;琳琅满母;lin2 lang2 man3 mu3;NA;NA;beautiful jem full mother;母;5;0
-39;sameT;4324;NA;1;NA;琳琅满木;lin2 lang2 man3 mu4;NA;NA;beautiful jem full tree;木;4;-1
-39;noP;4324;NA;1;NA;琳琅满汁;lin2 lang2 man3 zhi1;NA;NA;beautiful jem full juice;汁;5;0
-40;corr;4828;4.521;1;0.556;甜言蜜语;tian2 yan2 mi4 yu3;tián yán mì yǔ;to use flattering words;sweet words honey speech;语;9;NA
-40;diffT;4828;NA;1;NA;甜言蜜鱼;tian2 yan2 mi4 yu2;NA;NA;sweet words honey fish;鱼;8;-1
-40;sameT;4828;NA;1;NA;甜言蜜俣;tian2 yan2 mi4 yu3;NA;NA;sweet words honey big;俣;9;0
-40;noP;4828;NA;1;NA;甜言蜜姚;tian2 yan2 mi4 yao3;NA;NA;sweet words honey handsome;姚;9;0
-41;corr;4782;4.322;1;0.778;精打细算;jing1 da3 xi4 suan4;jīng dǎ xì suàn;to plan in detail;refined do subtle count;算;14;NA
-41;diffT;4782;NA;1;NA;精打细酸;jing1 da3 xi4 suan1;NA;NA;refined do subtle sour;酸;14;0
-41;sameT;4782;NA;1;NA;精打细蒜;jing1 da3 xi4 suan4;NA;NA;refined do subtle garlic;蒜;13;-1
-41;noP;4782;NA;1;NA;精打细疑;jing1 da3 xi4 yi2;NA;NA;refined do subtle doubt;疑;14;0
-42;corr;4382;3.608;1;0.815;耐人寻味;nai4 ren2 xun2 wei4;nài rén xún wèi;to spark the imagination;resist people search taste;味;8;NA
-42;diffT;4382;NA;1;NA;耐人寻违;nai4 ren2 xun2 wei2;NA;NA;resist people search disobey;违;7;-1
-42;sameT;4382;NA;1;NA;耐人寻畏;nai4 ren2 xun2 wei4;NA;NA;resist people search fear;畏;9;1
-42;noP;4382;NA;1;NA;耐人寻诃;nai4 ren2 xun2 he1;NA;NA;resist people search scold;诃;8;0
-43;corr;4632;4.431;1;0.778;自始至终;zi4 shi3 zhi4 zhong1;zì shǐ zhì zhōng;endless;from beginning to end;终;8;NA
-43;diffT;4632;NA;1;NA;自始至重;zi4 shi3 zhi4 zhong4;NA;NA;from beginning to heavy;重;9;1
-43;sameT;4632;NA;1;NA;自始至衷;zi4 shi3 zhi4 zhong1;NA;NA;from beginning to innerfeelings;衷;10;2
-43;noP;4632;NA;1;NA;自始至贤;zi4 shi3 zhi4 xian2;NA;NA;from beginning to worthy;贤;8;0
-44;corr;4691;4.216;1;0.852;自欺欺人;zi4 qi1 qi1 ren2;zì qī qī rén;to deceive;self deceive deceive person;人;2;NA
-44;diffT;4691;NA;1;NA;自欺欺刃;zi4 qi1 qi1 ren4;NA;NA;self deceive deceive edge_of_the_knife;刃;3;1
-44;sameT;4691;NA;1;NA;自欺欺壬;zi4 qi1 qi1 ren2;NA;NA;self deceive deceive ninth;壬;4;2
-44;noP;4691;NA;1;NA;自欺欺力;zi4 qi1 qi1 li4;NA;NA;self deceive deceive power;力;2;0
-45;corr;485;4.686;1;0.667;自言自语;zi4 yan2 zi4 yu3;zì yán zì yǔ;think out loud;self talk self speech;语;9;NA
-45;diffT;485;NA;1;NA;自言自鱼;zi4 yan2 zi4 yu2;NA;NA;self talk self fish;鱼;8;-1
-45;sameT;485;NA;1;NA;自言自俣;zi4 yan2 zi4 yu3;NA;NA;self talk self big;俣;9;0
-45;noP;485;NA;1;NA;自言自胜;zi4 yan2 zi4 sheng4;NA;NA;self talk self splendor;胜;9;0
-46;corr;4152;3.784;769;0.852;舞文弄墨;wu3 wen2 nong4 mo4;wǔ wén nòng mò;play with words;play writing manipulate ink;墨;15;NA
-46;diffT;4152;NA;769;NA;舞文弄模;wu3 wen2 nong4 mo2;NA;NA;play writing manipulate model;模;13;-2
-46;sameT;4152;NA;769;NA;舞文弄磨;wu3 wen2 nong4 mo4;NA;NA;play writing manipulate grind;磨;16;1
-46;noP;4152;NA;769;NA;舞文弄酸;wu3 wen2 nong4 suan1;NA;NA;play writing manipulate sour;酸;14;-1
-47;corr;4667;4.561;1;0.889;若隐若现;ruo4 yin3 ruo4 xian4;ruò yǐn ruò xiàn;be vague;like hide like appear;现;8;NA
-47;diffT;4667;NA;1;NA;若隐若贤;ruo4 yin3 ruo4 xian2;NA;NA;like hide like worthy;贤;8;0
-47;sameT;4667;NA;1;NA;若隐若限;ruo4 yin3 ruo4 xian4;NA;NA;like hide like limit;限;8;0
-47;noP;4667;NA;1;NA;若隐若侈;ruo4 yin3 ruo4 chi3;NA;NA;like hide like extravagant;侈;8;0
-48;corr;491;4.305;1;0.926;见义勇为;jian4 yi4 yong3 wei2;jiàn yì yǒng wéi;to be brave;see justice brave act;为;4;NA
-48;diffT;491;NA;1;NA;见义勇未;jian4 yi4 yong3 wei4;NA;NA;see justice brave not_yet;未;5;1
-48;sameT;491;NA;1;NA;见义勇韦;jian4 yi4 yong3 wei2;NA;NA;see justice brave leather;韦;4;0
-48;noP;491;NA;1;NA;见义勇月;jian4 yi4 yong3 yue4;NA;NA;see justice brave moon;月;4;0
-49;corr;4632;4.439;867;0.704;谈天说地;tan2 tian1 shuo1 di4;tán tiān shuō dì;talk of everything;say sky say earth;地;6;NA
-49;diffT;4632;NA;867;NA;谈天说邸;tan2 tian1 shuo1 di3;NA;NA;say sky say residence;邸;7;1
-49;sameT;4632;NA;867;NA;谈天说弟;tan2 tian1 shuo1 di4;NA;NA;say sky say little brother;弟;7;1
-49;noP;4632;NA;867;NA;谈天说旨;tan2 tian1 shuo1 zhi3;NA;NA;say sky say purpose;旨;6;0
-50;corr;4739;4.784;1;0.852;赏心悦目;shang3 xin1 yue4 mu4;shǎng xīn yuè mù;nice to hear;appreciate heart return eye;目;5;NA
-50;diffT;4739;NA;1;NA;赏心悦母;shang3 xin1 yue4 mu3;NA;NA;appreciate heart return mother;母;5;0
-50;sameT;4739;NA;1;NA;赏心悦木;shang3 xin1 yue4 mu4;NA;NA;appreciate heart return tree;木;4;-1
-50;noP;4739;NA;1;NA;赏心悦仪;shang3 xin1 yue4 yi2;NA;NA;appreciate heart return ceremony;仪;5;0
-51;corr;4621;4.109;1;0.704;铺天盖地;pu1 tian1 gai4 di4;pū tiān gài dì;spread everywhere;spread sky cover soil;地;6;NA
-51;diffT;4621;NA;1;NA;铺天盖籴;pu1 tian1 gai4 di3;NA;NA;spread sky cover buy grain;籴;8;2
-51;sameT;4621;NA;1;NA;铺天盖帝;pu1 tian1 gai4 di4;NA;NA;spread sky cover emperor;帝;9;3
-51;noP;4621;NA;1;NA;铺天盖夷;pu1 tian1 gai4 yi2;NA;NA;spread sky cover barbarians;夷;6;0
-52;corr;4674;3.059;769;0.741;风花雪月;feng1 hua1 xue3 yue4;fēng huā xuě yuè;romantic;wind flower snow moon;月;4;NA
-52;diffT;4674;NA;769;NA;风花雪曰;feng1 hua1 xue3 yue1;NA;NA;wind flower snow speak;曰;4;0
-52;sameT;4674;NA;769;NA;风花雪乐;feng1 hua1 xue3 yue4;NA;NA;wind flower snow music;乐;5;1
-52;noP;4674;NA;769;NA;风花雪止;feng1 hua1 xue3 zhi3;NA;NA;wind flower snow stop;止;4;0
-53;corr;4475;3.957;1;0.926;风起云涌;feng1 qi3 yun2 yong3;fēng qǐ yún yǒng;largely spread phenomena;wind rise cloud emerge;涌;10;NA
-53;diffT;4475;NA;1;NA;风起云庸;feng1 qi3 yun2 yong1;NA;NA;wind rise cloud common;庸;11;1
-53;sameT;4475;NA;1;NA;风起云勇;feng1 qi3 yun2 yong3;NA;NA;wind rise cloud brave;勇;9;-1
-53;noP;4475;NA;1;NA;风起云沽;feng1 qi3 yun2 gu1;NA;NA;wind rise cloud buy;沽;8;-2
-54;corr;4735;4.647;1;0.852;齐心协力;qi2 xin1 xie2 li4;qí xīn xié lì;work together;together heart cooperate power;力;2;NA
-54;diffT;4735;NA;1;NA;齐心协礼;qi2 xin1 xie2 li3;NA;NA;together heart cooperate gift;礼;5;3
-54;sameT;4735;NA;1;NA;齐心协立;qi2 xin1 xie2 li4;NA;NA;together heart cooperate stand;立;5;3
-54;noP;4735;NA;1;NA;齐心协人;qi2 xin1 xie2 ren2;NA;NA;together heart cooperate person;人;2;0
+1;corr;4.711;4.646;1;0.407;一心一意;yi1 xin1 yi1 yi4;yī xīn yī yì;Wholeheartedly;one heart one mind;意;13;NA
+1;diffT;4.711;NA;1;NA;一心一疑;yi1 xin1 yi1 yi2;NA;NA;one heart one doubt;疑;14;1
+1;sameT;4.711;NA;1;NA;一心一裔;yi1 xin1 yi1 yi4;NA;NA;one heart one posterity/descendants;裔;13;0
+1;noP;4.711;NA;1;NA;一心一酸;yi1 xin1 yi1 suan1;NA;NA;one heart one sour;酸;14;1
+2;corr;4.735;4.333;0.692;0.407;不知不觉;bu4 zhi1 bu4 jue2;bù zhī bù jué;Without realizing;not know not notice;觉;9;NA
+2;diffT;4.735;NA;0.692;NA;不知不绝;bu4 zhi1 bu4 jue4;NA;NA;not know not break;绝;9;0
+2;sameT;4.735;NA;0.692;NA;不知不珏;bu4 zhi1 bu4 jue2;NA;NA;not know not jade;珏;9;0
+2;noP;4.735;NA;0.692;NA;不知不药;bu4 zhi1 bu4 yao4;NA;NA;not know not medicine;药;9;0
+3;corr;4.574;4.373;1;0.704;全心全意;quan2 xin1 quan2 yi4;quán xīn quán yì;With great purpose;all heart all mind;意;13;NA
+3;diffT;4.574;NA;1;NA;全心全疑;quan2 xin1 quan2 yi2;NA;NA;all heart all doubt;疑;14;1
+3;sameT;4.574;NA;1;NA;全心全裔;quan2 xin1 quan2 yi4;NA;NA;all heart all posterity/descendants;裔;13;0
+3;noP;4.574;NA;1;NA;全心全酸;quan2 xin1 quan2 suan1;NA;NA;all heart all honest;酸;14;1
+4;corr;4.930;4.246;1;0.815;再接再厉;zai4 jie1 zai4 li4;zài jiē zài lì;To persevere;again continue again dedicate;厉;5;NA
+4;diffT;4.930;NA;1;NA;再接再礼;zai4 jie1 zai4 li3;NA;NA;again continue again gift;礼;5;0
+4;sameT;4.930;NA;1;NA;再接再立;zai4 jie1 zai4 li4;NA;NA;again continue again stand;立;5;0
+4;noP;4.930;NA;1;NA;再接再史;zai4 jie1 zai4 shi3;NA;NA;again continue again history;史;5;0
+5;corr;4.630;4.784;1;0.704;冰天雪地;bing1 tian1 xue3 di4;bīng tiān xuě dì;Very cold;ice sky snow earth;地;6;NA
+5;diffT;4.630;NA;1;NA;冰天雪邸;bing1 tian1 xue3 di3;NA;NA;ice sky snow residence;邸;7;1
+5;sameT;4.630;NA;1;NA;冰天雪弟;bing1 tian1 xue3 di4;NA;NA;ice sky snow little brother;弟;7;1
+5;noP;4.630;NA;1;NA;冰天雪诅;bing1 tian1 xue3 zu3;NA;NA;ice sky snow curse;诅;7;1
+6;corr;4.670;4.293;1;0.815;千方百计;qian1 fang1 bai3 ji4;qiān fāng bǎi jì;Try everything;thousand methods hundred plans;计;4;NA
+6;diffT;4.670;NA;1;NA;千方百吉;qian1 fang1 bai3 ji2;NA;NA;thousand methods hundred lucky;吉;6;2
+6;sameT;4.670;NA;1;NA;千方百忌;qian1 fang1 bai3 ji4;NA;NA;thousand methods hundred fear;忌;7;3
+6;noP;4.670;NA;1;NA;千方百有;qian1 fang1 bai3 you3;NA;NA;thousand methods hundred exist;有;6;2
+7;corr;4.825;4.439;1;0.593;原汁原味;yuan2 zhi1 yuan2 wei4;yuán zhī yuán wèi;Authentic;original juice original taste;味;8;NA
+7;diffT;4.825;NA;1;NA;原汁原违;yuan2 zhi1 yuan2 wei2;NA;NA;original juice original disobey;违;7;-1
+7;sameT;4.825;NA;1;NA;原汁原畏;yuan2 zhi1 yuan2 wei4;NA;NA;original juice original fear;畏;9;1
+7;noP;4.825;NA;1;NA;原汁原角;yuan2 zhi1 yuan2 jiao3;NA;NA;original juice original corner;角;7;-1
+8;corr;4.737;4.737;0.867;0.63;反腐倡廉;fan3 fu3 chang4 lian2;fǎn fǔ chàng lián;Fight against corruption;contrast corruption promote honesty;廉;13;NA
+8;diffT;4.737;NA;0.867;NA;反腐倡链;fan3 fu3 chang4 lian4;NA;NA;contrast corruption promote chain;链;12;-1
+8;sameT;4.737;NA;0.867;NA;反腐倡联;fan3 fu3 chang4 lian2;NA;NA;contrast corruption promote ally;联;12;-1
+8;noP;4.737;NA;0.867;NA;反腐倡晶;fan3 fu3 chang4 jing1;NA;NA;contrast corruption promote crystal;晶;12;-1
+9;corr;4.074;3.431;0.923;0.815;叹为观止;tan4 wei2 guan1 zhi3;tàn wéi guān zhǐ;To admire something;sigh consider see stop;止;4;NA
+9;diffT;4.074;NA;0.923;NA;叹为观汁;tan4 wei2 guan1 zhi1;NA;NA;sigh consider see juice;汁;5;1
+9;sameT;4.074;NA;0.923;NA;叹为观旨;tan4 wei2 guan1 zhi3;NA;NA;sigh consider see purpose;旨;6;2
+9;noP;4.074;NA;0.923;NA;叹为观乐;tan4 wei2 guan1 yue4;NA;NA;sigh consider see music;乐;5;1
+10;corr;4.505;3.768;1;0.704;咬牙切齿;yao3 ya2 qie4 chi3;yǎo yá qiè chǐ;To be furious;bite mouth tighten teeth;齿;8;NA
+10;diffT;4.505;NA;1;NA;咬牙切蚩;yao3 ya2 qie4 chi1;NA;NA;bite mouth tighten ignorant;蚩;10;2
+10;sameT;4.505;NA;1;NA;咬牙切侈;yao3 ya2 qie4 chi3;NA;NA;bite mouth tighten extravagant;侈;8;0
+10;noP;4.505;NA;1;NA;咬牙切莉;yao3 ya2 qie4 li4;NA;NA;bite mouth tighten jasmine;莉;10;2
+11;corr;4.641;3.712;1;0.667;因地制宜;yin1 di4 zhi4 yi2;yīn dì zhì yí;Best according to circumstances;depending earth establish best;宜;8;NA
+11;diffT;4.641;NA;1;NA;因地制易;yin1 di4 zhi4 yi4;NA;NA;depending earth establish change;易;8;0
+11;sameT;4.641;NA;1;NA;因地制怡;yin1 di4 zhi4 yi2;NA;NA;depending earth establish harmony;怡;8;0
+11;noP;4.641;NA;1;NA;因地制诃;yin1 di4 zhi4 he1;NA;NA;depending earth establish scold;诃;8;0
+12;corr;4.850;4.257;1;0.444;大吃一惊;da4 chi1 yi1 jing1;dà chī yī jīng;To be surprised;big eat one shock;惊;11;NA
+12;diffT;4.850;NA;1;NA;大吃一颈;da4 chi1 yi1 jing3;NA;NA;big eat one neck;颈;11;0
+12;sameT;4.850;NA;1;NA;大吃一晶;da4 chi1 yi1 jing1;NA;NA;big eat one crystal;晶;12;1
+12;noP;4.850;NA;1;NA;大吃一绳;da4 chi1 yi1 shen2;NA;NA;big eat one rope;绳;11;0
+13;corr;4.848;4.765;1;0.741;大同小异;da4 tong2 xiao3 yi4;dà tóng xiǎo yì;Similar;big equal small different;异;6;NA
+13;diffT;4.848;NA;1;NA;大同小仪;da4 tong2 xiao3 yi2;NA;NA;big equal small ceremony;仪;5;-1
+13;sameT;4.848;NA;1;NA;大同小亦;da4 tong2 xiao3 yi4;NA;NA;big equal small also;亦;6;0
+13;noP;4.848;NA;1;NA;大同小母;da4 tong2 xiao3 mu3;NA;NA;big equal small mother;母;5;-1
+14;corr;4.598;4.671;1;0.667;天涯海角;tian1 ya2 hai3 jiao3;tiān yá hǎi jiǎo;Opposites;sky edge sea corner;角;7;NA
+14;diffT;4.598;NA;1;NA;天涯海娇;tian1 ya2 hai3 jiao1;NA;NA;sky edge sea lovable;娇;9;2
+14;sameT;4.598;NA;1;NA;天涯海狡;tian1 ya2 hai3 jiao3;NA;NA;sky edge sea crafty;狡;9;2
+14;noP;4.598;NA;1;NA;天涯海重;tian1 ya2 hai3 zhong4;NA;NA;sky edge sea heavy;重;9;2
+15;corr;4.391;3.922;1;0.852;如火如荼;ru2 huo3 ru2 tu2;rú huǒ rú tú;Full expansion;like fire like grass;荼;10;NA
+15;diffT;4.391;NA;1;NA;如火如兔;ru2 huo3 ru2 tu4;NA;NA;like fire like rabbit;兔;8;-2
+15;sameT;4.391;NA;1;NA;如火如徒;ru2 huo3 ru2 tu2;NA;NA;like fire like apprentice;徒;10;0
+15;noP;4.391;NA;1;NA;如火如诃;ru2 huo3 ru2 he1;NA;NA;like fire like scold;诃;8;-2
+16;corr;4.706;4.412;1;0.704;安居乐业;an1 ju1 le4 ye4;ān jū lè yè;To live peacefully;peacefully live enjoy work;业;5;NA
+16;diffT;4.706;NA;1;NA;安居乐爷;an1 ju1 le4 ye2;NA;NA;peacefully live enjoy grandpa;爷;6;1
+16;sameT;4.706;NA;1;NA;安居乐叶;an1 ju1 le4 ye4;NA;NA;peacefully live enjoy leaf;叶;5;0
+16;noP;4.706;NA;1;NA;安居乐吉;an1 ju1 le4 ji2;NA;NA;peacefully live enjoy lucky;吉;6;1
+17;corr;4.662;4.294;1;0.815;对症下药;dui4 zheng4 xia4 yao4;duì zhèng xià yào;To treat something;regarding disease give medicine;药;9;NA
+17;diffT;4.662;NA;1;NA;对症下姚;dui4 zheng4 xia4 yao2;NA;NA;regarding disease give handsome;姚;9;0
+17;sameT;4.662;NA;1;NA;对症下钥;dui4 zheng4 xia4 yao4;NA;NA;regarding disease give key;钥;9;0
+17;noP;4.662;NA;1;NA;对症下语;dui4 zheng4 xia4 yu3;NA;NA;regarding disease give  speech;语;9;0
+18;corr;4.734;4.525;1;0.667;应有尽有;ying1 you3 jin4 you3;yīng yǒu jìn yǒu;Everything at its place;should exist everything exist;有;6;NA
+18;diffT;4.734;NA;1;NA;应有尽优;ying1 you3 jin4 you1;NA;NA;should exist everything excellent;优;6;0
+18;sameT;4.734;NA;1;NA;应有尽卣;ying1 you3 jin4 you3;NA;NA;should exist everything winecontainer;卣;7;1
+18;noP;4.734;NA;1;NA;应有尽收;ying1 you3 jin4 shou1;NA;NA;should exist everything receive;收;6;0
+19;corr;4.742;4.72;1;0.741;弄虚作假;nong4 xu1 zuo4 jia3;nòng xū zuò jiǎ;Lie;do fake create mischievous;假;11;NA
+19;diffT;4.742;NA;1;NA;弄虚作颊;nong4 xu1 zuo4 jia2;NA;NA;do fake create cheeks;颊;12;1
+19;sameT;4.742;NA;1;NA;弄虚作胛;nong4 xu1 zuo4 jia3;NA;NA;do fake create shoulder_blade;胛;9;-2
+19;noP;4.742;NA;1;NA;弄虚作缘;nong4 xu1 zuo4 yuan2;NA;NA;do fake create fate;缘;12;1
+20;corr;4.449;3.559;1;0.889;引人入胜;yin3 ren2 ru4 sheng4;yǐn rén rù shèng;Mesmerize people with beauty;lure person enter splendor;胜;9;NA
+20;diffT;4.449;NA;1;NA;引人入绳;yin3 ren2 ru4 sheng2;NA;NA;lure person enter rope/string;绳;11;2
+20;sameT;4.449;NA;1;NA;引人入盛;yin3 ren2 ru4 sheng4;NA;NA;lure person enter prosperous;盛;11;2
+20;noP;4.449;NA;1;NA;引人入梨;yin3 ren2 ru4 li2;NA;NA;lure person enter pear;梨;11;2
+21;corr;4.707;3.908;1;0.778;得心应手;de2 xin1 ying4 shou3;dé xīn yìng shǒu;Do something with skills;obtain heart adapt hand;手;4;NA
+21;diffT;4.707;NA;1;NA;得心应收;de2 xin1 ying4 shou1;NA;NA;obtain heart adapt receive;收;6;2
+21;sameT;4.707;NA;1;NA;得心应守;de2 xin1 ying4 shou3;NA;NA;obtain heart adapt guard;守;6;2
+21;noP;4.707;NA;1;NA;得心应爷;de2 xin1 ying4 ye2;NA;NA;obtain heart adapt grandpa;爷;6;2
+22;corr;4.632;4.294;1;0.704;心平气和;xin1 ping2 qi4 he2;xīn píng qì hé;Peaceful attitude;heart quiet breath peaceful;和;8;NA
+22;diffT;4.632;NA;1;NA;心平气诃;xin1 ping2 qi4 he1;NA;NA;heart quiet breath scold;诃;8;0
+22;sameT;4.632;NA;1;NA;心平气河;xin1 ping2 qi4 he2;NA;NA;heart quiet breath river;河;8;0
+22;noP;4.632;NA;1;NA;心平气帜;xin1 ping2 qi4 zhi4;NA;NA;heart quiet breath flag;帜;8;0
+23;corr;4.615;4.085;1;0.963;心旷神怡;xin1 kuang4 shen2 yi2;xīn kuàng shén yí;Full of joy;heart free spirit harmonious;怡;8;NA
+23;diffT;4.615;NA;1;NA;心旷神异;xin1 kuang4 shen2 yi4;NA;NA;heart free spirit different;异;6;-2
+23;sameT;4.615;NA;1;NA;心旷神夷;xin1 kuang4 shen2 yi2;NA;NA;heart free spirit barbarians;夷;6;-2
+23;noP;4.615;NA;1;NA;心旷神吓;xin1 kuang4 shen2 he4;NA;NA;heart free spirit scare;吓;6;-2
+24;corr;4.828;4.492;1;0.519;心满意足;xin1 man3 yi4 zu2;xīn mǎn yì zú;Happy in the heart;heart full desire enough;足;7;NA
+24;diffT;4.828;NA;1;NA;心满意诅;xin1 man3 yi4 zu3;NA;NA;heart full desire curse;诅;7;0
+24;sameT;4.828;NA;1;NA;心满意卒;xin1 man3 yi4 zu2;NA;NA;heart full desire soldier;卒;8;1
+24;noP;4.828;NA;1;NA;心满意卣;xin1 man3 yi4 you3;NA;NA;heart full desire wine container;卣;7;0
+25;corr;4.753;4.671;1;0.63;心甘情愿;xin1 gan1 qing2 yuan4;xīn gān qíng yuàn;Do something with passion;heart sweet emotion will;愿;14;NA
+25;diffT;4.753;NA;1;NA;心甘情缘;xin1 gan1 qing2 yuan2;NA;NA;heart sweet emotion fate;缘;12;-2
+25;sameT;4.753;NA;1;NA;心甘情媛;xin1 gan1 qing2 yuan4;NA;NA;heart sweet emotion beautiful_woman;媛;12;-2
+25;noP;4.753;NA;1;NA;心甘情联;xin1 gan1 qing2 lian2;NA;NA;heart sweet emotion ally;联;12;-2
+26;corr;4.813;4.6;1;0.889;志同道合;zhi4 tong2 dao4 he2;zhì tóng dào hé;To have the same principles;will same road align;合;6;NA
+26;diffT;4.813;NA;1;NA;志同道吓;zhi4 tong2 dao4 he4;NA;NA;will same road scare;吓;6;0
+26;sameT;4.813;NA;1;NA;志同道何;zhi4 tong2 dao4 he2;NA;NA;will same road carry;何;7;1
+26;noP;4.813;NA;1;NA;志同道亦;zhi4 tong2 dao4 yi4;NA;NA;will same road also;亦;6;0
+27;corr;4.679;3.847;1;0.741;情有独钟;qing2 you3 du2 zhong1;qíng yǒu dú zhōng;Attraction;love have only concentrate;钟;9;NA
+27;diffT;4.679;NA;1;NA;情有独重;qing2 you3 du2 zhong4;NA;NA;love have only heavy;重;9;0
+27;sameT;4.679;NA;1;NA;情有独衷;qing2 you3 du2 zhong1;NA;NA;love have only innerfeelings;衷;10;1
+27;noP;4.679;NA;1;NA;情有独珏;qing2 you3 du2 yue2;NA;NA;love have only jade;珏;9;0
+28;corr;4.660;4.268;1;0.815;惊天动地;jing1 tian1 dong4 di4;jīng tiān dòng dì;Huge impact;shock sky move ground;地;6;NA
+28;diffT;4.660;NA;1;NA;惊天动邸;jing1 tian1 dong4 di3;NA;NA;shock sky move residence;邸;7;1
+28;sameT;4.660;NA;1;NA;惊天动弟;jing1 tian1 dong4 di4;NA;NA;shock sky move littlebrother;弟;7;1
+28;noP;4.660;NA;1;NA;惊天动违;jing1 tian1 dong4 wei2;NA;NA;shock sky move disobey;违;7;1
+29;corr;4.731;3.915;1;0.815;我行我素;wo3 xing2 wo3 su4;wǒ xíng wǒ sù;Not care about people's opinions;me walk me essence;素;10;NA
+29;diffT;4.731;NA;1;NA;我行我俗;wo3 xing2 wo3 su2;NA;NA;me walk me popular;俗;9;-1
+29;sameT;4.731;NA;1;NA;我行我速;wo3 xing2 wo3 su4;NA;NA;me walk me fast;速;10;0
+29;noP;4.731;NA;1;NA;我行我姚;wo3 xing2 wo3 yao3;NA;NA;me walk me handsome;姚;9;-1
+30;corr;4.443;2.805;1;0.852;扑朔迷离;pu1 shuo4 mi2 li2;pū shuò mí lí;not able to tell with certainty;jump male uncertain distinguish;离;10;NA
+30;diffT;4.443;NA;1;NA;扑朔迷莉;pu1 shuo4 mi2 li4;NA;NA;jump male uncertain jasmine;莉;10;0
+30;sameT;4.443;NA;1;NA;扑朔迷梨;pu1 shuo4 mi2 li2;NA;NA;jump male uncertain pear;梨;11;1
+30;noP;4.443;NA;1;NA;扑朔迷素;pu1 shuo4 mi2 su4;NA;NA;jump male uncertain essence;素;10;0
+31;corr;4.759;4.05;0.909;0.667;日新月异;ri4 xin1 yue4 yi4;rì xīn yuè yì;change day after day;sun new moon different;异;6;NA
+31;diffT;4.759;NA;0.909;NA;日新月仪;ri4 xin1 yue4 yi2;NA;NA;sun new moon ceremony;仪;5;-1
+31;sameT;4.759;NA;0.909;NA;日新月亦;ri4 xin1 yue4 yi4;NA;NA;sun new moon also;亦;6;0
+31;noP;4.759;NA;0.909;NA;日新月汁;ri4 xin1 yue4 ji1;NA;NA;sun new moon juice;汁;5;-1
+32;corr;4.543;3.235;0.538;0.889;有的放矢;you3 de5 fang4 shi3;yǒu de fàng shǐ;to have a precise goal;have target throw arrow;矢;5;NA
+32;diffT;4.543;NA;0.538;NA;有的放石;you3 de5 fang4 shi2;NA;NA;have target throw rock;石;5;0
+32;sameT;4.543;NA;0.538;NA;有的放史;you3 de5 fang4 shi3;NA;NA;have target throw history;史;5;0
+32;noP;4.543;NA;0.538;NA;有的放叶;you3 de5 fang4 ye4;NA;NA;have target throw leaf;叶;5;0
+33;corr;4.256;3.898;0.75;0.963;标本兼治;biao1 ben3 jian1 zhi4;biāo běn jiān zhì;deal with multiple problems;surface root together treat;治;8;NA
+33;diffT;4.256;NA;0.75;NA;标本兼直;biao1 ben3 jian1 zhi2;NA;NA;surface root together straighten;直;8;0
+33;sameT;4.256;NA;0.75;NA;标本兼质;biao1 ben3 jian1 zhi4;NA;NA;surface root together question;质;8;0
+33;noP;4.256;NA;0.75;NA;标本兼鱼;biao1 ben3 jian1 yu2;NA;NA;surface root together fish;鱼;8;0
+34;corr;4.719;4.474;0.867;0.889;根深蒂固;gen1 shen1 di4 gu4;gēn shēn dì gù;deeply rooted thing;root deep sprout strong;固;8;NA
+34;diffT;4.719;NA;0.867;NA;根深蒂沽;gen1 shen1 di4 gu1;NA;NA;root deep sprout buy;沽;8;0
+34;sameT;4.719;NA;0.867;NA;根深蒂故;gen1 shen1 di4 gu4;NA;NA;root deep sprout old;故;9;1
+34;noP;4.719;NA;0.867;NA;根深蒂直;gen1 shen1 di4 zhi2;NA;NA;root deep sprout straighten;直;8;0
+35;corr;4.930;4.439;1;0.704;欢天喜地;huan1 tian1 xi3 di4;huān tiān xǐ dì;extremely happy;happy sky joyful earth;地;6;NA
+35;diffT;4.930;NA;1;NA;欢天喜籴;huan1 tian1 xi3 di3;NA;NA;happy sky joyful buy grain;籴;8;2
+35;sameT;4.930;NA;1;NA;欢天喜弟;huan1 tian1 xi3 di4;NA;NA;happy sky joyful brother;弟;9;3
+35;noP;4.930;NA;1;NA;欢天喜怡;huan1 tian1 xi3 yi2;NA;NA;happy sky joyful harmonious;怡;8;2
+36;corr;4.630;4.686;0.769;0.519;求真务实;qiu2 zhen1 wu4 shi2;qiú zhēn wù shí;do things seriously;search truth concentrate truth;实;8;NA
+36;diffT;4.630;NA;0.769;NA;求真务式;qiu2 zhen1 wu4 shi4;NA;NA;search truth concentrate type;式;6;-2
+36;sameT;4.630;NA;0.769;NA;求真务时;qiu2 zhen1 wu4 shi2;NA;NA;search truth concentrate hour;时;7;-1
+36;noP;4.630;NA;0.769;NA;求真务优;qiu2 zhen1 wu4 you1;NA;NA;search truth concentrate eccellent;优;6;-2
+37;corr;4.663;3.686;1;0.741;游刃有余;you2 ren4 you3 yu2;yóu rèn yǒu yú;sort it out with skills;move blade have extra;余;7;NA
+37;diffT;4.663;NA;1;NA;游刃有雨;you2 ren4 you3 yu4;NA;NA;move blade have rain;雨;8;1
+37;sameT;4.663;NA;1;NA;游刃有鱼;you2 ren4 you3 yu2;NA;NA;move blade have fish;鱼;8;1
+37;noP;4.663;NA;1;NA;游刃有沽;you2 ren4 you3 gu1;NA;NA;move blade have buy;沽;8;1
+38;corr;4.652;4.294;0.769;0.852;独树一帜;du2 shu4 yi1 zhi4;dú shù yī zhì;stand out;only stand one flag;帜;8;NA
+38;diffT;4.652;NA;0.769;NA;独树一直;du2 shu4 yi1 zhi2;NA;NA;only stand one straighten;直;8;0
+38;sameT;4.652;NA;0.769;NA;独树一质;du2 shu4 yi1 zhi4;NA;NA;only stand one question;质;8;0
+38;noP;4.652;NA;0.769;NA;独树一终;du2 shu4 yi1 zhong1;NA;NA;only stand one end;终;8;0
+39;corr;4.324;3.765;1;0.852;琳琅满目;lin2 lang2 man3 mu4;lín láng mǎn mù;beautiful things to see;beautiful jem full eye;目;5;NA
+39;diffT;4.324;NA;1;NA;琳琅满母;lin2 lang2 man3 mu3;NA;NA;beautiful jem full mother;母;5;0
+39;sameT;4.324;NA;1;NA;琳琅满木;lin2 lang2 man3 mu4;NA;NA;beautiful jem full tree;木;4;-1
+39;noP;4.324;NA;1;NA;琳琅满汁;lin2 lang2 man3 zhi1;NA;NA;beautiful jem full juice;汁;5;0
+40;corr;4.828;4.521;1;0.556;甜言蜜语;tian2 yan2 mi4 yu3;tián yán mì yǔ;to use flattering words;sweet words honey speech;语;9;NA
+40;diffT;4.828;NA;1;NA;甜言蜜鱼;tian2 yan2 mi4 yu2;NA;NA;sweet words honey fish;鱼;8;-1
+40;sameT;4.828;NA;1;NA;甜言蜜俣;tian2 yan2 mi4 yu3;NA;NA;sweet words honey big;俣;9;0
+40;noP;4.828;NA;1;NA;甜言蜜帜;tian2 yan2 mi4 zhi4;NA;NA;sweet words honey flag;帜;8;-1
+41;corr;4.782;4.322;1;0.778;精打细算;jing1 da3 xi4 suan4;jīng dǎ xì suàn;to plan in detail;refined do subtle count;算;14;NA
+41;diffT;4.782;NA;1;NA;精打细酸;jing1 da3 xi4 suan1;NA;NA;refined do subtle sour;酸;14;0
+41;sameT;4.782;NA;1;NA;精打细蒜;jing1 da3 xi4 suan4;NA;NA;refined do subtle garlic;蒜;13;-1
+41;noP;4.782;NA;1;NA;精打细疑;jing1 da3 xi4 yi2;NA;NA;refined do subtle doubt;疑;14;0
+42;corr;4.382;3.608;1;0.815;耐人寻味;nai4 ren2 xun2 wei4;nài rén xún wèi;to spark the imagination;resist people search taste;味;8;NA
+42;diffT;4.382;NA;1;NA;耐人寻违;nai4 ren2 xun2 wei2;NA;NA;resist people search disobey;违;7;-1
+42;sameT;4.382;NA;1;NA;耐人寻畏;nai4 ren2 xun2 wei4;NA;NA;resist people search fear;畏;9;1
+42;noP;4.382;NA;1;NA;耐人寻邸;nai4 ren2 xun2 di3;NA;NA;resist people search residence;邸;7;-1
+43;corr;4.632;4.431;1;0.778;自始至终;zi4 shi3 zhi4 zhong1;zì shǐ zhì zhōng;endless;from beginning to end;终;8;NA
+43;diffT;4.632;NA;1;NA;自始至重;zi4 shi3 zhi4 zhong4;NA;NA;from beginning to heavy;重;9;1
+43;sameT;4.632;NA;1;NA;自始至衷;zi4 shi3 zhi4 zhong1;NA;NA;from beginning to innerfeelings;衷;10;2
+43;noP;4.632;NA;1;NA;自始至珏;zi4 shi3 zhi4 yue2;NA;NA;from beginning to jade;珏;9;1
+44;corr;4.691;4.216;1;0.852;自欺欺人;zi4 qi1 qi1 ren2;zì qī qī rén;to deceive;self deceive deceive person;人;2;NA
+44;diffT;4.691;NA;1;NA;自欺欺刃;zi4 qi1 qi1 ren4;NA;NA;self deceive deceive edge_of_the_knife;刃;3;1
+44;sameT;4.691;NA;1;NA;自欺欺壬;zi4 qi1 qi1 ren2;NA;NA;self deceive deceive ninth;壬;4;2
+44;noP;4.691;NA;1;NA;自欺欺力;zi4 qi1 qi1 li4;NA;NA;self deceive deceive power;力;2;0
+45;corr;4.850;4.686;1;0.667;自言自语;zi4 yan2 zi4 yu3;zì yán zì yǔ;think out loud;self talk self speech;语;9;NA
+45;diffT;4.850;NA;1;NA;自言自鱼;zi4 yan2 zi4 yu2;NA;NA;self talk self fish;鱼;8;-1
+45;sameT;4.850;NA;1;NA;自言自俣;zi4 yan2 zi4 yu3;NA;NA;self talk self big;俣;9;0
+45;noP;4.850;NA;1;NA;自言自直;zi4 yan2 zi4 zhi2;NA;NA;self talk self straighten;直;8;-1
+46;corr;4.152;3.784;0.769;0.852;舞文弄墨;wu3 wen2 nong4 mo4;wǔ wén nòng mò;play with words;play writing manipulate ink;墨;15;NA
+46;diffT;4.152;NA;0.769;NA;舞文弄模;wu3 wen2 nong4 mo2;NA;NA;play writing manipulate model;模;13;-2
+46;sameT;4.152;NA;0.769;NA;舞文弄磨;wu3 wen2 nong4 mo4;NA;NA;play writing manipulate grind;磨;16;1
+46;noP;4.152;NA;0.769;NA;舞文弄酸;wu3 wen2 nong4 suan1;NA;NA;play writing manipulate sour;酸;14;-1
+47;corr;4.667;4.561;1;0.889;若隐若现;ruo4 yin3 ruo4 xian4;ruò yǐn ruò xiàn;be vague;like hide like appear;现;8;NA
+47;diffT;4.667;NA;1;NA;若隐若贤;ruo4 yin3 ruo4 xian2;NA;NA;like hide like worthy;贤;8;0
+47;sameT;4.667;NA;1;NA;若隐若限;ruo4 yin3 ruo4 xian4;NA;NA;like hide like limit;限;8;0
+47;noP;4.667;NA;1;NA;若隐若侈;ruo4 yin3 ruo4 chi3;NA;NA;like hide like extravagant;侈;8;0
+48;corr;4.910;4.305;1;0.926;见义勇为;jian4 yi4 yong3 wei2;jiàn yì yǒng wéi;to be brave;see justice brave act;为;4;NA
+48;diffT;4.910;NA;1;NA;见义勇未;jian4 yi4 yong3 wei4;NA;NA;see justice brave not_yet;未;5;1
+48;sameT;4.910;NA;1;NA;见义勇韦;jian4 yi4 yong3 wei2;NA;NA;see justice brave leather;韦;4;0
+48;noP;4.910;NA;1;NA;见义勇礼;jian4 yi4 yong3 li3;NA;NA;see justice brave gift;礼;5;1
+49;corr;4.632;4.439;0.867;0.704;谈天说地;tan2 tian1 shuo1 di4;tán tiān shuō dì;talk of everything;say sky say earth;地;6;NA
+49;diffT;4.632;NA;0.867;NA;谈天说邸;tan2 tian1 shuo1 di3;NA;NA;say sky say residence;邸;7;1
+49;sameT;4.632;NA;0.867;NA;谈天说弟;tan2 tian1 shuo1 di4;NA;NA;say sky say little brother;弟;7;1
+49;noP;4.632;NA;0.867;NA;谈天说时;tan2 tian1 shuo1 shi2;NA;NA;say sky say hour;时;7;1
+50;corr;4.739;4.784;1;0.852;赏心悦目;shang3 xin1 yue4 mu4;shǎng xīn yuè mù;nice to hear;appreciate heart return eye;目;5;NA
+50;diffT;4.739;NA;1;NA;赏心悦母;shang3 xin1 yue4 mu3;NA;NA;appreciate heart return mother;母;5;0
+50;sameT;4.739;NA;1;NA;赏心悦木;shang3 xin1 yue4 mu4;NA;NA;appreciate heart return tree;木;4;-1
+50;noP;4.739;NA;1;NA;赏心悦仪;shang3 xin1 yue4 yi2;NA;NA;appreciate heart return ceremony;仪;5;0
+51;corr;4.621;4.109;1;0.704;铺天盖地;pu1 tian1 gai4 di4;pū tiān gài dì;spread everywhere;spread sky cover soil;地;6;NA
+51;diffT;4.621;NA;1;NA;铺天盖籴;pu1 tian1 gai4 di3;NA;NA;spread sky cover buy grain;籴;8;2
+51;sameT;4.621;NA;1;NA;铺天盖帝;pu1 tian1 gai4 di4;NA;NA;spread sky cover emperor;帝;9;3
+51;noP;4.621;NA;1;NA;铺天盖终;pu1 tian1 gai4 zhong1;NA;NA;spread sky cover end;终;8;2
+52;corr;4.674;3.059;0.769;0.741;风花雪月;feng1 hua1 xue3 yue4;fēng huā xuě yuè;romantic;wind flower snow moon;月;4;NA
+52;diffT;4.674;NA;0.769;NA;风花雪曰;feng1 hua1 xue3 yue1;NA;NA;wind flower snow speak;曰;4;0
+52;sameT;4.674;NA;0.769;NA;风花雪乐;feng1 hua1 xue3 yue4;NA;NA;wind flower snow music;乐;5;1
+52;noP;4.674;NA;0.769;NA;风花雪止;feng1 hua1 xue3 zhi3;NA;NA;wind flower snow stop;止;4;0
+53;corr;4.475;3.957;1;0.926;风起云涌;feng1 qi3 yun2 yong3;fēng qǐ yún yǒng;largely spread phenomena;wind rise cloud emerge;涌;10;NA
+53;diffT;4.475;NA;1;NA;风起云庸;feng1 qi3 yun2 yong1;NA;NA;wind rise cloud common;庸;11;1
+53;sameT;4.475;NA;1;NA;风起云勇;feng1 qi3 yun2 yong3;NA;NA;wind rise cloud brave;勇;9;-1
+53;noP;4.475;NA;1;NA;风起云惊;feng1 qi3 yun2 jing1;NA;NA;wind rise cloud shock;惊;11;1
+54;corr;4.735;4.647;1;0.852;齐心协力;qi2 xin1 xie2 li4;qí xīn xié lì;work together;together heart cooperate power;力;2;NA
+54;diffT;4.735;NA;1;NA;齐心协礼;qi2 xin1 xie2 li3;NA;NA;together heart cooperate gift;礼;5;3
+54;sameT;4.735;NA;1;NA;齐心协立;qi2 xin1 xie2 li4;NA;NA;together heart cooperate stand;立;5;3
+54;noP;4.735;NA;1;NA;齐心协矢;qi2 xin1 xie2 shi3;NA;NA;together heart cooperate arrow;矢;5;3

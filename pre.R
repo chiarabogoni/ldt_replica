@@ -18,7 +18,8 @@ t.test(Levenshtein_Distance ~ Condition, data = subset(d1, Condition %in% c("sam
 library(ggstatsplot)
 library(patchwork)
 
-d1 <- na.omit(d1[, c("Condition", "StrokeDiff", "Sem_Distance", "Levenshtein_Distance")])
+d2 <- na.omit(d1[, c("Condition", "StrokeDiff", "Sem_Distance", "Levenshtein_Distance")])
+View(d2)
 
 plotComparison <- function(dta, comment = '') {
   pSt = ggwithinstats(
@@ -48,4 +49,9 @@ plotComparison <- function(dta, comment = '') {
 }
 
 # Per eseguirla:
-plotComparison(d1, 'Whole Group')
+plotComparison(d2, 'Whole Group')
+
+
+d1$logFrequency <- log(d1$Frequency)
+t.test(logFrequency ~ Condition, data = subset(d1, Condition %in% c("sameT", "noP")))
+t.test(logFrequency ~ Condition, data = subset(d1, Condition %in% c("sameT", "diffT")))

@@ -150,8 +150,8 @@ freq_lookup = dict(zip(stats_df["汉字"], stats_df["频率"]))
 perc_lookup = dict(zip(stats_df["汉字"], stats_df["百分比"]))
 
 # Add frequency columns to original dataframe
-input_df["字符频率"] = input_df["Last_char"].map(freq_lookup)
-input_df["字符百分比"] = input_df["Last_char"].map(perc_lookup)
+input_df["Frequency"] = input_df["Last_char"].map(freq_lookup)
+input_df["Frequency_Percentage"] = input_df["Last_char"].map(perc_lookup)
 
 # ============================================================================
 # Save Results

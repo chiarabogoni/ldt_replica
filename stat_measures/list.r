@@ -1,3 +1,8 @@
+library(dplyr)
+library(ggstatsplot)
+library(jsonlite)
+library(patchwork)
+
 # ============================================================================
 # List Assignment and Counterbalancing
 # ============================================================================
@@ -46,6 +51,8 @@ if (any(list_counts != length(it))) {
   stop('Each list must contain exactly one row per item')
 }
 print(list_counts)
+View(d2)
+
 
 # Generate comparison plots for each list
 pL1 = plotComparison(subset(d2, d2$List == 'L1' & Condition != 'corr'), 'List 1')
@@ -58,29 +65,6 @@ balance_plots = pL1 / pL2 / pL3 / pL4 / pL5 / pL6
 ggsave('balance_checks.png', balance_plots, width = 12, height = 36, limitsize = FALSE)
 
 View(d2)
-
-# ============================================================================
-# Balance Checks
-# ============================================================================
-
-# Check predictability balance across lists
-# Propagate 'corr' predictability to all conditions within each item
-d2 <- d2 %>%
-  group_by(Item) %>%
-  mutate(Predictability = max(Predictability, na.rm = TRUE)) %>%
-  ungroup()
-
-anova_predictability <- aov(Predictability ~ List, data = d2)
-summary(anova_predictability)
-
-# Check familiarity balance across lists
-d2 <- d2 %>%
-  group_by(Item) %>%
-  mutate(Familiarity = max(Familiarity, na.rm = TRUE)) %>%
-  ungroup()
-
-anova_familiarity <- aov(Familiarity ~ List, data = d2)
-summary(anova_familiarity)
 
 # ============================================================================
 # Prepare Experimental Materials
