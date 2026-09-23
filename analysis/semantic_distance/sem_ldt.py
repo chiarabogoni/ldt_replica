@@ -15,11 +15,19 @@ Processes data_original.csv to compute corr vs sameT, diffT, and noP distances.
 
 REPO_ID = "shibing624/text2vec-word2vec-tencent-chinese"
 MODEL_FILENAME = "light_Tencent_AILab_ChineseEmbedding.bin"
-PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SHARED_FILE = os.path.join(PROJECT_DIR, "data_measures.csv")
+PROJECT_DIR = os.path.abspath(os.path.join(
+    os.path.dirname(__file__), "..", ".."))
+RAW_DIR = os.path.join(PROJECT_DIR, "data", "raw")
+INTERMEDIATE_DIR = os.path.join(PROJECT_DIR, "data", "intermediate")
+SHARED_FILE = os.path.join(INTERMEDIATE_DIR, "data_measures.csv")
 INPUT_FILE = SHARED_FILE if os.path.exists(SHARED_FILE) else os.path.join(
-    PROJECT_DIR, "data_original.csv")
+    RAW_DIR, "data_original.csv")
 OUTPUT_FILE = SHARED_FILE
+
+
+def format_csv_float(value):
+    """Write floating-point values without scientific notation."""
+    return f"{value:.15f}".rstrip("0").rstrip(".")
 
 # ============================================================================
 # Helper Functions
@@ -37,7 +45,7 @@ def download_model(repo_id, filename):
     Returns:
         Local path to the downloaded model
     """
-    local_path = os.path.join(os.getcwd(), filename)
+    local_path = os.path.join(RAW_DIR, filename)
     if os.path.exists(local_path):
         print(f"Model already exists locally: {local_path}")
         return local_path
@@ -220,6 +228,7 @@ def process_data_file(model_path, input_file, output_file):
         sep=';',
         encoding='utf-8-sig',
         na_rep='NA',
+        float_format=format_csv_float,
     )
     print("Results saved successfully!")
 

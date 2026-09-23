@@ -1,4 +1,6 @@
-semantic_distance/light_Tencent_AILab_ChineseEmbedding.bin
-
-semantic_distance/light_Tencent_AILab_ChineseEmbedding.bin
-semantic_distance/light_Tencent_AILab_ChineseEmbedding.bin
+.venv/
+__pycache__/
+*.py[cod]
+data/raw/light_Tencent_AILab_ChineseEmbedding.bin
+outputs/logs/
+experiment/*_data.csv

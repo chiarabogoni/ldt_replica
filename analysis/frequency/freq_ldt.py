@@ -1,6 +1,7 @@
 """
 Character frequency analysis using Jun Da Modern Chinese Corpus.
-Calculates absolute frequency and percentage for characters in the dataset.
+Calculates absolute frequency, percentage, and relative frequency for
+characters in the dataset.
 """
 
 import os
@@ -10,19 +11,28 @@ import pandas as pd
 # Configuration
 # ============================================================================
 
-PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FREQ_DIR = os.path.dirname(os.path.abspath(__file__))
-SHARED_FILE = os.path.join(PROJECT_DIR, "data_measures.csv")
+PROJECT_DIR = os.path.abspath(os.path.join(
+    os.path.dirname(__file__), "..", ".."))
+RAW_DIR = os.path.join(PROJECT_DIR, "data", "raw")
+INTERMEDIATE_DIR = os.path.join(PROJECT_DIR, "data", "intermediate")
+SHARED_FILE = os.path.join(INTERMEDIATE_DIR, "data_measures.csv")
 
 # Jun Da Modern Chinese Character Frequency data
-FREQUENCY_FILE = os.path.join(FREQ_DIR, "CharFreq-Modern.xls")
+FREQUENCY_FILE = os.path.join(RAW_DIR, "CharFreq-Modern.xls")
 INPUT_FILE = SHARED_FILE if os.path.exists(SHARED_FILE) else os.path.join(
-    PROJECT_DIR, "data_original.csv")
+    RAW_DIR, "data_original.csv")
 OUTPUT_FILE = SHARED_FILE
+TOTAL_CORPUS_CHARACTERS = 193504018
+
+
+def format_csv_float(value):
+    """Write floating-point values without scientific notation."""
+    return f"{value:.15f}".rstrip("0").rstrip(".")
 
 # ============================================================================
 # Load Frequency Data
 # ============================================================================
+
 
 print("=" * 80)
 print("Character Frequency Analysis - Jun Da Modern Chinese Corpus")
@@ -59,7 +69,7 @@ def get_char_stats(char_list, freq_data):
         freq_data: DataFrame with frequency data
 
     Returns:
-        DataFrame with character, frequency, and percentage
+        DataFrame with character, frequency, percentage, and relative frequency
     """
     results = []
 
@@ -70,17 +80,20 @@ def get_char_stats(char_list, freq_data):
         if not result.empty:
             freq = result.values[0]
             perc = freq / total_freq * 100
+            relative_freq = freq / TOTAL_CORPUS_CHARACTERS
             results.append({
                 "汉字": char,
                 "频率": freq,
-                "百分比": f"{perc:.6f}%"
+                "百分比": f"{perc:.6f}%",
+                "Relative_Frequency": relative_freq,
             })
         else:
             # Character not found in corpus
             results.append({
                 "汉字": char,
                 "频率": None,
-                "百分比": None
+                "百分比": None,
+                "Relative_Frequency": None,
             })
 
     return pd.DataFrame(results)
@@ -148,10 +161,16 @@ print("=" * 80)
 # Create a frequency lookup dictionary
 freq_lookup = dict(zip(stats_df["汉字"], stats_df["频率"]))
 perc_lookup = dict(zip(stats_df["汉字"], stats_df["百分比"]))
+relative_freq_lookup = dict(
+    zip(stats_df["汉字"], stats_df["Relative_Frequency"])
+)
 
 # Add frequency columns to original dataframe
 input_df["Frequency"] = input_df["Last_char"].map(freq_lookup)
 input_df["Frequency_Percentage"] = input_df["Last_char"].map(perc_lookup)
+input_df["Relative_Frequency"] = input_df["Last_char"].map(
+    relative_freq_lookup
+)
 
 # ============================================================================
 # Save Results
@@ -161,7 +180,13 @@ print("\nSaving results...")
 
 # Save frequency statistics
 stats_output = OUTPUT_FILE.replace('.csv', '_stats.csv')
-stats_df.to_csv(stats_output, index=False, encoding='utf-8-sig', na_rep='NA')
+stats_df.to_csv(
+    stats_output,
+    index=False,
+    encoding='utf-8-sig',
+    na_rep='NA',
+    float_format=format_csv_float,
+)
 print(f"✓ Frequency statistics saved to: {stats_output}")
 
 # Save merged data with frequencies
@@ -172,6 +197,7 @@ input_df.to_csv(
     sep=';',
     encoding='utf-8-sig',
     na_rep='NA',
+    float_format=format_csv_float,
 )
 print(f"✓ Data with frequencies saved to: {merged_output}")
 

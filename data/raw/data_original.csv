@@ -10,7 +10,7 @@
 3;corr;4.574;4.373;1;0.704;全心全意;quan2 xin1 quan2 yi4;quán xīn quán yì;With great purpose;all heart all mind;意;13;NA
 3;diffT;4.574;NA;1;NA;全心全疑;quan2 xin1 quan2 yi2;NA;NA;all heart all doubt;疑;14;1
 3;sameT;4.574;NA;1;NA;全心全裔;quan2 xin1 quan2 yi4;NA;NA;all heart all posterity/descendants;裔;13;0
-3;noP;4.574;NA;1;NA;全心全酸;quan2 xin1 quan2 suan1;NA;NA;all heart all honest;酸;14;1
+3;noP;4.574;NA;1;NA;全心全酸;quan2 xin1 quan2 suan1;NA;NA;all heart all sour;酸;14;1
 4;corr;4.930;4.246;1;0.815;再接再厉;zai4 jie1 zai4 li4;zài jiē zài lì;To persevere;again continue again dedicate;厉;5;NA
 4;diffT;4.930;NA;1;NA;再接再礼;zai4 jie1 zai4 li3;NA;NA;again continue again gift;礼;5;0
 4;sameT;4.930;NA;1;NA;再接再立;zai4 jie1 zai4 li4;NA;NA;again continue again stand;立;5;0
@@ -106,7 +106,7 @@
 27;corr;4.679;3.847;1;0.741;情有独钟;qing2 you3 du2 zhong1;qíng yǒu dú zhōng;Attraction;love have only concentrate;钟;9;NA
 27;diffT;4.679;NA;1;NA;情有独重;qing2 you3 du2 zhong4;NA;NA;love have only heavy;重;9;0
 27;sameT;4.679;NA;1;NA;情有独衷;qing2 you3 du2 zhong1;NA;NA;love have only innerfeelings;衷;10;1
-27;noP;4.679;NA;1;NA;情有独珏;qing2 you3 du2 yue2;NA;NA;love have only jade;珏;9;0
+27;noP;4.679;NA;1;NA;情有独珏;qing2 you3 du2 jue2;NA;NA;love have only jade;珏;9;0
 28;corr;4.660;4.268;1;0.815;惊天动地;jing1 tian1 dong4 di4;jīng tiān dòng dì;Huge impact;shock sky move ground;地;6;NA
 28;diffT;4.660;NA;1;NA;惊天动邸;jing1 tian1 dong4 di3;NA;NA;shock sky move residence;邸;7;1
 28;sameT;4.660;NA;1;NA;惊天动弟;jing1 tian1 dong4 di4;NA;NA;shock sky move littlebrother;弟;7;1
@@ -114,7 +114,7 @@
 29;corr;4.731;3.915;1;0.815;我行我素;wo3 xing2 wo3 su4;wǒ xíng wǒ sù;Not care about people's opinions;me walk me essence;素;10;NA
 29;diffT;4.731;NA;1;NA;我行我俗;wo3 xing2 wo3 su2;NA;NA;me walk me popular;俗;9;-1
 29;sameT;4.731;NA;1;NA;我行我速;wo3 xing2 wo3 su4;NA;NA;me walk me fast;速;10;0
-29;noP;4.731;NA;1;NA;我行我姚;wo3 xing2 wo3 yao3;NA;NA;me walk me handsome;姚;9;-1
+29;noP;4.731;NA;1;NA;我行我姚;wo3 xing2 wo3 yao2;NA;NA;me walk me handsome;姚;9;-1
 30;corr;4.443;2.805;1;0.852;扑朔迷离;pu1 shuo4 mi2 li2;pū shuò mí lí;not able to tell with certainty;jump male uncertain distinguish;离;10;NA
 30;diffT;4.443;NA;1;NA;扑朔迷莉;pu1 shuo4 mi2 li4;NA;NA;jump male uncertain jasmine;莉;10;0
 30;sameT;4.443;NA;1;NA;扑朔迷梨;pu1 shuo4 mi2 li2;NA;NA;jump male uncertain pear;梨;11;1
@@ -122,7 +122,7 @@
 31;corr;4.759;4.05;0.909;0.667;日新月异;ri4 xin1 yue4 yi4;rì xīn yuè yì;change day after day;sun new moon different;异;6;NA
 31;diffT;4.759;NA;0.909;NA;日新月仪;ri4 xin1 yue4 yi2;NA;NA;sun new moon ceremony;仪;5;-1
 31;sameT;4.759;NA;0.909;NA;日新月亦;ri4 xin1 yue4 yi4;NA;NA;sun new moon also;亦;6;0
-31;noP;4.759;NA;0.909;NA;日新月汁;ri4 xin1 yue4 ji1;NA;NA;sun new moon juice;汁;5;-1
+31;noP;4.759;NA;0.909;NA;日新月汁;ri4 xin1 yue4 zhi1;NA;NA;sun new moon juice;汁;5;-1
 32;corr;4.543;3.235;0.538;0.889;有的放矢;you3 de5 fang4 shi3;yǒu de fàng shǐ;to have a precise goal;have target throw arrow;矢;5;NA
 32;diffT;4.543;NA;0.538;NA;有的放石;you3 de5 fang4 shi2;NA;NA;have target throw rock;石;5;0
 32;sameT;4.543;NA;0.538;NA;有的放史;you3 de5 fang4 shi3;NA;NA;have target throw history;史;5;0

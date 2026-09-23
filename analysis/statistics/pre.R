@@ -1,3 +1,18 @@
+script_args <- commandArgs(trailingOnly = FALSE)
+file_arg <- grep("^--file=", script_args, value = TRUE)
+script_path <- if (length(file_arg) > 0) {
+  normalizePath(sub("^--file=", "", file_arg[1]))
+} else {
+  normalizePath(file.path(getwd(), "analysis", "statistics", "pre.R"))
+}
+project_dir <- dirname(dirname(dirname(script_path)))
+data_measures <- read.csv(
+  file.path(project_dir, "data", "intermediate", "data_measures.csv"),
+  sep = ";"
+)
+
+
+
 d1 <- data_measures
 View(d1)
 d1$Condition <- as.factor(d1$Condition)
@@ -52,7 +67,7 @@ plotComparison <- function(dta, comment = '') {
 plotComparison(d2, 'Whole Group')
 
 
-d1$logFrequency <- log(d1$Frequency)
+d1$logFrequency <- log(d1$Relative_Frequency)
 t.test(logFrequency ~ Condition, data = subset(d1, Condition %in% c("sameT", "noP")))
 t.test(logFrequency ~ Condition, data = subset(d1, Condition %in% c("sameT", "diffT")))
-
+View(d1)

@@ -10,7 +10,7 @@
   
   <link rel="stylesheet" href="https://unpkg.com/jspsych@7.3.3/css/jspsych.css">
   <link rel="stylesheet" href="https://unpkg.com/@jspsych/plugin-survey@1.0.1/css/survey.css">
-  <link rel="stylesheet" href="chengyu_style.css">
+  <link rel="stylesheet" href="style_sheet.css">
 
 </head>
 
@@ -113,7 +113,7 @@
   const proceed_to_experiment = {
     type: jsPsychHtmlButtonResponse,
     stimulus: `
-      <div style="text-align: center;"><img src="computer-svgrepo-com.svg" class="box-top-icon"></div>
+      <div style="text-align: center;"><img src="SVG/computer.svg" class="box-top-icon"></div>
       <div class="instruction-highlight">
         <p class="instruction-highlight-text">感谢您同意参加本研究。您准备好开始实验了吗？</p>
       </div>
@@ -125,7 +125,7 @@
       jsPsych.data.get().localSave('csv', 'consent_survey_data.csv');
       // Navigate to the experiment
       setTimeout(function() {
-        window.location.href = 'ldt_chengyu.html';
+        window.location.href = 'ldt_task.html';
       }, 500);
     }
   };

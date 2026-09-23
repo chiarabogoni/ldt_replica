@@ -4,8 +4,24 @@ library(jsonlite)
 library(patchwork)
 library(ggplot2)
 
-d <- d1
+script_args <- commandArgs(trailingOnly = FALSE)
+file_arg <- grep("^--file=", script_args, value = TRUE)
+script_path <- if (length(file_arg) > 0) {
+  normalizePath(sub("^--file=", "", file_arg[1]))
+} else {
+  normalizePath(file.path(getwd(), "analysis", "statistics", "list.r"))
+}
+project_dir <- dirname(dirname(dirname(script_path)))
+intermediate_dir <- file.path(project_dir, "data", "intermediate")
+final_dir <- file.path(project_dir, "data", "final")
+experiment_dir <- file.path(project_dir, "experiment")
+outputs_dir <- file.path(project_dir, "outputs")
+dir.create(final_dir, recursive = TRUE, showWarnings = FALSE)
+dir.create(experiment_dir, recursive = TRUE, showWarnings = FALSE)
+dir.create(file.path(outputs_dir, "plots"), recursive = TRUE, showWarnings = FALSE)
 
+d <- read.csv(file.path(intermediate_dir, "data_measures.csv"), sep = ";")
+View(d)
 # ============================================================================
 # List Assignment and Counterbalancing
 # ============================================================================
@@ -65,7 +81,13 @@ pL4 = plotComparison(subset(d2, d2$List == 'L4' & Condition != 'corr'), 'List 4'
 pL5 = plotComparison(subset(d2, d2$List == 'L5' & Condition != 'corr'), 'List 5')
 pL6 = plotComparison(subset(d2, d2$List == 'L6' & Condition != 'corr'), 'List 6')
 balance_plots = pL1 / pL2 / pL3 / pL4 / pL5 / pL6
-ggsave('balance_checks.png', balance_plots, width = 12, height = 36, limitsize = FALSE)
+ggsave(
+  file.path(outputs_dir, 'plots', 'balance_checks.png'),
+  balance_plots,
+  width = 12,
+  height = 36,
+  limitsize = FALSE
+)
 
 View(d2)
 
@@ -103,7 +125,7 @@ colnames(dl6) = c("item", "condition", "spelling", "correct_response")
 View(dl6)
 
 # Prepare filler items
-filler <- read.csv("filler.csv", sep = ',')
+filler <- read.csv(file.path(intermediate_dir, "filler.csv"), sep = ',')
 filler_final <- data.frame(
   item = filler$item,
   condition = "filler",
@@ -116,14 +138,14 @@ View(filler_final)
 # Save Experimental Files
 # ============================================================================
 
-write.csv(d2, "data_with_lists.csv", row.names = FALSE)
-write.csv(dl1, "L1.csv", row.names = FALSE)
-write.csv(dl2, "L2.csv", row.names = FALSE)
-write.csv(dl3, "L3.csv", row.names = FALSE)
-write.csv(dl4, "L4.csv", row.names = FALSE)
-write.csv(dl5, "L5.csv", row.names = FALSE)
-write.csv(dl6, "L6.csv", row.names = FALSE)
-write.csv(filler_final, "filler.csv", row.names = FALSE)
+write.csv(d2, file.path(intermediate_dir, "data_with_lists.csv"), row.names = FALSE)
+write.csv(dl1, file.path(final_dir, "L1.csv"), row.names = FALSE)
+write.csv(dl2, file.path(final_dir, "L2.csv"), row.names = FALSE)
+write.csv(dl3, file.path(final_dir, "L3.csv"), row.names = FALSE)
+write.csv(dl4, file.path(final_dir, "L4.csv"), row.names = FALSE)
+write.csv(dl5, file.path(final_dir, "L5.csv"), row.names = FALSE)
+write.csv(dl6, file.path(final_dir, "L6.csv"), row.names = FALSE)
+write.csv(filler_final, file.path(intermediate_dir, "filler.csv"), row.names = FALSE)
 
 # ============================================================================
 # Pseudo-randomization Function
@@ -189,8 +211,11 @@ randomized_lists <- list(
 for (list_name in names(randomized_lists)) {
   cat(
     toJSON(randomized_lists[[list_name]], pretty = TRUE),
-    file = paste0(list_name, '.json')
+    file = file.path(final_dir, paste0(list_name, '.json'))
   )
 }
 
-cat(toJSON(randomized_lists, pretty = TRUE), file = 'stimuli_ldt.json')
+cat(
+  toJSON(randomized_lists, pretty = TRUE),
+  file = file.path(experiment_dir, 'stimuli_ldt.json')
+)

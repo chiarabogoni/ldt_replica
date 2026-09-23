@@ -13,7 +13,7 @@
   
   <link rel="stylesheet" href="https://unpkg.com/jspsych@7.3.3/css/jspsych.css">
   <link rel="stylesheet" href="https://unpkg.com/@jspsych/plugin-survey@1.0.1/css/survey.css">
-  <link rel="stylesheet" href="chengyu_style.css">
+  <link rel="stylesheet" href="style_sheet.css">
 
 </head>
 
@@ -26,8 +26,8 @@
   // FOR LOCAL TESTING: Randomly select L1A, L1B, L2A, L2B, L3A, or L3B
   // When deployed on JATOS server, this will be replaced with parameter-based list selection
     var list_versions = [
-      'L1A', 'L1B', 'L2A', 'L2B', 'L3A', 'L3B',
-      'L4A', 'L4B', 'L5A', 'L5B', 'L6A', 'L6B'
+      'L1A_difft', 'L1B_difft', 'L2A_difft', 'L2B_difft', 'L3A_difft', 'L3B_difft',
+      'L1A_nop', 'L1B_nop', 'L2A_nop', 'L2B_nop', 'L3A_nop', 'L3B_nop'
     ];
   var version_label = list_versions[Math.floor(Math.random() * list_versions.length)];
   var experimental_stimuli = null;
@@ -37,7 +37,7 @@
   var save_filename = "test_list_" + version_label + "_CBtask.csv";
 
   // Load stimuli and initialize
-  fetch('./stimuli.json')
+  fetch('./stimuli_ldt.json')
     .then(response => {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -49,14 +49,14 @@
       console.log('Assigned list version:', version_label);
       experimental_stimuli = data[version_label];
       if (!experimental_stimuli) {
-        throw new Error('List version ' + version_label + ' not found in stimuli.json');
+        throw new Error('List version ' + version_label + ' not found in stimuli_ldt.json');
       }
       console.log(version_label + ' items:', experimental_stimuli.length);
       initializeExperiment();
     })
     .catch(error => {
       console.error('Error loading stimuli:', error);
-      alert('Error: Could not load stimuli.json or list version ' + version_label + '. Check console for details.\n' + error.message);
+      alert('Error: Could not load stimuli_ldt.json or list version ' + version_label + '. Check console for details.\n' + error.message);
     });
 
   function initializeExperiment() {
@@ -85,7 +85,7 @@
   const enter_fullscreen = {
   type: jsPsychFullscreen,
   fullscreen_mode: true,
-  message: '<div style="text-align: center;"><img src="notebook-svgrepo-com.svg" class="box-top-icon"><div class="instruction-highlight"><p class="instruction-highlight-text">点击下方按钮后，实验将进入全屏模式。请在开始前认真阅读说明.</p></div></div>',
+  message: '<div style="text-align: center;"><img src="SVG/notebook.svg" class="box-top-icon"><div class="instruction-highlight"><p class="instruction-highlight-text">点击下方按钮后，实验将进入全屏模式。请在开始前认真阅读说明.</p></div></div>',
   button_label: '阅读说明'
 };
 
@@ -121,7 +121,7 @@
     // Fixation Cross - wait for participant to press any key to continue
     trial_sequence.push({
       type: jsPsychHtmlKeyboardResponse,
-      stimulus: '<img src="dragon-svgrepo-com.svg" class="dragon-fixation">',
+      stimulus: '<img src="SVG/dragon.svg" class="dragon-fixation">',
       choices: "ALL_KEYS",
       trial_duration: null,
       css_classes: ['fix'],
@@ -199,7 +199,7 @@
   const start_real_experiment = {
     type: jsPsychHtmlButtonResponse,
     stimulus: `
-      <div style="text-align: center;"><img src="computer-svgrepo-com.svg" class="box-top-icon"></div>
+      <div style="text-align: center;"><img src="SVG/computer.svg" class="box-top-icon"></div>
       <div class="instruction-text">
         <div class="instruction-highlight">
           <p class="instruction-highlight-text">练习阶段已结束。<br>点击下方按钮正式开始实验。</p>
@@ -211,7 +211,7 @@
   timeline.push(start_real_experiment);
 
   // Add experimental stimuli to timeline
-  // Each list in stimuli.json already contains fillers mixed in
+  // Each list in stimuli_ldt.json already contains fillers mixed in
   if (typeof experimental_stimuli !== 'undefined' && experimental_stimuli.length > 0) {
       experimental_stimuli.forEach(item => {
         timeline = timeline.concat(make_trial(item));
@@ -243,7 +243,7 @@
     type: jsPsychHtmlKeyboardResponse,
     stimulus: `
       <div class="instruction-text text-center thank-you-screen">
-        <div style="text-align: center;"><img src="heart-svgrepo-com.svg" class="box-top-icon"></div>
+        <div style="text-align: center;"><img src="SVG/heart.svg" class="box-top-icon"></div>
         <div class="instruction-highlight">
           <p class="instruction-highlight-text">感谢您参与我们的实验！如果您有任何疑问或需要进一步了解相关信息，欢迎随时通过邮件与我们联系。</p>
         </div>

@@ -14,17 +14,25 @@ import pandas as pd
 # Configuration
 # ============================================================================
 
-PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ORTHO_DIR = os.path.dirname(os.path.abspath(__file__))
-SHARED_FILE = os.path.join(PROJECT_DIR, 'data_measures.csv')
-IDS_FILE = os.path.join(ORTHO_DIR, 'IDSdecomp.csv')
+PROJECT_DIR = os.path.abspath(os.path.join(
+    os.path.dirname(__file__), '..', '..'))
+RAW_DIR = os.path.join(PROJECT_DIR, 'data', 'raw')
+INTERMEDIATE_DIR = os.path.join(PROJECT_DIR, 'data', 'intermediate')
+SHARED_FILE = os.path.join(INTERMEDIATE_DIR, 'data_measures.csv')
+IDS_FILE = os.path.join(RAW_DIR, 'IDSdecomp.csv')
 INPUT_FILE = SHARED_FILE if os.path.exists(SHARED_FILE) else os.path.join(
-    PROJECT_DIR, 'new_data.csv')
+    INTERMEDIATE_DIR, 'new_data.csv')
 OUTPUT_FILE = SHARED_FILE
+
+
+def format_csv_float(value):
+    """Write floating-point values without scientific notation."""
+    return f"{value:.15f}".rstrip("0").rstrip(".")
 
 # ============================================================================
 # IDS Tokenization
 # ============================================================================
+
 
 IDS_TOKEN_RE = re.compile(
     r"""
@@ -136,7 +144,7 @@ try:
     print(f"✓ Loaded {len(ids)} IDS entries")
 except FileNotFoundError:
     print(f"ERROR: {IDS_FILE} not found!")
-    print("Please ensure IDSdecomp.csv is in the same directory.")
+    print(f"Please ensure IDSdecomp.csv is available at {IDS_FILE}.")
     exit(1)
 
 # Load character data
@@ -199,7 +207,14 @@ print(f"\n{'='*80}")
 print("Saving results...")
 
 # Save the updated shared data file
-ch.to_csv(OUTPUT_FILE, index=False, sep=';', encoding='utf-8-sig', na_rep='NA')
+ch.to_csv(
+    OUTPUT_FILE,
+    index=False,
+    sep=';',
+    encoding='utf-8-sig',
+    na_rep='NA',
+    float_format=format_csv_float,
+)
 print(f"✓ Updated shared data saved to: {OUTPUT_FILE}")
 
 # Print summary statistics
