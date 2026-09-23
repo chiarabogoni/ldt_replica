@@ -2,6 +2,9 @@ library(dplyr)
 library(ggstatsplot)
 library(jsonlite)
 library(patchwork)
+library(ggplot2)
+
+d <- d1
 
 # ============================================================================
 # List Assignment and Counterbalancing
@@ -71,7 +74,7 @@ View(d2)
 # ============================================================================
 
 # Add correct response column
-d2$correct_response <- ifelse(d2$Condition == "corr", "vero", "falso")
+d2$correct_response <- ifelse(d2$Condition == "corr", "true", "false")
 View(d2)
 
 # Create list dataframes with standardized column names
@@ -105,7 +108,7 @@ filler_final <- data.frame(
   item = filler$item,
   condition = "filler",
   spelling = filler$spelling,
-  correct_response = "vero"
+  correct_response = "true"
 )
 View(filler_final)
 
@@ -113,14 +116,14 @@ View(filler_final)
 # Save Experimental Files
 # ============================================================================
 
-write.csv(d2, "Final_data.csv", row.names = FALSE)
+write.csv(d2, "data_with_lists.csv", row.names = FALSE)
 write.csv(dl1, "L1.csv", row.names = FALSE)
 write.csv(dl2, "L2.csv", row.names = FALSE)
 write.csv(dl3, "L3.csv", row.names = FALSE)
 write.csv(dl4, "L4.csv", row.names = FALSE)
 write.csv(dl5, "L5.csv", row.names = FALSE)
 write.csv(dl6, "L6.csv", row.names = FALSE)
-write.csv(filler_final, "Filler.csv", row.names = FALSE)
+write.csv(filler_final, "filler.csv", row.names = FALSE)
 
 # ============================================================================
 # Pseudo-randomization Function
@@ -130,30 +133,21 @@ write.csv(filler_final, "Filler.csv", row.names = FALSE)
 # Maximum 4 consecutive identical responses allowed
 randomize <- function(input_list, input_filler, max_consecutive = 4) {
   full_list <- rbind(input_list, input_filler)
-  valida <- FALSE
-  trial <- 0
-  
-  while (!valida) {
-    trial <- trial + 1
-    
+  for (trial in seq_len(10000)) {
     # Shuffle items
     shuffled_list <- full_list[sample(1:nrow(full_list)), ]
     
+    resp_vector <- as.character(shuffled_list$correct_response)
+    
     # Check run length of consecutive responses
-    check_resp <- rle(shuffled_list$correct_response)$lengths
+    check_resp <- rle(resp_vector)$lengths
     
     if (max(check_resp) <= max_consecutive) {
-      valida <- TRUE
-    }
-    
-    # Safety limit to prevent infinite loops
-    if (trial > 10000) {
-      warning("Maximum trial limit reached (10,000 attempts)")
-      valida <- TRUE
+      return(shuffled_list)
     }
   }
   
-  return(shuffled_list)
+  stop("Could not create a list with the requested response constraint")
 }
 
 # ============================================================================
@@ -175,48 +169,28 @@ View(L4.data)
 View(L5.data)
 View(L6.data)
 
-# Generate two randomized versions (A and B) for each list
-# List 1
-cat(toJSON(randomize(dl1, filler_final), pretty = TRUE), file = 'L1A.json')
-cat(toJSON(randomize(dl1, filler_final), pretty = TRUE), file = 'L1B.json')
+# Generate each randomized version once. The same objects are used for both
+# the standalone files and the combined stimulus file.
+randomized_lists <- list(
+  L1A_difft = randomize(dl1, filler_final),
+  L1B_difft = randomize(dl1, filler_final),
+  L2A_difft = randomize(dl2, filler_final),
+  L2B_difft = randomize(dl2, filler_final),
+  L3A_difft = randomize(dl3, filler_final),
+  L3B_difft = randomize(dl3, filler_final),
+  L1A_nop = randomize(dl4, filler_final),
+  L1B_nop = randomize(dl4, filler_final),
+  L2A_nop = randomize(dl5, filler_final),
+  L2B_nop = randomize(dl5, filler_final),
+  L3A_nop = randomize(dl6, filler_final),
+  L3B_nop = randomize(dl6, filler_final)
+)
 
-# List 2
-cat(toJSON(randomize(dl2, filler_final), pretty = TRUE), file = 'L2A.json')
-cat(toJSON(randomize(dl2, filler_final), pretty = TRUE), file = 'L2B.json')
+for (list_name in names(randomized_lists)) {
+  cat(
+    toJSON(randomized_lists[[list_name]], pretty = TRUE),
+    file = paste0(list_name, '.json')
+  )
+}
 
-# List 3
-cat(toJSON(randomize(dl3, filler_final), pretty = TRUE), file = 'L3A.json')
-cat(toJSON(randomize(dl3, filler_final), pretty = TRUE), file = 'L3B.json')
-
-# List 4
-cat(toJSON(randomize(dl4, filler_final), pretty = TRUE), file = 'L4A.json')
-cat(toJSON(randomize(dl4, filler_final), pretty = TRUE), file = 'L4B.json')
-
-# List 5
-cat(toJSON(randomize(dl5, filler_final), pretty = TRUE), file = 'L5A.json')
-cat(toJSON(randomize(dl5, filler_final), pretty = TRUE), file = 'L5B.json')
-
-# List 6
-cat(toJSON(randomize(dl6, filler_final), pretty = TRUE), file = 'L6A.json')
-cat(toJSON(randomize(dl6, filler_final), pretty = TRUE), file = 'L6B.json')
-
-# ============================================================================
-# Generate Combined Stimulus File
-# ============================================================================
-
-# Compile all lists into a single JSON file for experimental software
-material = list()
-material[['L1A']] = randomize(dl1, filler_final)
-material[['L1B']] = randomize(dl1, filler_final)
-material[['L2A']] = randomize(dl2, filler_final)
-material[['L2B']] = randomize(dl2, filler_final)
-material[['L3A']] = randomize(dl3, filler_final)
-material[['L3B']] = randomize(dl3, filler_final)
-material[['L4A']] = randomize(dl4, filler_final)
-material[['L4B']] = randomize(dl4, filler_final)
-material[['L5A']] = randomize(dl5, filler_final)
-material[['L5B']] = randomize(dl5, filler_final)
-material[['L6A']] = randomize(dl6, filler_final)
-material[['L6B']] = randomize(dl6, filler_final)
-
-cat(toJSON(material, pretty = TRUE), file = 'stimuli.json')
+cat(toJSON(randomized_lists, pretty = TRUE), file = 'stimuli_ldt.json')

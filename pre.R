@@ -55,3 +55,4 @@ plotComparison(d2, 'Whole Group')
 d1$logFrequency <- log(d1$Frequency)
 t.test(logFrequency ~ Condition, data = subset(d1, Condition %in% c("sameT", "noP")))
 t.test(logFrequency ~ Condition, data = subset(d1, Condition %in% c("sameT", "diffT")))
+

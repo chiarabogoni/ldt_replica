@@ -1,0 +1,434 @@
+[
+  {
+    "item": 12,
+    "condition": "filler",
+    "spelling": "讨价还价",
+    "correct_response": "true"
+  },
+  {
+    "item": 53,
+    "condition": "noP",
+    "spelling": "风起云惊",
+    "correct_response": "false"
+  },
+  {
+    "item": 40,
+    "condition": "sameT",
+    "spelling": "甜言蜜俣",
+    "correct_response": "false"
+  },
+  {
+    "item": 41,
+    "condition": "noP",
+    "spelling": "精打细疑",
+    "correct_response": "false"
+  },
+  {
+    "item": 18,
+    "condition": "filler",
+    "spelling": "以身作则",
+    "correct_response": "true"
+  },
+  {
+    "item": 16,
+    "condition": "corr",
+    "spelling": "安居乐业",
+    "correct_response": "true"
+  },
+  {
+    "item": 39,
+    "condition": "corr",
+    "spelling": "琳琅满目",
+    "correct_response": "true"
+  },
+  {
+    "item": 23,
+    "condition": "noP",
+    "spelling": "心旷神吓",
+    "correct_response": "false"
+  },
+  {
+    "item": 32,
+    "condition": "sameT",
+    "spelling": "有的放史",
+    "correct_response": "false"
+  },
+  {
+    "item": 34,
+    "condition": "sameT",
+    "spelling": "根深蒂故",
+    "correct_response": "false"
+  },
+  {
+    "item": 44,
+    "condition": "corr",
+    "spelling": "自欺欺人",
+    "correct_response": "true"
+  },
+  {
+    "item": 9,
+    "condition": "sameT",
+    "spelling": "叹为观旨",
+    "correct_response": "false"
+  },
+  {
+    "item": 18,
+    "condition": "corr",
+    "spelling": "应有尽有",
+    "correct_response": "true"
+  },
+  {
+    "item": 2,
+    "condition": "noP",
+    "spelling": "不知不药",
+    "correct_response": "false"
+  },
+  {
+    "item": 43,
+    "condition": "corr",
+    "spelling": "自始至终",
+    "correct_response": "true"
+  },
+  {
+    "item": 13,
+    "condition": "corr",
+    "spelling": "大同小异",
+    "correct_response": "true"
+  },
+  {
+    "item": 31,
+    "condition": "noP",
+    "spelling": "日新月汁",
+    "correct_response": "false"
+  },
+  {
+    "item": 13,
+    "condition": "filler",
+    "spelling": "错综复杂",
+    "correct_response": "true"
+  },
+  {
+    "item": 2,
+    "condition": "filler",
+    "spelling": "目瞪口呆",
+    "correct_response": "true"
+  },
+  {
+    "item": 47,
+    "condition": "noP",
+    "spelling": "若隐若侈",
+    "correct_response": "false"
+  },
+  {
+    "item": 17,
+    "condition": "noP",
+    "spelling": "对症下语",
+    "correct_response": "false"
+  },
+  {
+    "item": 49,
+    "condition": "sameT",
+    "spelling": "谈天说弟",
+    "correct_response": "false"
+  },
+  {
+    "item": 5,
+    "condition": "sameT",
+    "spelling": "冰天雪弟",
+    "correct_response": "false"
+  },
+  {
+    "item": 25,
+    "condition": "corr",
+    "spelling": "心甘情愿",
+    "correct_response": "true"
+  },
+  {
+    "item": 29,
+    "condition": "noP",
+    "spelling": "我行我姚",
+    "correct_response": "false"
+  },
+  {
+    "item": 19,
+    "condition": "corr",
+    "spelling": "弄虚作假",
+    "correct_response": "true"
+  },
+  {
+    "item": 6,
+    "condition": "sameT",
+    "spelling": "千方百忌",
+    "correct_response": "false"
+  },
+  {
+    "item": 17,
+    "condition": "filler",
+    "spelling": "人山人海",
+    "correct_response": "true"
+  },
+  {
+    "item": 4,
+    "condition": "filler",
+    "spelling": "紧锣密鼓",
+    "correct_response": "true"
+  },
+  {
+    "item": 15,
+    "condition": "filler",
+    "spelling": "成千上万",
+    "correct_response": "true"
+  },
+  {
+    "item": 22,
+    "condition": "noP",
+    "spelling": "心平气帜",
+    "correct_response": "false"
+  },
+  {
+    "item": 11,
+    "condition": "filler",
+    "spelling": "眼花缭乱",
+    "correct_response": "true"
+  },
+  {
+    "item": 42,
+    "condition": "noP",
+    "spelling": "耐人寻邸",
+    "correct_response": "false"
+  },
+  {
+    "item": 15,
+    "condition": "corr",
+    "spelling": "如火如荼",
+    "correct_response": "true"
+  },
+  {
+    "item": 46,
+    "condition": "corr",
+    "spelling": "舞文弄墨",
+    "correct_response": "true"
+  },
+  {
+    "item": 7,
+    "condition": "filler",
+    "spelling": "五花八门",
+    "correct_response": "true"
+  },
+  {
+    "item": 24,
+    "condition": "corr",
+    "spelling": "心满意足",
+    "correct_response": "true"
+  },
+  {
+    "item": 3,
+    "condition": "noP",
+    "spelling": "全心全酸",
+    "correct_response": "false"
+  },
+  {
+    "item": 4,
+    "condition": "sameT",
+    "spelling": "再接再立",
+    "correct_response": "false"
+  },
+  {
+    "item": 21,
+    "condition": "sameT",
+    "spelling": "得心应守",
+    "correct_response": "false"
+  },
+  {
+    "item": 50,
+    "condition": "sameT",
+    "spelling": "赏心悦木",
+    "correct_response": "false"
+  },
+  {
+    "item": 1,
+    "condition": "corr",
+    "spelling": "一心一意",
+    "correct_response": "true"
+  },
+  {
+    "item": 14,
+    "condition": "filler",
+    "spelling": "青梅竹马",
+    "correct_response": "true"
+  },
+  {
+    "item": 45,
+    "condition": "noP",
+    "spelling": "自言自直",
+    "correct_response": "false"
+  },
+  {
+    "item": 33,
+    "condition": "noP",
+    "spelling": "标本兼鱼",
+    "correct_response": "false"
+  },
+  {
+    "item": 11,
+    "condition": "corr",
+    "spelling": "因地制宜",
+    "correct_response": "true"
+  },
+  {
+    "item": 51,
+    "condition": "sameT",
+    "spelling": "铺天盖帝",
+    "correct_response": "false"
+  },
+  {
+    "item": 10,
+    "condition": "filler",
+    "spelling": "百花齐放",
+    "correct_response": "true"
+  },
+  {
+    "item": 28,
+    "condition": "noP",
+    "spelling": "惊天动违",
+    "correct_response": "false"
+  },
+  {
+    "item": 7,
+    "condition": "corr",
+    "spelling": "原汁原味",
+    "correct_response": "true"
+  },
+  {
+    "item": 1,
+    "condition": "filler",
+    "spelling": "独立自主",
+    "correct_response": "true"
+  },
+  {
+    "item": 38,
+    "condition": "noP",
+    "spelling": "独树一终",
+    "correct_response": "false"
+  },
+  {
+    "item": 36,
+    "condition": "sameT",
+    "spelling": "求真务时",
+    "correct_response": "false"
+  },
+  {
+    "item": 8,
+    "condition": "filler",
+    "spelling": "有声有色",
+    "correct_response": "true"
+  },
+  {
+    "item": 6,
+    "condition": "filler",
+    "spelling": "触目惊心",
+    "correct_response": "true"
+  },
+  {
+    "item": 20,
+    "condition": "corr",
+    "spelling": "引人入胜",
+    "correct_response": "true"
+  },
+  {
+    "item": 52,
+    "condition": "noP",
+    "spelling": "风花雪止",
+    "correct_response": "false"
+  },
+  {
+    "item": 37,
+    "condition": "noP",
+    "spelling": "游刃有沽",
+    "correct_response": "false"
+  },
+  {
+    "item": 16,
+    "condition": "filler",
+    "spelling": "理直气壮",
+    "correct_response": "true"
+  },
+  {
+    "item": 26,
+    "condition": "corr",
+    "spelling": "志同道合",
+    "correct_response": "true"
+  },
+  {
+    "item": 30,
+    "condition": "sameT",
+    "spelling": "扑朔迷梨",
+    "correct_response": "false"
+  },
+  {
+    "item": 35,
+    "condition": "sameT",
+    "spelling": "欢天喜弟",
+    "correct_response": "false"
+  },
+  {
+    "item": 5,
+    "condition": "filler",
+    "spelling": "茶余饭后",
+    "correct_response": "true"
+  },
+  {
+    "item": 27,
+    "condition": "sameT",
+    "spelling": "情有独衷",
+    "correct_response": "false"
+  },
+  {
+    "item": 54,
+    "condition": "corr",
+    "spelling": "齐心协力",
+    "correct_response": "true"
+  },
+  {
+    "item": 8,
+    "condition": "sameT",
+    "spelling": "反腐倡联",
+    "correct_response": "false"
+  },
+  {
+    "item": 12,
+    "condition": "sameT",
+    "spelling": "大吃一晶",
+    "correct_response": "false"
+  },
+  {
+    "item": 9,
+    "condition": "filler",
+    "spelling": "游山玩水",
+    "correct_response": "true"
+  },
+  {
+    "item": 3,
+    "condition": "filler",
+    "spelling": "知己知彼",
+    "correct_response": "true"
+  },
+  {
+    "item": 14,
+    "condition": "noP",
+    "spelling": "天涯海重",
+    "correct_response": "false"
+  },
+  {
+    "item": 10,
+    "condition": "sameT",
+    "spelling": "咬牙切侈",
+    "correct_response": "false"
+  },
+  {
+    "item": 48,
+    "condition": "corr",
+    "spelling": "见义勇为",
+    "correct_response": "true"
+  }
+]
