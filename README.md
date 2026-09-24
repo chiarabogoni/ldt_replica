@@ -3,6 +3,14 @@
 Repository of materials and code for a lexical decision task (LDT) on Chinese idioms (成语 / chéngyǔ).  
 The repository includes (i) stimulus measurement and statistical evaluation scripts, (ii) analysis utilities, and (iii) the experimental task implemented in HTML/JavaScript.
 
+## Authors
+
+- **Chiara Bogoni**, PhD student in Linguistics, Joint PhD Program at Free University of Bozen-Bolzano and University of Verona (chiara.bogoni@student.unibz.it)
+- **Linda Badan**, Department of Linguistic and Literary Studies, University of Padua (linda.badan@unipd.it)
+- **Francesco Vespignani**, Department of Developmental Psychology and Socialisation, University of Padua (francesco.vespignani@unipd.it)
+- **Eduardo Navarrete**, Department of Developmental Psychology and Socialisation, University of Padua (eduardo.navarrete@unipd.it)
+
+
 ## License
 [![CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
 
@@ -17,7 +25,7 @@ This project is licensed under the **Creative Commons Attribution 4.0 Internatio
 - `data/final/`: finalized list files and randomized list JSON files.
 - `analysis/`: frequency, orthographic, semantic, and statistical scripts.
 - `outputs/`: plots, tables, and execution logs.
-- `docs/`: participant instructions (in Italian and in Chinese).
+- `docs/`: participant instructions and survey (in Italian, English and Chinese).
 
 ## Python analyses
 
@@ -152,13 +160,9 @@ The local experiment starts at `experiment/consent_survey.html`. After consent a
 List assignment advances in a fixed order across runs using browser storage:
 `L1A_difft`, `L1B_difft`, `L2A_difft`, `L2B_difft`, `L3A_difft`, `L3B_difft`, `L4A_nop`, `L4B_nop`, `L5A_nop`, `L5B_nop`, `L6A_nop`, `L6B_nop`.
 
-Because the task loads `stimuli_ldt.json`, run it through a local web server rather than opening the HTML file directly:
+Because the task loads `stimuli_ldt.json`, run it through a local web server rather than opening the HTML file directly.
 
-```powershell
-python -m http.server 8000 --directory experiment
-```
-
-Then open <http://localhost:8000/consent_survey.html> in a browser. The list counter is stored in that browser's local storage and starts again at `L1A_difft` after `L6B_nop`.
+The list counter is stored in that browser's local storage and starts again at `L1A_difft` after `L6B_nop`.
 
 ### Consent and survey
 
@@ -177,11 +181,10 @@ The timing parameters are defined in `experiment/ldt_task.html`:
 | Response window for the final character | 300,000,000 ms maximum |
 | Blank screen after the response | 1,000 ms |
 
-The fixation currently waits for a key press rather than using a fixed duration.
 
 ### REQUIRED ADDITIONS
 
-- Time alert at 2000 ms after the presentation of the last character (use the "time alert" text in `docs/instructions.md` and the `experiment/SVG/time_alert.svg`).
+- Time alert at 2000 ms after the presentation of the last character (use the "time alert" text in `docs/instructions.md` and the `experiment/SVG/time_alert.svg`). 
 - List assignment criterion.
 
 ## References

@@ -2,13 +2,13 @@
 
 ---
 
-## 🇮🇹 Italiano
+## Italiano
 
 ### ISTRUZIONI E CONSENSO INFORMATO
 
 Gentile partecipante,
 
-il presente documento ha lo scopo di richiedere il tuo consenso informato alla partecipazione a uno studio di psicolinguistica. I responsabili del progetto sono Chiara Bogoni, dottoranda in Linguistica presso la Libera Università di Bolzano, lac Prof.ssa Linda Badan (Dipartimento di Studi Linguistici e Letterari, Università di Padova) e i Professori Francesco Vespignani e Eduardo Navarrete (Dipartimento di Psicologia dello Sviluppo e della Socializzazione, Università di Padova).
+il presente documento ha lo scopo di richiedere il tuo consenso informato alla partecipazione a uno studio di psicolinguistica. I responsabili del progetto sono Chiara Bogoni, dottoranda in Linguistica presso la Libera Università di Bolzano, la Prof.ssa Linda Badan (Dipartimento di Studi Linguistici e Letterari, Università di Padova) e i Professori Francesco Vespignani e Eduardo Navarrete (Dipartimento di Psicologia dello Sviluppo e della Socializzazione, Università di Padova).
 
 #### Obiettivi e procedura della ricerca
 
@@ -118,7 +118,7 @@ I dati sono stati salvati automaticamente. Ora puoi chiudere questa finestra.
 
 ---
 
-## 🇬🇧 English
+## English
 
 ### INSTRUCTIONS AND INFORMED CONSENT
 
@@ -236,7 +236,7 @@ The data have been saved automatically. You can now close this window.
 
 ---
 
-## 🇨🇳 中文 (Chinese)
+## 普通话 (Chinese)
 
 ### 说明与知情同意书
 
