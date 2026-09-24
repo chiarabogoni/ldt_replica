@@ -96,7 +96,7 @@
 
   const instructions = {
     type: jsPsychHtmlButtonResponse,
-    stimulus: '<p class="instruction-text">你好！你即将参与一项词汇判定实验。开始之前，请注意：<strong>本实验必须在带有实体键盘的电脑上进行，在平板电脑或手机上将无法正常运行。</strong></p><p class="instruction-text">实验中的每个试题均由一组四字成语组成（可能是正确的成语，也可能是错误的）。</p><p class="instruction-text">在每个试题开始时，屏幕上会出现一张龙的图片。按键盘上的任意键即可显示汉字。汉字将逐个快速呈现在屏幕上。当出现第四个（即最后一个）汉字时，你需要判断刚才看到的是否是一句正确的成语。</p><div class="instruction-highlight"><p class="instruction-highlight-text">当出现最后一个汉字时，请按键盘上的：<br><strong>A = 是（这是一句正确的成语）<br>L = 否（这并不是正确的成语）</strong></p></div><div class="instruction-highlight" style="border-color: #b30000; background-color: #ffe6e6;"><p class="instruction-highlight-text" style="color: #b30000; font-size: 26px;">请注意：请尽可能快速地做出选择！如果你反应太慢，屏幕上会出现提示提醒你提高速度。</p></div><p class="instruction-text">每次作答后，龙的图片会再次出现。当你准备好后，按键盘上的任意键即可开始下一题。</p><p class="instruction-text">建议你在安静、光线充足的环境中进行实验，并确保网络连接稳定。接下来会有 5 个练习题，帮助你熟悉实验流程。当你准备好时，点击按钮即可。</p>',
+    stimulus: '<p class="instruction-text">你好！你即将参与一项词汇判断实验。开始之前，请注意：<strong>本实验必须在带有实体键盘的电脑上进行，在平板电脑或手机上将无法正常运行。</strong></p><p class="instruction-text">实验中的每个试题均由四个汉字组成（可能是正确的成语，也可能是错误的）。</p><p class="instruction-text">在每个试题开始时，屏幕上会出现一张龙的图片。按键盘上的任意键即可开始测试。汉字将逐个快速呈现在屏幕上。当出现第四个（即最后一个）汉字时，你需要判断刚才看到的是否是一个正确的成语。</p><div class="instruction-highlight"><p class="instruction-highlight-text">当出现最后一个汉字时，请按键盘上的：<br><strong>A = 是（这是一个正确的成语）<br>L = 否（这并不是正确的成语）</strong></p></div><div class="instruction-highlight" style="border-color: #b30000; background-color: #ffe6e6;"><p class="instruction-highlight-text" style="color: #b30000; font-size: 26px;">请注意：请尽可能快速地做出选择！如果你思考时间太长，屏幕上会出现提示提醒你提高速度。</p></div><p class="instruction-text">每次作答后，龙的图片会再次出现。当你准备好后，按键盘上的任意键即可开始下一题。</p><p class="instruction-text">建议你在安静、光线充足的环境中进行实验，并确保网络连接稳定。接下来会有 5 个练习题，帮助你熟悉实验流程。当你准备好时，点击按钮即可。</p>',
     choices: ['开始练习'],
     button_html: '<button class="jspsych-btn btn-primary">%choice%</button>'
   };
@@ -207,7 +207,7 @@
       <div style="text-align: center;"><img src="SVG/computer.svg" class="box-top-icon"></div>
       <div class="instruction-text">
         <div class="instruction-highlight">
-          <p class="instruction-highlight-text">练习阶段已结束。<br>点击下方按钮即可正式开始实验。记住，反应一定要尽可能快哦！</p>
+          <p class="instruction-highlight-text">练习阶段已结束。<br>点击下方按钮即可正式开始实验。记住，尽可能快速地做出选择哦！</p>
         </div>
       </div>`,
     choices: ['开始正式实验'],
@@ -250,7 +250,7 @@
       <div class="instruction-text text-center thank-you-screen">
         <div style="text-align: center;"><img src="SVG/heart.svg" class="box-top-icon"></div>
         <div class="instruction-highlight">
-          <p class="instruction-highlight-text">感谢你参与我们的实验！如果你有任何问题，或者想了解更多相关信息，随时欢迎通过电子邮件联系我们。</p>
+          <p class="instruction-highlight-text">感谢你参与我们的实验！如果你有任何问题，或者想了解更多相关信息，欢迎随时通过电子邮件联系我们。</p>
         </div>
         <div class="instruction-highlight">
           <p class="instruction-highlight-text">联系方式:</p>
