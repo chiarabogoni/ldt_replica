@@ -37,13 +37,14 @@
       </div>
       <div class="consent-box">
         <p>尊敬的参与者：</p>
-        <p>本文件旨在征求您对参加一项心理语言学研究的知情同意。该研究属于<strong>帕多瓦大学硕士论文项目</strong>，由发展与社会化心理学系的 <strong>Francesco Vespignani 教授</strong>、语言与文学研究系的 <strong>Linda Badan 教授</strong>共同协调，并由语言学硕士生 <strong>Chiara Bogoni 女士</strong>（语言与文学研究系）具体执行。</p>
+        <p>这份文档旨在邀请你参加一项心理语言学研究，并征求你的知情同意。 本项目的负责人为：博尔扎诺自由大学（Libera Università di Bolzano）<strong>语言学博士生 Chiara Bogoni</strong>，帕多瓦大学（Università di Padova）语言与文学系的 <strong>Linda Badan 教授</strong>，以及帕多瓦大学发展与社会化心理学系的 <strong>Francesco Vespignani 教授</strong> 和 <strong>Eduardo Navarrete 教授</strong>。</p>
         
         <p><strong>1. 研究目的与流程</strong><br>
-        </p>本研究旨在探讨成语加工过程中涉及的预测机制。实验内容为一个词汇判断任务（Lexical Decision Task）：在实验过程中，您将逐字看到若干成语。当最后一个字出现后，系统会询问您刚才看到的是正确还是错误的成语。整个研究预计耗时约 10 分钟。实验需在电脑上进行，并要求稳定的网络连接，以及安静、光线良好的环境。
+        </p>本研究旨在探讨汉语成语加工过程中的预测机制。实验任务为词汇判定任务（Lexical Decision Task）：在实验过程中，成语将以逐字/逐词的方式呈现。当出现最后一个字/词时，你需要判断刚才看到的是否是一句正确的成语。<strong>请注意，本实验必须在电脑上完成，因为需要使用实体键盘来进行按键选择。此外，实验需要稳定的网络连接，以及安静、光线充足的环境。整个实验过程最多需要约 10 分钟。</strong></p>
+
  
         <p><strong>2. 隐私与数据处理</strong><br>
-        在开始实验之前，我们将请您填写一份简短的问卷。所有收集的数据将按照现行法规进行处理。根据隐私保护法律（欧盟条例 2016/679 - GDPR，以及意大利法令 D.Lgs. 196/2003 及其后续修订），数据均以匿名形式收集。研究结果可能会以原始数据或汇总数据的形式发表在科学出版物或科研网站上。实验结束时，您将获得一个只有您自己知道的代码，凭借该代码，您可以要求从研究数据库中退回或删除您的数据。如果删除请求在数据收集一个月后才提出，我们无法保证这些匿名数据是否已存在于其他研究数据库中。</p>
+        在开始实验之前，我们将请你填写一份简短的问卷。所有收集的数据将按照现行法规进行处理。根据隐私保护法律（欧盟条例 2016/679 - GDPR，以及意大利法令 D.Lgs. 196/2003 及其后续修订），数据均以匿名形式收集。研究结果可能会以原始数据或汇总数据的形式发表在科学出版物或科研网站上。实验结束时，你将获得一个只有你自己知道的代码，凭借该代码，你可以要求从研究数据库中退回或删除你的数据。如果删除请求在数据收集一个月后才提出，我们无法保证这些匿名数据是否已存在于其他研究数据库中。</p>
 
         <br>
         <p class="consent-agreement-header"><strong>参与与数据使用同意书</strong></p>
@@ -67,7 +68,7 @@
     on_finish: function(data){
         // If the user clicks button index 0 (I Disagree), end the experiment.
         if(data.response === 0){
-            jsPsych.endExperiment('<p class="end-experiment-message">您选择了不参与本研究。<br>实验已结束，感谢您的关注。</p>');
+            jsPsych.endExperiment('<p class="end-experiment-message">你选择了不参与本研究。<br>实验已结束，感谢你的关注。</p>');
         }
     }
   };
@@ -86,19 +87,18 @@
         { type: "text", name: "age", title: "年龄", isRequired: true },
         { type: "radiogroup", name: "gender", title: "性别", choices: ["男性", "女性", "我更愿意不说明"], isRequired: true },
         { type: "text", name: "place_of_birth", title: "出生城市", isRequired: true },
-        { type: "radiogroup", name: "education", title: "请问您到目前为止获得的最高学位是?", choices: ["高中", "学士学位（本科)", "硕士学位", "博士学位"], isRequired: true },
-        { type: "checkbox", name: "language", title: "您使用哪些语言？", choices: ["普通话", "方言"], isRequired: true },
-        { type: "text", name: "dialect", title: "您说哪种方言？", visibleIf: "{language} contains('方言')", isRequired: false },
-        { type: "radiogroup", name: "language_acquisition", title: "您从几岁开始学习普通话？", choices: ["0-3岁", "4-6岁", "7-12岁", "13岁及以上"] , isRequired: true},
-        { type: "text", name: "language_acquisition2", title: "除了普通话和您的方言之外，您还会说哪些语言？", isRequired: true },
-        { type: "radiogroup", name: "language_use", title: "您说普通话的频率是怎样的?", choices: ["极少", "每年几次", "每月都讲", "每周都讲", "每天都讲"], isRequired: true },
-        { type: "checkbox", name: "language_use2", title: "您通常在什么场合使用普通话?", choices: ["家庭", "工作", "学校", "朋友之间", "线上交流"], showOtherItem: true, otherText: "其他（请说明）", isRequired: true }
+        { type: "radiogroup", name: "education", title: "请问你到目前为止获得的最高学位是?", choices: ["高中", "学士学位（本科)", "硕士学位", "博士学位"], isRequired: true },
+        { type: "checkbox", name: "language", title: "你使用哪些语言？", choices: ["普通话", "方言"], isRequired: true },
+        { type: "text", name: "dialect", title: "你说哪种方言？", visibleIf: "{language} contains('方言')", isRequired: false },
+        { type: "radiogroup", name: "language_acquisition", title: "你从几岁开始学习普通话？", choices: ["0-3岁", "4-6岁", "7-12岁", "13岁及以上"] , isRequired: true},
+        { type: "text", name: "language_acquisition2", title: "除了普通话和你的方言之外，你还会说哪些语言？", isRequired: true },
+        { type: "radiogroup", name: "language_use", title: "你说普通话的频率是怎样的?", choices: ["极少", "每年几次", "每月都讲", "每周都讲", "每天都讲"], isRequired: true },
+        { type: "checkbox", name: "language_use2", title: "你通常在什么场合使用普通话?", choices: ["家庭", "工作", "学校", "朋友之间", "线上交流"], showOtherItem: true, otherText: "其他（请说明）", isRequired: true }
       ]
     },
     // Save survey responses to jsPsych data
     on_finish: function(data) {
         const responses = data.response;
-        // Add survey responses to jsPsych data so it gets saved locally
         jsPsych.data.addProperties(responses);
     }
   };
@@ -115,18 +115,14 @@
     stimulus: `
       <div style="text-align: center;"><img src="SVG/computer.svg" class="box-top-icon"></div>
       <div class="instruction-highlight">
-        <p class="instruction-highlight-text">感谢您同意参加本研究。您准备好开始实验了吗？</p>
+        <p class="instruction-highlight-text"> 感谢你同意参与本研究！你准备好开始实验了吗？点击按钮即可继续！</p>
       </div>
     `,
     choices: ['开始实验'],
     button_html: '<button class="jspsych-btn btn-primary">%choice%</button>',
     on_finish: function() {
-      // Save survey data locally before proceeding
-      jsPsych.data.get().localSave('csv', 'consent_survey_data.csv');
-      // Navigate to the experiment
-      setTimeout(function() {
-        window.location.href = 'ldt_task.html';
-      }, 500);
+      sessionStorage.setItem('ldt_consent_data', JSON.stringify(jsPsych.data.get().values()));
+      window.location.href = 'ldt_task.html';
     }
   };
 

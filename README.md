@@ -13,7 +13,7 @@ This project is licensed under the **Creative Commons Attribution 4.0 Internatio
 
 - `experiment/`: consent page, task page, styles, images, and the combined stimulus file.
 - `data/raw/`: original datasets and external resources.
-- `data/intermediate/`: datasets updated during analysis. `data_measures_stats.csv` contains only the frequency statistics.
+- `data/intermediate/`: datasets updated during analysis. 
 - `data/final/`: finalized list files and randomized list JSON files.
 - `analysis/`: frequency, orthographic, semantic, and statistical scripts.
 - `outputs/`: plots, tables, and execution logs.
@@ -35,7 +35,8 @@ The scripts resolve their input and output paths from their own location, so the
 
 ### Data-processing pipeline
 
-- `freq_ldt.py` creates or updates `data/intermediate/data_measures.csv` with character-frequency data.
+- `data/raw/data_original.csv` contains 54 Chinese idioms in 4 conditions (see next paragraph for details), without measures of frequency, semantic distance and orthographic distance. The scripts below start with this file.
+- `freq_ldt.py` creates `data/intermediate/data_measures.csv` with character-frequency data.
 - `sem_ldt.py` reads the existing `data_measures.csv` and adds `Sem_Distance`.
 - `lev_ldt.py` reads the existing `data_measures.csv` and adds `Levenshtein_Distance`.
 - Existing columns are preserved when each script runs.
@@ -50,6 +51,8 @@ It is recommended to run the scripts in this order:
 1. `freq_ldt.py`
 2. `sem_ldt.py`
 3. `lev_ldt.py`
+
+The complete csv file is called `data/intermediate/data_measures.csv`, which contains all the additional data above. 
 
 ### Variable definitions and levels
 
@@ -80,6 +83,7 @@ The list rotations are:
 
 Each list receives one row from all six item groups, giving 54 experimental items per list, with the addition of 18 correct fillers to balance the true/false condition. Each list contains a total of 72 items (36 wrong idioms, 36 correct idioms). Each list has two versions, A and B, which contain the same stimuli, in two pseudo-randomized order. We set a pseudo-randomization with constraints (no more than 4 items in a row with the same response). The randomized combined stimulus file is written to `experiment/stimuli_ldt.json`.
 
+The csv file which contains all the 54 experimental items, with the groups and lists, is called `data/intermediate/data_with_lists.csv`. It is created from `analysis/statistics/list.r` on the basis of `data/intermediate/data_measures.csv`.
 
 ## Analysis
 
@@ -137,6 +141,49 @@ The distance is based on Ideographic Description Sequences (IDS), tokenization, 
 - `pre.R` contains the t-tests used to assess whether the experimental conditions are balanced across the measured properties.
 - `analysis/statistics/list.r` creates the pseudo-randomized lists and balances the item distribution across lists.
 
+Both R scripts require the `data/intermediate/data_measures.csv`. 
+
+## Local experiment 
+
+Right now, the experiment only functions locally. 
+
+The local experiment starts at `experiment/consent_survey.html`. After consent and the survey, it opens `ldt_task.html` directly. Consent, survey, and task records are combined and downloaded as one CSV file at the end of the task.
+
+List assignment advances in a fixed order across runs using browser storage:
+`L1A_difft`, `L1B_difft`, `L2A_difft`, `L2B_difft`, `L3A_difft`, `L3B_difft`, `L4A_nop`, `L4B_nop`, `L5A_nop`, `L5B_nop`, `L6A_nop`, `L6B_nop`.
+
+Because the task loads `stimuli_ldt.json`, run it through a local web server rather than opening the HTML file directly:
+
+```powershell
+python -m http.server 8000 --directory experiment
+```
+
+Then open <http://localhost:8000/consent_survey.html> in a browser. The list counter is stored in that browser's local storage and starts again at `L1A_difft` after `L6B_nop`.
+
+### Consent and survey
+
+The Italian and English versions of the instructions and survey, together with the text displayed in the experiment, are available in `docs/instructions.md`. The Chinese translation was prepared from the Italian version (originally compiled by the author of this repository) using Google Gemini Pro and subsequently critically reviewed by a native Mandarin Chinese speaker at the University of Padua.
+
+### Timing parameters
+
+The timing parameters are defined in `experiment/ldt_task.html`:
+
+| Stage | Duration |
+| --- | ---: |
+| Dragon fixation | Self-paced; continues after any key press |
+| Blank screen after fixation | 500 ms |
+| Each of the first three characters | 350 ms |
+| Blank interval after each of the first three characters | 100 ms |
+| Response window for the final character | 300,000,000 ms maximum |
+| Blank screen after the response | 1,000 ms |
+
+The fixation currently waits for a key press rather than using a fixed duration.
+
+### REQUIRED ADDITIONS
+
+- Time alert at 2000 ms after the presentation of the last character (use the "time alert" text in `docs/instructions.md` and the `experiment/SVG/time_alert.svg`).
+- List assignment criterion.
+
 ## References
 
 ### Idioms
@@ -156,3 +203,5 @@ Tencent AI Lab. (2026). *Tencent Chinese word vectors* [Pre-trained Word2Vec mod
 Wang, Y., & Keuleers, E. (2024). Simplified Chinese character distance based on ideographic description sequences. In *Proceedings of the Second Workshop on Computation and Written Language (CAWL) @ LREC-COLING 2024* (pp. 59–66). Torino, Italy: ELRA and ICCL.
 
 The IDS decompositions and radical information used by `lev_ldt.py` are stored in `data/raw/IDSdecomp.csv`.
+
+
