@@ -119,6 +119,9 @@
      ----------------------------------------------------------- */
   function make_trial(stim_data, is_practice=false) {
     var trial_sequence = [];
+    var target_task = is_practice ? 'practice_target' : 'CB.task';
+    var slow_response = false;
+    var target_started_at = 0;
     
     // Handle both 'string' (practice) and 'spelling' (experimental) field names
     var stimulus_text = stim_data.string || stim_data.spelling;
@@ -164,7 +167,7 @@
       stimulus: stimulus_text[3],
       choices: ['a', 'l'], 
       data: {
-        task: is_practice ? 'practice_target' : 'CB.task', 
+        task: target_task, 
         full_word: stimulus_text,
         item_id: stim_data.item,
         condition: stim_data.cond || stim_data.condition,
@@ -175,17 +178,43 @@
       on_finish: function(data){
         // Determine if response is correct: compare participant response with correct_response
         data.accuracy = (data.response === data.correct_response) ? 'CORRECT' : 'WRONG';
+        data.measured_rt = performance.now() - target_started_at;
+        slow_response = data.measured_rt >= 2000;
+        data.slow_response = slow_response;
+      },
+      on_load: function() {
+        target_started_at = performance.now();
       },
       trial_duration: params.ldtT,
+      response_ends_trial: true,
       css_classes: ['ldt'],
+    });
+
+    // Show the alert after a response at or beyond 2000ms.
+    trial_sequence.push({
+      timeline: [{
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: '<div class="time-alert"><img src="SVG/time_alert.svg" class="time-alert-icon"><p>太慢了！尽量再快一点吧！</p></div>',
+        choices: "NO_KEYS",
+        trial_duration: 2000,
+        css_classes: ['time-alert-trial']
+      }],
+      conditional_function: function() {
+        return slow_response;
+      }
     });
 
     // 1 second blank screen after LDT response
     trial_sequence.push({
-      type: jsPsychHtmlKeyboardResponse,
-      stimulus: '',
-      choices: "NO_KEYS",
-      trial_duration: 1000
+      timeline: [{
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: '',
+        choices: "NO_KEYS",
+        trial_duration: 1000
+      }],
+      conditional_function: function() {
+        return !slow_response;
+      }
     });
 
     return trial_sequence;

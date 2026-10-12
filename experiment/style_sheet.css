@@ -42,6 +42,32 @@ body {
   color: #010c1b;
 }
 
+/* Slow-response alert */
+.time-alert-trial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time-alert {
+  text-align: center;
+  color: #b30000;
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.time-alert-icon {
+  display: block;
+  width: 180px !important;
+  height: 180px !important;
+  margin: 0 auto 24px;
+}
+
+.time-alert p {
+  margin: 0;
+}
+
 /* Instructions */
 .instruction-text {
   font-size: 32px;
